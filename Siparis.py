@@ -4,8 +4,7 @@ import random
 from mlxtend.frequent_patterns import apriori, association_rules
 
 
-
-st.set_page_config(page_title="Coffee Shop Recommender", layout="wide")
+st.title("Sipariş Ekranı")
 
 
 #########################################
