@@ -6,6 +6,22 @@ import joblib
 # App configuration
 st.set_page_config(page_title="Miuul Coffee Shop", page_icon="☕", layout="wide")
 
+# Global background via CSS
+st.markdown(
+    """
+    <style>
+    .stApp {
+        background-image: url('https://yourcdn.com/background.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+# End Global CSS
+
 # Load models and data caches
 @st.cache_resource
 def load_models():
@@ -132,7 +148,8 @@ elif choice == "Günlük Kâr Hesapla":
             profit = (preds[0] - emp * 1000) * (hrs / 10)
             st.success(f"Tahmini Gelir: ₺{profit:.2f}")
         except ValueError as e:
-            st.error(f"Özellik uyuşmazlığı: {e}\nBeklenen özellikler: {expected}")
+            st.error(f"Özellik uyuşmazlığı: {e}
+Beklenen özellikler: {expected}")
             st.stop()
         except ValueError as e:
             st.error(f"Özellik uyuşmazlığı: {e}\nBeklenen özellikler: {expected}")
