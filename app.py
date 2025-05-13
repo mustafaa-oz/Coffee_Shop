@@ -119,6 +119,4 @@ elif choice == "Günlük Kâr Hesapla":
             preds = model.predict(data_scaled)
             profit = (preds[0] - emp * 1000) * (hrs / 10)
             st.success(f"Tahmini Gelir: ₺{profit:.2f}")
-        except Exception as e:(f"Tahmini Gelir: ₺{profit:.2f}")
-        except Exception as e:
-            st.error(f"Gelir tahmini hesaplanırken hata oluştu: {e}")
+        
