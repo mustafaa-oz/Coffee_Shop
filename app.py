@@ -10,12 +10,13 @@ st.set_page_config(page_title="Miuul Coffee Shop", page_icon="☕", layout="wide
 @st.cache_resource
 def load_models():
     try:
-        revenue_model = joblib.load(os.path.join("models", "kurlu_catboost_coffee_revenue_model.pkl"))
-        scaler = joblib.load(os.path.join("models", "kurlu_robust_scaler_model.pkl"))
+        model_path = os.path.join("models", "kurlu_catboost_coffee_revenue_model.pkl")
+        scaler_path = os.path.join("models", "kurlu_robust_scaler_model.pkl")
+        revenue_model = joblib.load(model_path)
+        scaler = joblib.load(scaler_path)
     except Exception as e:
-        st.error(f"Özellik uyuşmazlığı: {e}
-Beklenen özellikler: {model.feature_names_}")
-            st.stop()
+        st.error(f"Model yüklenemedi: {e}")
+        st.stop()
     return revenue_model, scaler
 
 @st.cache_data
@@ -46,12 +47,11 @@ if choice == "Ana Sayfa":
         "<h5 style='text-align:center;'>Sizleri sadece bir alışkanlığa değil, her yudumda optimum keyfi bulmak için bir yolculuğa davet ediyoruz. Burada her yudum, bir algoritmanın değil, bir anının parçası olur.</h5>",
         unsafe_allow_html=True
     )
-
 elif choice == "Sipariş Ekranı":
     render_header(title="☕ Coffee Shop Recommender")
     df = load_transaction_data()
     if df.empty:
-        st.error("Sipariş verisi bulunamadı. Lütfen 'CoffeeShop2_updated.csv' dosyasını projenize ekleyin.")
+        st.error("Sipariş verisi bulunamadı. Lütfen 'CoffeeShop2_updated.csv' dosyasını ekleyin.")
         st.stop()
     from mlxtend.frequent_patterns import apriori, association_rules
     basket = df.groupby(['order_id','item_name'])['item_name'].count().unstack().fillna(0) > 0
@@ -90,7 +90,6 @@ elif choice == "Sipariş Ekranı":
             st.write(f"- {it}: {cnt} x {price} = {price*cnt} TL")
             total += price * cnt
         st.markdown(f"### 💰 Toplam: {total} TL")
-
 elif choice == "Günlük Kâr Hesapla":
     render_header(title="💰 Günlük Kâr Hesaplama")
     model, scaler = load_models()
@@ -103,7 +102,6 @@ elif choice == "Günlük Kâr Hesapla":
     emp = st.number_input("Çalışan Sayısı:", value=2)
     mkt = st.number_input("Pazarlama Harcaması (₺):", value=0)
     if st.button("Hesapla"):
-        # Base features
         inp = pd.DataFrame([{  
             "Number_of_Customers_Per_Day": num,
             "Average_Order_Value": avg_o,
@@ -112,18 +110,27 @@ elif choice == "Günlük Kâr Hesapla":
             "Marketing_Spend_Per_Day": mkt,
             "Location_Foot_Traffic": foot
         }])
-        # Align features to model
         expected = list(model.feature_names_)
         inp = inp.reindex(columns=expected, fill_value=0)
-        # Scale and predict
         try:
             data_scaled = scaler.transform(inp)
             preds = model.predict(data_scaled)
             profit = (preds[0] - emp * 1000) * (hrs / 10)
             st.success(f"Tahmini Gelir: ₺{profit:.2f}")
         except ValueError as e:
-            st.error(
-                f"Özellik uyuşmazlığı: {e}
-Beklenen özellikler: {model.feature_names_}"
-            )
+            st.error(f"Özellik uyuşmazlığı: {e}\nBeklenen özellikler: {expected}")
             st.stop()
+elif choice == "Lokasyon (Admin)":
+    render_header(title="Optimal Lokasyonlar")
+    try:
+        html = open("miuul coffee lokasyon.html", "r", encoding="utf-8").read()
+        st.components.v1.html(html, height=600)
+        st.markdown("**1. Mavişehir:** 300 müşteri, 210₺ ort.")
+        st.markdown("**2. Bostanlı:** 400 müşteri, 250₺ ort.")
+        st.markdown("**3. Karşıyaka:** 450 müşteri, 150₺ ort.")
+    except Exception as e:
+        st.error(f"Harita yüklenemedi: {e}")
+elif choice == "Model Değerlendirmesi":
+    render_header(title="☕️ Model Değerlendirmesi")
+    st.markdown("**CatBoost R²: 0.9550**")
+    st.markdown("**CatBoost RMSE: 7085.73**")
