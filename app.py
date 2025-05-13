@@ -13,8 +13,9 @@ def load_models():
         revenue_model = joblib.load(os.path.join("models", "kurlu_catboost_coffee_revenue_model.pkl"))
         scaler = joblib.load(os.path.join("models", "kurlu_robust_scaler_model.pkl"))
     except Exception as e:
-        st.error(f"Model yüklenemedi: {e}")
-        st.stop()
+        st.error(f"Özellik uyuşmazlığı: {e}
+Beklenen özellikler: {model.feature_names_}")
+            st.stop()
     return revenue_model, scaler
 
 @st.cache_data
@@ -122,6 +123,7 @@ elif choice == "Günlük Kâr Hesapla":
             st.success(f"Tahmini Gelir: ₺{profit:.2f}")
         except ValueError as e:
             st.error(
-                f"Özellik uyuşmazlığı: {e}\nBeklenen özellikler: {model.feature_names_}"
+                f"Özellik uyuşmazlığı: {e}
+Beklenen özellikler: {model.feature_names_}"
             )
             st.stop()
