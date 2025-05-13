@@ -9,8 +9,8 @@ st.set_page_config(page_title="Miuul Coffee Shop", page_icon="☕", layout="wide
 @st.cache_resource
 def load_models():
     try:
-        revenue_model = joblib.load("kurlu_catboost_coffee_revenue_model.pkl")
-        scaler = joblib.load("kurlu_robust_scaler_model.pkl")
+        revenue_model = joblib.load(os.path.join("models","kurlu_catboost_coffee_revenue_model.pkl"))
+        scaler = joblib.load(os.path.join("models","kurlu_robust_scaler_model.pkl"))
     except FileNotFoundError as e:
         st.error(f"Model dosyası bulunamadı: {e.filename}")
         st.stop()
