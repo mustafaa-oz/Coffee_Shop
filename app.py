@@ -36,7 +36,7 @@ def render_header(title=None, subtitle=None):
 
 # Sidebar navigation
 st.sidebar.title("🚀 Sayfalar")
-pages = ["Ana Sayfa", "Sipariş Ekranı", "Günlük Kâr Hesapla", "Lokasyon (Admin)", "Model Değerlendirmesi"]
+pages = ["Ana Sayfa", "Lokasyon (Admin)", "Günlük Kâr Hesapla", "Sipariş Ekranı", "Model Değerlendirmesi"]
 choice = st.sidebar.radio("Sayfa seçin", pages)
 
 # Main pages
