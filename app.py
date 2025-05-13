@@ -2,9 +2,6 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 import joblib
-import folium
-from streamlit_folium import folium_static
-from mlxtend.frequent_patterns import apriori, association_rules
 
 # App configuration
 st.set_page_config(page_title="Miuul Coffee Shop", page_icon="☕", layout="wide")
@@ -30,31 +27,27 @@ def render_logo_header(subtitle=None):
 
 # Sidebar navigation
 st.sidebar.title("🚀 Sayfalar")
-pages = ["Ana Sayfa", "Lokasyon (Admin)", "Günlük Kâr Hesapla", "Sipariş Ekranı", "Model Değerlendirmesi"]
+pages = ["Ana Sayfa", "Sipariş Ekranı", "Günlük Kâr Hesapla", "Lokasyon (Admin)", "Model Değerlendirmesi"]
 choice = st.sidebar.radio("Sayfa seçin", pages)
 
 # Main pages
 if choice == "Ana Sayfa":
     render_logo_header()
-    # Home page content
     st.markdown("<h2 style='text-align: center;'>Kahve İçmenin En Akıllı Hali...</h2>", unsafe_allow_html=True)
-    # Side images
     col1, col2, col3 = st.columns([1,4,1])
     col1.image("serbest_cekirdek.png", width=400)
     col3.image("serbest_cekirdek.png", width=400)
-    # Title and description
     st.markdown("<h1 style='text-align: center;'>Dünyanın ilk yapay zeka destekli kahve molası:</h1>", unsafe_allow_html=True)
     st.markdown(
-        "<h5 style='text-align: center;'>Sizleri sadece bir alışkanlığa değil, her yudumda optimum keyfi bulmak için bir yolculuğa davet ediyoruz. Burada her yudum, bir algoritmanın değil, bir anının parçası olur. Çünkü burada K-means ile değil, dost sohbetiyle kümeleniyoruz.</h5>",
+        "<h5 style='text-align: center;'>Sizleri sadece bir alışkanlığa değil, her yudumda optimum keyfi bulmak için bir yolculuğa davet ediyoruz. Burada her yudum, bir algoritmanın değil, bir anının parçası olur.</h5>",
         unsafe_allow_html=True
     )
 
 elif choice == "Sipariş Ekranı":
-    # Recommendation page
     st.title("☕ Coffee Shop Recommender")
     render_logo_header()
     df = load_transaction_data()
-    # Build apriori rules
+    from mlxtend.frequent_patterns import apriori, association_rules
     basket = df.groupby(['order_id','item_name'])['item_name'].count().unstack().fillna(0) > 0
     frequent_itemsets = apriori(basket, min_support=0.01, use_colnames=True)
     rules = association_rules(frequent_itemsets, metric="support", min_threshold=0.01)
@@ -65,9 +58,7 @@ elif choice == "Sipariş Ekranı":
                     'Iced Tea':120, 'Latte':170, 'Lemonade':170, 'Mocha':215,
                     'Sandwich Salami&Mozzarella':250, 'Tea':90, 'Toast':200,
                     'White Mocha':215, 'Americano':200, 'Iced Americano':215 }
-    # Session state
     if 'cart' not in st.session_state: st.session_state.cart = {}
-    # Recommender function
     def arl_recommender(service, rec_count=1):
         input_cat = df[df['item_name']==service]['item_cat'].iloc[0]
         recs = []
@@ -79,21 +70,18 @@ elif choice == "Sipariş Ekranı":
                         if len(recs)>=rec_count:
                             return recs
         return recs
-    # UI
     all_items = sorted(df['item_name'].unique())
     selected = st.selectbox("Lütfen menüden bir seçim yapınız.", all_items)
     qty = st.number_input(f"{selected} için adet:", min_value=1, value=1)
     if st.button("➕ Sepete Ekle"):
         st.session_state.cart[selected] = st.session_state.cart.get(selected,0) + qty
         st.success(f"{selected} sepete eklendi.")
-    # Recommendations
     recs = arl_recommender(selected,5)
     if recs:
         pick = st.selectbox("Ürününüze Özel Tavsiyeler:", ["Seçiniz"]+recs)
         if pick!="Seçiniz" and st.button(f"⭐️ {pick} önerisini sepete ekle"):
             st.session_state.cart[pick] = st.session_state.cart.get(pick,0) + 1
             st.success(f"{pick} öneri olarak sepete eklendi.")
-    # Cart display & actions
     if st.session_state.cart:
         total=0
         st.markdown("### 🧺 Sepetiniz")
@@ -107,11 +95,9 @@ elif choice == "Sipariş Ekranı":
             st.session_state.cart.clear()
 
 elif choice == "Günlük Kâr Hesapla":
-    # Revenue calculation
     st.title("💰 Günlük Kâr Hesaplama")
     render_logo_header(subtitle="Günlük Kâr Hesaplama")
     model, scaler = load_models()
-    # Location presets
     locs = {
         'Mavişehir':(1500,300,210),
         'Bostanlı':(2500,400,250),
@@ -122,7 +108,6 @@ elif choice == "Günlük Kâr Hesapla":
     st.session_state.foot_traffic = foot
     st.session_state.num_customers = cust
     st.session_state.avg_order_value = avg
-    # User inputs
     st.session_state.num_customers = st.number_input("Günlük Müşteri Sayısı", value=st.session_state.num_customers)
     st.session_state.avg_order_value = st.number_input("Ortalama Sipariş Tutarı (₺)", value=st.session_state.avg_order_value)
     st.session_state.operating_hours = st.number_input("Günlük Çalışma Saati", value=8)
@@ -143,28 +128,23 @@ elif choice == "Günlük Kâr Hesapla":
         st.success(f"Tahmini Günlük Gelir: ₺{profit:,.2f}")
 
 elif choice == "Lokasyon (Admin)":
-    # Location map
     st.title("Optimal Lokasyon Seçenekleri")
     render_logo_header()
     st.markdown("<h4 style='text-align:center;'>K-Means modeli ile analiz edilen potansiyel noktalar</h4>", unsafe_allow_html=True)
-    # Load and display saved HTML map
     with open("miuul coffee lokasyon.html","r",encoding="utf-8") as f:
         html = f.read()
     st.components.v1.html(html, height=600)
-    # Info sidebar
     st.markdown("**1. Mavişehir:** 300 müşteri, 210₺ ort. sipariş, 1500 yaya trafiği")
     st.markdown("**2. Bostanlı:** 400 müşteri, 250₺ ort. sipariş, 2500 yaya trafiği")
     st.markdown("**3. Karşıyaka:** 450 müşteri, 150₺ ort. sipariş, 3500 yaya trafiği")
 
 elif choice == "Model Değerlendirmesi":
-    # Model evaluation
     st.title("☕️ Maksimum Gelir Stratejisi")
     render_logo_header()
     st.markdown(
         "<h5 style='text-align:center;'>Modelleme sürecinde müşteri sayısı ve ortalama sipariş değeri en güçlü faktörlerdir.</h5>",
         unsafe_allow_html=True
     )
-    # Images & explanations
     col1, col2 = st.columns(2)
     col1.image("Müşteri Sayısı Günlük Gelir.jpg", use_container_width=True)
     col1.image("Ortalama Sipariş Tutarı.jpg", use_container_width=True)
@@ -172,7 +152,6 @@ elif choice == "Model Değerlendirmesi":
     col2.markdown("<h5 style='text-align:center;'>Operasyonel odak bu bölgelerde yoğunlaştırıldı.</h5>", unsafe_allow_html=True)
     col2.markdown("<h3 style='text-align:center;'>Tavsiye Sistemi</h3>", unsafe_allow_html=True)
     col2.markdown("<h5 style='text-align:center;'>Apriori tabanlı öneri sistemi entegre edildi.</h5>", unsafe_allow_html=True)
-    # Final metrics
     col3, col4 = st.columns(2)
     col3.image("Tahmin grafiği.jpg", use_container_width=True)
     col4.markdown("**CatBoost R²: 0.9550**")
