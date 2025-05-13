@@ -10,10 +10,10 @@ st.set_page_config(page_title="Miuul Coffee Shop", page_icon="☕", layout="wide
 @st.cache_resource
 def load_models():
     try:
-        revenue_model = joblib.load(os.path.join("models","kurlu_catboost_coffee_revenue_model.pkl"))
-        scaler = joblib.load(os.path.join("models","kurlu_robust_scaler_model.pkl"))
+        revenue_model = joblib.load(os.path.join("models", "kurlu_catboost_coffee_revenue_model.pkl"))
+        scaler = joblib.load(os.path.join("models", "kurlu_robust_scaler_model.pkl"))
     except Exception as e:
-            st.error(f"Gelir tahmini hesaplanırken hata oluştu: {e}")
+        st.error(f"Model yüklenemedi: {e}")
         st.stop()
     return revenue_model, scaler
 
@@ -116,7 +116,7 @@ elif choice == "Günlük Kâr Hesapla":
             profit = (preds[0] - emp*1000) * (hrs/10)
             st.success(f"Tahmini Gelir: ₺{profit:.2f}")
         except Exception as e:
-            st.error(f"Gelir tahmini hesaplanırken hata oluştu: {e}") ₺{profit:.2f}")
+            st.error(f"Gelir tahmini hesaplanırken hata oluştu: {e}")
 
 elif choice == "Lokasyon (Admin)":
     render_header(title="Optimal Lokasyonlar")
