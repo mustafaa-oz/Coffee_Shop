@@ -13,7 +13,7 @@ def load_models():
         revenue_model = joblib.load(os.path.join("models","kurlu_catboost_coffee_revenue_model.pkl"))
         scaler = joblib.load(os.path.join("models","kurlu_robust_scaler_model.pkl"))
     except Exception as e:
-        st.error(f"Model yüklenemedi: {e}. Lütfen requirements.txt dosyanıza 'catboost' paketini ekleyip yeniden deploy edin.")
+            st.error(f"Gelir tahmini hesaplanırken hata oluştu: {e}")
         st.stop()
     return revenue_model, scaler
 
