@@ -110,6 +110,8 @@ elif choice == "Günlük Kâr Hesapla":
             "Marketing_Spend_Per_Day": mkt,
             "Location_Foot_Traffic": foot
         }])
+        # Feature Engineering: model expects Customers_Per_Employee
+        inp["Customers_Per_Employee"] = inp["Number_of_Customers_Per_Day"] / inp["Number_of_Employees"]
         try:
             data_scaled = scaler.transform(inp)
             preds = model.predict(pd.DataFrame(data_scaled, columns=inp.columns))
