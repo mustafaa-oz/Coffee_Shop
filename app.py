@@ -112,8 +112,10 @@ elif choice == "Günlük Kâr Hesapla":
             "Location_Foot_Traffic": foot
         }])
         # Align features to model
-        expected = list(model.feature_names_)
+        eexpected = list(model.feature_names_)
         inp = inp.reindex(columns=expected, fill_value=0)
+        data_scaled = scaler.transform(inp)
+        preds = model.predict(data_scaled)
                 # Scale and predict
         try:
             data_scaled = scaler.transform(inp)
@@ -121,5 +123,6 @@ elif choice == "Günlük Kâr Hesapla":
             profit = (preds[0] - emp * 1000) * (hrs / 10)
             st.success(f"Tahmini Gelir: ₺{profit:.2f}")
         except ValueError as e:
-            st.error(f"Özellik uyuşmazlığı: {e}\nBeklenen özellikler: {model.feature_names_}")
+            st.error(f"Özellik uyuşmazlığı: {e}\nBeklenen özellikler: {expected}")
             st.stop()
+
