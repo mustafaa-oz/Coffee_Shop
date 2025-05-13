@@ -140,7 +140,6 @@ elif choice == "Günlük Kâr Hesapla":
         scaled = scaler.transform(inp[base_feats])
         scaled_df = pd.DataFrame(scaled, columns=base_feats)
         # Combine scaled base with derived
-        derived_feats = [f for f in expected if f not in list(base_feats)]
         final_df = pd.concat([scaled_df, inp[derived_feats].reset_index(drop=True)], axis=1)
         final_df = final_df[expected]
         try:
@@ -148,13 +147,9 @@ elif choice == "Günlük Kâr Hesapla":
             profit = (preds[0] - emp * 1000) * (hrs / 10)
             st.success(f"Tahmini Gelir: ₺{profit:.2f}")
         except ValueError as e:
-            st.error(f"Özellik uyuşmazlığı: {e}
-Beklenen özellikler: {expected}")
-            st.stop()
-        except ValueError as e:
             st.error(f"Özellik uyuşmazlığı: {e}\nBeklenen özellikler: {expected}")
             st.stop()
-elif choice == "Lokasyon (Admin)":
+elif choice == "Lokasyon" (Admin)":
     render_header(title="Optimal Lokasyonlar")
     try:
         html = open("miuul coffee lokasyon.html", "r", encoding="utf-8").read()
