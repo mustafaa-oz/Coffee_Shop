@@ -1,5 +1,4 @@
 import streamlit as st
-import numpy as np
 import pandas as pd
 import joblib
 
@@ -42,7 +41,6 @@ if choice == "Ana Sayfa":
         "<h5 style='text-align: center;'>Sizleri sadece bir alışkanlığa değil, her yudumda optimum keyfi bulmak için bir yolculuğa davet ediyoruz. Burada her yudum, bir algoritmanın değil, bir anının parçası olur.</h5>",
         unsafe_allow_html=True
     )
-
 elif choice == "Sipariş Ekranı":
     st.title("☕ Coffee Shop Recommender")
     render_logo_header()
@@ -93,7 +91,6 @@ elif choice == "Sipariş Ekranı":
         if st.button("🎉 Siparişi Tamamla"):
             st.success("Siparişiniz başarıyla oluşturuldu! ☕️ Afiyet olsun.")
             st.session_state.cart.clear()
-
 elif choice == "Günlük Kâr Hesapla":
     st.title("💰 Günlük Kâr Hesaplama")
     render_logo_header(subtitle="Günlük Kâr Hesaplama")
@@ -114,7 +111,7 @@ elif choice == "Günlük Kâr Hesapla":
     st.session_state.num_employees = st.number_input("Çalışan Sayısı", value=2)
     st.session_state.marketing_spend = st.number_input("Günlük Pazarlama Harcaması (₺)", value=0)
     if st.button("📈 Tahmini Geliri Hesapla"):
-        data = pd.DataFrame([{
+        data = pd.DataFrame([{  
             "Number_of_Customers_Per_Day":st.session_state.num_customers,
             "Average_Order_Value":st.session_state.avg_order_value,
             "Operating_Hours_Per_Day":st.session_state.operating_hours,
@@ -126,7 +123,6 @@ elif choice == "Günlük Kâr Hesapla":
         preds = model.predict(pd.DataFrame(scaled, columns=data.columns))
         profit = (preds[0] - st.session_state.num_employees*1000)*(st.session_state.operating_hours/10)
         st.success(f"Tahmini Günlük Gelir: ₺{profit:,.2f}")
-
 elif choice == "Lokasyon (Admin)":
     st.title("Optimal Lokasyon Seçenekleri")
     render_logo_header()
@@ -135,25 +131,4 @@ elif choice == "Lokasyon (Admin)":
         html = f.read()
     st.components.v1.html(html, height=600)
     st.markdown("**1. Mavişehir:** 300 müşteri, 210₺ ort. sipariş, 1500 yaya trafiği")
-    st.markdown("**2. Bostanlı:** 400 müşteri, 250₺ ort. sipariş, 2500 yaya trafiği")
-    st.markdown("**3. Karşıyaka:** 450 müşteri, 150₺ ort. sipariş, 3500 yaya trafiği")
-
-elif choice == "Model Değerlendirmesi":
-    st.title("☕️ Maksimum Gelir Stratejisi")
-    render_logo_header()
-    st.markdown(
-        "<h5 style='text-align:center;'>Modelleme sürecinde müşteri sayısı ve ortalama sipariş değeri en güçlü faktörlerdir.</h5>",
-        unsafe_allow_html=True
-    )
-    col1, col2 = st.columns(2)
-    col1.image("Müşteri Sayısı Günlük Gelir.jpg", use_container_width=True)
-    col1.image("Ortalama Sipariş Tutarı.jpg", use_container_width=True)
-    col2.markdown("<h3 style='text-align:center;'>Günlük müşteri sayısı</h3>", unsafe_allow_html=True)
-    col2.markdown("<h5 style='text-align:center;'>Operasyonel odak bu bölgelerde yoğunlaştırıldı.</h5>", unsafe_allow_html=True)
-    col2.markdown("<h3 style='text-align:center;'>Tavsiye Sistemi</h3>", unsafe_allow_html=True)
-    col2.markdown("<h5 style='text-align:center;'>Apriori tabanlı öneri sistemi entegre edildi.</h5>", unsafe_allow_html=True)
-    col3, col4 = st.columns(2)
-    col3.image("Tahmin grafiği.jpg", use_container_width=True)
-    col4.markdown("**CatBoost R²: 0.9550**")
-    col4.markdown("**CatBoost RMSE: 7085.73**")
-    col4.markdown("Model yüksek doğrulukla tahmin yapmaktadır.")
+    st.markdown("**2. Bostanlı:** 400 müşter
