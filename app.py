@@ -17,7 +17,6 @@ def load_transaction_data():
     try:
         df = pd.read_csv("CoffeeShop2_updated.csv").drop(columns=["Unnamed: 0"], errors="ignore")
     except FileNotFoundError:
-        st.error("Veri dosyası bulunamadı: CoffeeShop2_updated.csv")
         return pd.DataFrame()
     return df
 
@@ -45,6 +44,9 @@ if choice == "Ana Sayfa":
 elif choice == "Sipariş Ekranı":
     render_header(title="☕ Coffee Shop Recommender")
     df = load_transaction_data()
+    if df.empty:
+        st.error("Sipariş verisi bulunamadı. Lütfen 'CoffeeShop2_updated.csv' dosyasını projenize ekleyin.")
+        st.stop()
     from mlxtend.frequent_patterns import apriori, association_rules
     basket = df.groupby(['order_id','item_name'])['item_name'].count().unstack().fillna(0) > 0
     rules = association_rules(apriori(basket, min_support=0.01, use_colnames=True), metric="support", min_threshold=0.01)
