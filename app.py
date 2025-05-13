@@ -8,8 +8,12 @@ st.set_page_config(page_title="Miuul Coffee Shop", page_icon="☕", layout="wide
 # Load models and data caches
 @st.cache_resource
 def load_models():
-    revenue_model = joblib.load("kurlu_catboost_coffee_revenue_model.pkl")
-    scaler = joblib.load("kurlu_robust_scaler_model.pkl")
+    try:
+        revenue_model = joblib.load("kurlu_catboost_coffee_revenue_model.pkl")
+        scaler = joblib.load("kurlu_robust_scaler_model.pkl")
+    except FileNotFoundError as e:
+        st.error(f"Model dosyası bulunamadı: {e.filename}")
+        st.stop()
     return revenue_model, scaler
 
 @st.cache_data
