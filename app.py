@@ -121,5 +121,7 @@ elif choice == "Günlük Kâr Hesapla":
             profit = (preds[0] - emp * 1000) * (hrs / 10)
             st.success(f"Tahmini Gelir: ₺{profit:.2f}")
         except ValueError as e:
-            st.error(f"Özellik uyuşmazlığı: {e}\nBeklenen özellikler: {model.feature_names_}")
+            st.error(
+                f"Özellik uyuşmazlığı: {e}\nBeklenen özellikler: {model.feature_names_}"
+            )
             st.stop()
