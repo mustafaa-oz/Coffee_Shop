@@ -115,7 +115,7 @@ elif choice == "Günlük Kâr Hesapla":
         try:
             expected = list(model.feature_names_)
             # Only use expected columns
-            inp = inp.reindex(columns=expected, fill_value=0)
+            inp = inp.reindex
 (columns=expected, fill_value=0)
             data_scaled = scaler.transform(inp)
             preds = model.predict(data_scaled)
