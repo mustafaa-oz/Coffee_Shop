@@ -20,8 +20,14 @@ def load_transaction_data():
 
 # Shared header with optional logo
 def render_header(title=None, subtitle=None, logo_path=None):
+    """Render optional logo (from bytes), title and subtitle."""
     if logo_path and os.path.exists(logo_path):
-        st.image(logo_path, use_column_width=True)
+        try:
+            with open(logo_path, 'rb') as img_file:
+                img_bytes = img_file.read()
+            st.image(img_bytes, use_column_width=True)
+        except Exception:
+            st.warning(f"Logo yüklenemedi: {logo_path}")
     if title:
         st.markdown(f"<h1 style='text-align:center;'>{title}</h1>", unsafe_allow_html=True)
     if subtitle:
