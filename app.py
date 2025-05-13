@@ -103,7 +103,7 @@ elif choice == "Günlük Kâr Hesapla":
     mkt = st.number_input("Pazarlama Harcaması (₺):", value=0)
     if st.button("Hesapla"):
         # Base features
-        inp = pd.DataFrame([{
+        inp = pd.DataFrame([{  
             "Number_of_Customers_Per_Day": num,
             "Average_Order_Value": avg_o,
             "Operating_Hours_Per_Day": hrs,
@@ -111,16 +111,16 @@ elif choice == "Günlük Kâr Hesapla":
             "Marketing_Spend_Per_Day": mkt,
             "Location_Foot_Traffic": foot
         }])
-        # Align features to model
+                # Align features to model
         expected = list(model.feature_names_)
         inp = inp.reindex(columns=expected, fill_value=0)
+        # Scale and predict
         try:
             data_scaled = scaler.transform(inp)
             preds = model.predict(data_scaled)
             profit = (preds[0] - emp * 1000) * (hrs / 10)
             st.success(f"Tahmini Gelir: ₺{profit:.2f}")
         except ValueError as e:
-            st.error(f"Özellik uyuşmazlığı: {e}\nBeklenen özellikler: {expected}")
+            st.error(f"Özellik uyuşmazlığı: {e}
+Beklenen özellikler: {model.feature_names_}")
             st.stop()
-
-
