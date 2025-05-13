@@ -5,7 +5,6 @@ import joblib
 
 # App configuration
 st.set_page_config(page_title="Miuul Coffee Shop", page_icon="☕", layout="wide")
-
 # Global background via CSS
 st.markdown(
     """
@@ -20,7 +19,6 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
-# End Global CSS
 
 # Load models and data caches
 @st.cache_resource
@@ -63,6 +61,7 @@ if choice == "Ana Sayfa":
         "<h5 style='text-align:center;'>Sizleri sadece bir alışkanlığa değil, her yudumda optimum keyfi bulmak için bir yolculuğa davet ediyoruz. Burada her yudum, bir algoritmanın değil, bir anının parçası olur.</h5>",
         unsafe_allow_html=True
     )
+
 elif choice == "Sipariş Ekranı":
     render_header(title="☕ Coffee Shop Recommender")
     df = load_transaction_data()
@@ -106,6 +105,7 @@ elif choice == "Sipariş Ekranı":
             st.write(f"- {it}: {cnt} x {price} = {price*cnt} TL")
             total += price * cnt
         st.markdown(f"### 💰 Toplam: {total} TL")
+
 elif choice == "Günlük Kâr Hesapla":
     render_header(title="💰 Günlük Kâr Hesaplama")
     model, scaler = load_models()
@@ -132,24 +132,19 @@ elif choice == "Günlük Kâr Hesapla":
         inp["Total_Orders_Value"] = num * avg_o
         inp["Marketing_Per_Customer"] = mkt / num if num else 0
         inp["Marketing_Order_Interaction"] = mkt * avg_o
-        # Align features
+        # Align features to model
         expected = list(model.feature_names_)
-        # Separate base features for scaler
-        base_feats = scaler.feature_names_in_
-        # Scale base features
-        scaled = scaler.transform(inp[base_feats])
-        scaled_df = pd.DataFrame(scaled, columns=base_feats)
-        # Combine scaled base with derived
-        final_df = pd.concat([scaled_df, inp[derived_feats].reset_index(drop=True)], axis=1)
-        final_df = final_df[expected]
+        inp = inp.reindex(columns=expected, fill_value=0)
         try:
-            preds = model.predict(final_df)
+            data_scaled = scaler.transform(inp)
+            preds = model.predict(data_scaled)
             profit = (preds[0] - emp * 1000) * (hrs / 10)
             st.success(f"Tahmini Gelir: ₺{profit:.2f}")
         except ValueError as e:
             st.error(f"Özellik uyuşmazlığı: {e}\nBeklenen özellikler: {expected}")
             st.stop()
-elif choice == "Lokasyon" (Admin)":
+
+elif choice == "Lokasyon (Admin)":
     render_header(title="Optimal Lokasyonlar")
     try:
         html = open("miuul coffee lokasyon.html", "r", encoding="utf-8").read()
@@ -159,6 +154,7 @@ elif choice == "Lokasyon" (Admin)":
         st.markdown("**3. Karşıyaka:** 450 müşteri, 150₺ ort.")
     except Exception as e:
         st.error(f"Harita yüklenemedi: {e}")
+
 elif choice == "Model Değerlendirmesi":
     render_header(title="☕️ Model Değerlendirmesi")
     st.markdown("**CatBoost R²: 0.9550**")
