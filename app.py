@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import joblib
+import os
 
 # App configuration
 st.set_page_config(page_title="Miuul Coffee Shop", page_icon="☕", layout="wide")
@@ -17,12 +18,14 @@ def load_transaction_data():
     df = pd.read_csv("CoffeeShop2_updated.csv").drop(columns=["Unnamed: 0"], errors="ignore")
     return df
 
-# Shared logo header
-def render_logo_header(subtitle=None):
-    col1, col2, col3 = st.columns(3)
-    col2.image("miul_son - Kopya.png", width=550, use_container_width=False)
+# Shared header with optional logo
+def render_header(title=None, subtitle=None, logo_path=None):
+    if logo_path and os.path.exists(logo_path):
+        st.image(logo_path, use_column_width=True)
+    if title:
+        st.markdown(f"<h1 style='text-align:center;'>{title}</h1>", unsafe_allow_html=True)
     if subtitle:
-        col2.markdown(f"<h4 style='text-align: center;'>{subtitle}</h4>", unsafe_allow_html=True)
+        st.markdown(f"<h4 style='text-align:center;'>{subtitle}</h4>", unsafe_allow_html=True)
 
 # Sidebar navigation
 st.sidebar.title("🚀 Sayfalar")
@@ -31,19 +34,25 @@ choice = st.sidebar.radio("Sayfa seçin", pages)
 
 # Main pages
 if choice == "Ana Sayfa":
-    render_logo_header()
-    st.markdown("<h2 style='text-align: center;'>Kahve İçmenin En Akıllı Hali...</h2>", unsafe_allow_html=True)
+    render_header(
+        title="Miuul Coffee Shop",
+        subtitle="Dünyanın ilk yapay zeka destekli kahve molası",
+        logo_path="assets/miul_son - Kopya.png"
+    )
+    st.markdown("<h2 style='text-align:center;'>Kahve İçmenin En Akıllı Hali...</h2>", unsafe_allow_html=True)
     col1, col2, col3 = st.columns([1,4,1])
-    col1.image("serbest_cekirdek.png", width=400)
-    col3.image("serbest_cekirdek.png", width=400)
-    st.markdown("<h1 style='text-align: center;'>Dünyanın ilk yapay zeka destekli kahve molası:</h1>", unsafe_allow_html=True)
+    col1.image("assets/serbest_cekirdek.png", width=400)
+    col3.image("assets/serbest_cekirdek.png", width=400)
     st.markdown(
-        "<h5 style='text-align: center;'>Sizleri sadece bir alışkanlığa değil, her yudumda optimum keyfi bulmak için bir yolculuğa davet ediyoruz. Burada her yudum, bir algoritmanın değil, bir anının parçası olur.</h5>",
+        "<h5 style='text-align:center;'>Sizleri sadece bir alışkanlığa değil, her yudumda optimum keyfi bulmak için bir yolculuğa davet ediyoruz. Burada her yudum, bir algoritmanın değil, bir anının parçası olur.</h5>",
         unsafe_allow_html=True
     )
+
 elif choice == "Sipariş Ekranı":
-    st.title("☕ Coffee Shop Recommender")
-    render_logo_header()
+    render_header(
+        title="☕ Coffee Shop Recommender",
+        logo_path="assets/miul_son - Kopya.png"
+    )
     df = load_transaction_data()
     from mlxtend.frequent_patterns import apriori, association_rules
     basket = df.groupby(['order_id','item_name'])['item_name'].count().unstack().fillna(0) > 0
@@ -68,68 +77,74 @@ elif choice == "Sipariş Ekranı":
                         if len(recs)>=rec_count:
                             return recs
         return recs
-    all_items = sorted(df['item_name'].unique())
-    selected = st.selectbox("Lütfen menüden bir seçim yapınız.", all_items)
-    qty = st.number_input(f"{selected} için adet:", min_value=1, value=1)
+    selected = st.selectbox("Menüden bir seçim yapın:", sorted(df['item_name'].unique()))
+    qty = st.number_input(f"{selected} Adet:", min_value=1, value=1)
     if st.button("➕ Sepete Ekle"):
         st.session_state.cart[selected] = st.session_state.cart.get(selected,0) + qty
         st.success(f"{selected} sepete eklendi.")
     recs = arl_recommender(selected,5)
     if recs:
-        pick = st.selectbox("Ürününüze Özel Tavsiyeler:", ["Seçiniz"]+recs)
-        if pick!="Seçiniz" and st.button(f"⭐️ {pick} önerisini sepete ekle"):
+        pick = st.selectbox("Öneriler:", ["Seçiniz"]+recs)
+        if pick!="Seçiniz" and st.button(f"⭐️ {pick} ekle"):
             st.session_state.cart[pick] = st.session_state.cart.get(pick,0) + 1
             st.success(f"{pick} öneri olarak sepete eklendi.")
     if st.session_state.cart:
-        total=0
         st.markdown("### 🧺 Sepetiniz")
-        for item, cnt in st.session_state.cart.items():
+        total=0
+        for item,cnt in st.session_state.cart.items():
             price=price_table.get(item,0)
             st.write(f"- {item}: {cnt} adet — {price*cnt} TL")
             total+=price*cnt
-        st.markdown(f"### 💰 Toplam Tutar: {total:.2f} TL")
+        st.markdown(f"### 💰 Toplam: {total:.2f} TL")
         if st.button("🎉 Siparişi Tamamla"):
-            st.success("Siparişiniz başarıyla oluşturuldu! ☕️ Afiyet olsun.")
+            st.success("Sipariş tamamlandı! ☕️")
             st.session_state.cart.clear()
+
 elif choice == "Günlük Kâr Hesapla":
-    st.title("💰 Günlük Kâr Hesaplama")
-    render_logo_header(subtitle="Günlük Kâr Hesaplama")
+    render_header(
+        title="💰 Günlük Kâr Hesaplama",
+        logo_path="assets/miul_son - Kopya.png"
+    )
     model, scaler = load_models()
-    locs = {
-        'Mavişehir':(1500,300,210),
-        'Bostanlı':(2500,400,250),
-        'Karşıyaka':(3500,450,150)
-    }
-    loc = st.selectbox("Lokasyon seçin", list(locs.keys()))
-    foot, cust, avg = locs[loc]
-    st.session_state.foot_traffic = foot
-    st.session_state.num_customers = cust
-    st.session_state.avg_order_value = avg
-    st.session_state.num_customers = st.number_input("Günlük Müşteri Sayısı", value=st.session_state.num_customers)
-    st.session_state.avg_order_value = st.number_input("Ortalama Sipariş Tutarı (₺)", value=st.session_state.avg_order_value)
-    st.session_state.operating_hours = st.number_input("Günlük Çalışma Saati", value=8)
-    st.session_state.num_employees = st.number_input("Çalışan Sayısı", value=2)
-    st.session_state.marketing_spend = st.number_input("Günlük Pazarlama Harcaması (₺)", value=0)
-    if st.button("📈 Tahmini Geliri Hesapla"):
-        data = pd.DataFrame([{  
-            "Number_of_Customers_Per_Day":st.session_state.num_customers,
-            "Average_Order_Value":st.session_state.avg_order_value,
-            "Operating_Hours_Per_Day":st.session_state.operating_hours,
-            "Number_of_Employees":st.session_state.num_employees,
-            "Marketing_Spend_Per_Day":st.session_state.marketing_spend,
-            "Location_Foot_Traffic":st.session_state.foot_traffic
-        }])
-        scaled = scaler.transform(data)
-        preds = model.predict(pd.DataFrame(scaled, columns=data.columns))
-        profit = (preds[0] - st.session_state.num_employees*1000)*(st.session_state.operating_hours/10)
-        st.success(f"Tahmini Günlük Gelir: ₺{profit:,.2f}")
+    locs = {'Mavişehir':(1500,300,210),'Bostanlı':(2500,400,250),'Karşıyaka':(3500,450,150)}
+    loc = st.selectbox("Lokasyon:", list(locs.keys()))
+    foot,cust,avg = locs[loc]
+    num_cust = st.number_input("Müşteri Sayısı", value=cust)
+    avg_order = st.number_input("Ortalama Sipariş (₺)", value=avg)
+    hours = st.number_input("Çalışma Saati", value=8)
+    employees = st.number_input("Çalışan Sayısı", value=2)
+    marketing = st.number_input("Pazarlama Harcaması (₺)", value=0)
+    if st.button("📈 Hesapla"):
+        df_input = pd.DataFrame([{"Number_of_Customers_Per_Day":num_cust,
+                                  "Average_Order_Value":avg_order,
+                                  "Operating_Hours_Per_Day":hours,
+                                  "Number_of_Employees":employees,
+                                  "Marketing_Spend_Per_Day":marketing,
+                                  "Location_Foot_Traffic":foot}])
+        preds = model.predict(pd.DataFrame(scaler.transform(df_input),columns=df_input.columns))
+        profit = (preds[0] - employees*1000)*(hours/10)
+        st.success(f"Tahmini Gelir: ₺{profit:,.2f}")
+
 elif choice == "Lokasyon (Admin)":
-    st.title("Optimal Lokasyon Seçenekleri")
-    render_logo_header()
-    st.markdown("<h4 style='text-align:center;'>K-Means modeli ile analiz edilen potansiyel noktalar</h4>", unsafe_allow_html=True)
+    render_header(
+        title="Optimal Lokasyonlar",
+        logo_path="assets/miul_son - Kopya.png"
+    )
+    st.markdown("<h4 style='text-align:center;'>Potansiyel Noktalar</h4>",unsafe_allow_html=True)
     with open("miuul coffee lokasyon.html","r",encoding="utf-8") as f:
-        html = f.read()
-    st.components.v1.html(html, height=600)
-    st.markdown("**1. Mavişehir:** 300 müşteri, 210₺ ort. sipariş, 1500 yaya trafiği")
-    st.markdown("**2. Bostanlı:** 400 müşteri, 250₺ ort. sipariş, 2500 yaya trafiği")
-    st.markdown("**3. Karşıyaka:** 450 müşteri, 150₺ ort. sipariş, 3500 yaya trafiği")
+        html=f.read()
+    st.components.v1.html(html,height=600)
+    st.markdown("**1. Mavişehir:** 300 müşteri, 210₺ ort.")
+    st.markdown("**2. Bostanlı:** 400 müşteri, 250₺ ort.")
+    st.markdown("**3. Karşıyaka:** 450 müşteri, 150₺ ort.")
+
+elif choice == "Model Değerlendirmesi":
+    render_header(
+        title="☕️ Model Değerlendirmesi",
+        logo_path="assets/miul_son - Kopya.png"
+    )
+    st.markdown("Modelde müşteri sayısı ve sipariş değeri en güçlü etkenler.")
+    cols=st.columns(2)
+    cols[0].markdown("**CatBoost R²:** 0.9550")
+    cols[0].markdown("**CatBoost RMSE:** 7085.73")
+    cols[1].markdown("Apriori tabanlı öneri sistemi entegre edildi.")
