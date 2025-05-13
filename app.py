@@ -110,13 +110,30 @@ elif choice == "Günlük Kâr Hesapla":
             "Marketing_Spend_Per_Day": mkt,
             "Location_Foot_Traffic": foot
         }])
+        # Derived features
+        inp["Customers_Per_Employee"] = num / emp if emp else 0
+        inp["Customer_Traffic_Ratio"] = num / foot if foot else 0
+        inp["Total_Orders_Value"] = num * avg_o
+        inp["Marketing_Per_Customer"] = mkt / num if num else 0
+        inp["Marketing_Order_Interaction"] = mkt * avg_o
+        # Align features
         expected = list(model.feature_names_)
-        inp = inp.reindex(columns=expected, fill_value=0)
+        # Separate base features for scaler
+        base_feats = scaler.feature_names_in_
+        # Scale base features
+        scaled = scaler.transform(inp[base_feats])
+        scaled_df = pd.DataFrame(scaled, columns=base_feats)
+        # Combine scaled base with derived
+        derived_feats = [f for f in expected if f not in list(base_feats)]
+        final_df = pd.concat([scaled_df, inp[derived_feats].reset_index(drop=True)], axis=1)
+        final_df = final_df[expected]
         try:
-            data_scaled = scaler.transform(inp)
-            preds = model.predict(data_scaled)
+            preds = model.predict(final_df)
             profit = (preds[0] - emp * 1000) * (hrs / 10)
             st.success(f"Tahmini Gelir: ₺{profit:.2f}")
+        except ValueError as e:
+            st.error(f"Özellik uyuşmazlığı: {e}\nBeklenen özellikler: {expected}")
+            st.stop()
         except ValueError as e:
             st.error(f"Özellik uyuşmazlığı: {e}\nBeklenen özellikler: {expected}")
             st.stop()
