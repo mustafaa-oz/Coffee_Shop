@@ -1,0 +1,2822 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_3401b2c2fbceca7014743cd4ed7ce1c4 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+<div style="
+    position: fixed; 
+    bottom: 50px; right: 50px; 
+    width: 180px; height: auto; 
+    background-color: white;
+    z-index:9999;
+    font-size:14px;
+    border-radius:10px;
+    padding: 10px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.4);
+">
+<b>🔹 Harita Açıklamaları</b><br>
+<div style="margin-top:5px;">
+    <i class="fa fa-map-marker fa-lg" style="color: blue"></i> Okul<br>
+    <i class="fa fa-map-marker fa-lg" style="color: red"></i> Hastane<br>
+    <i class="fa fa-map-marker fa-lg" style="color: purple"></i> Kütüphane<br>
+    <i class="fa fa-map-marker fa-lg" style="color: green"></i> AVM<br>
+    <i class="fa fa-map-marker fa-lg" style="color: orange"></i> İş Hanı<br>
+    <i class="fa fa-map-marker fa-lg" style="color: gray"></i> Ulaşım<br>
+    <i class="fa fa-map-marker fa-lg" style="color: lightblue"></i> Marina<br>
+    <i class="fa fa-map-marker fa-lg" style="color: pink"></i> Sosyal Alan<br>
+    <i class="fa fa-map-marker fa-lg" style="color: darkgreen"></i> Pazar<br>
+    <i class="fa fa-map-marker fa-lg" style="color: cadetblue"></i> Spor<br>
+</div>
+</div>
+    
+            <div class="folium-map" id="map_3401b2c2fbceca7014743cd4ed7ce1c4" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_3401b2c2fbceca7014743cd4ed7ce1c4 = L.map(
+                "map_3401b2c2fbceca7014743cd4ed7ce1c4",
+                {
+                    center: [38.46, 27.12],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 15,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_1afbc873fe22fddfb49adf353ef79b1a = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_1afbc873fe22fddfb49adf353ef79b1a.addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var marker_69531be4ac4e0625a1d09601034f824a = L.marker(
+                [38.46633717914724, 27.093648649814646],
+                {
+}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var icon_fd9dec00bcf5c6b67057aa4ea2f20195 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "cloud",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_806f6303bf581a3185fc13f3db5fbc79 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+
+                var html_84e1a655a781df58c82219bb67796bb8 = $(`<div id="html_84e1a655a781df58c82219bb67796bb8" style="width: 130.0%; height: 130.0%;"><br> 2. Lokasyon: Bostanlı</div>`)[0];
+                popup_806f6303bf581a3185fc13f3db5fbc79.setContent(html_84e1a655a781df58c82219bb67796bb8);
+
+
+
+        marker_69531be4ac4e0625a1d09601034f824a.bindPopup(popup_806f6303bf581a3185fc13f3db5fbc79)
+        ;
+
+        
+    
+    
+                marker_69531be4ac4e0625a1d09601034f824a.setIcon(icon_fd9dec00bcf5c6b67057aa4ea2f20195);
+            
+    
+            var marker_ba1cd6322770e1f2e28387effc160a78 = L.marker(
+                [38.4775364281659, 27.073268166249825],
+                {
+}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var icon_42345379fdec639344aadf717f2d0866 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "cloud",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3787aee02c26c5ef2d5560825279a235 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fcf90e8e49c02ff04fd524a2981b2c6f = $(`<div id="html_fcf90e8e49c02ff04fd524a2981b2c6f" style="width: 130.0%; height: 100.0%;"><br> 1. Lokasyon: Mavişehir</div>`)[0];
+                popup_3787aee02c26c5ef2d5560825279a235.setContent(html_fcf90e8e49c02ff04fd524a2981b2c6f);
+            
+        
+
+        marker_ba1cd6322770e1f2e28387effc160a78.bindPopup(popup_3787aee02c26c5ef2d5560825279a235)
+        ;
+
+        
+    
+    
+                marker_ba1cd6322770e1f2e28387effc160a78.setIcon(icon_42345379fdec639344aadf717f2d0866);
+            
+    
+            var marker_4ee280a567f9d3a5689ea260ee535ebb = L.marker(
+                [38.46011256768126, 27.115417085036533],
+                {
+}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var icon_2e5d0c397ba38878225010cd6ea2ef29 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "cloud",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b59f24492bbd76a0a2ad3164e512849c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_aebbcdab953581b73ffca01140a19ebf = $(`<div id="html_aebbcdab953581b73ffca01140a19ebf" style="width: 130.0%; height: 130.0%;"><br> 3. Lokasyon: Karşıyaka</div>`)[0];
+                popup_b59f24492bbd76a0a2ad3164e512849c.setContent(html_aebbcdab953581b73ffca01140a19ebf);
+            
+        
+
+        marker_4ee280a567f9d3a5689ea260ee535ebb.bindPopup(popup_b59f24492bbd76a0a2ad3164e512849c)
+        ;
+
+        
+    
+    
+                marker_4ee280a567f9d3a5689ea260ee535ebb.setIcon(icon_2e5d0c397ba38878225010cd6ea2ef29);
+            
+    
+            var poly_line_890aaedf0b2f5daa86f1a307df317799 = L.polyline(
+                [[38.47824821757161, 27.07150837013096], [38.4775364281659, 27.073268166249825]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var marker_8f12da567305de6637c8252a9dc47ef8 = L.marker(
+                [38.47824821757161, 27.07150837013096],
+                {
+}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var icon_08a0c89d92f87982dce696e814a64d00 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkblue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b069811ec5066e7d817444f49fc41b8a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8c4a0d81f80297f26e31cb4117cf4b52 = $(`<div id="html_8c4a0d81f80297f26e31cb4117cf4b52" style="width: 100.0%; height: 100.0%;">Mavişehir Sınav Anadolu Lisesi</div>`)[0];
+                popup_b069811ec5066e7d817444f49fc41b8a.setContent(html_8c4a0d81f80297f26e31cb4117cf4b52);
+            
+        
+
+        marker_8f12da567305de6637c8252a9dc47ef8.bindPopup(popup_b069811ec5066e7d817444f49fc41b8a)
+        ;
+
+        
+    
+    
+                marker_8f12da567305de6637c8252a9dc47ef8.setIcon(icon_08a0c89d92f87982dce696e814a64d00);
+            
+    
+            var poly_line_9dc6c0c7391c1368ed9bb750ede99e20 = L.polyline(
+                [[38.48409369108484, 27.08515544962838], [38.4775364281659, 27.073268166249825]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var marker_1567054ef908a8cac9bbad5c77cb6160 = L.marker(
+                [38.48409369108484, 27.08515544962838],
+                {
+}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var icon_97944c6e4beecdb151fcbce98050c397 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkblue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d6acde2b59aef3dbcaa208a8ea182073 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f965405283600b395594f4e9d5a3bf51 = $(`<div id="html_f965405283600b395594f4e9d5a3bf51" style="width: 100.0%; height: 100.0%;">Okyanus Koleji</div>`)[0];
+                popup_d6acde2b59aef3dbcaa208a8ea182073.setContent(html_f965405283600b395594f4e9d5a3bf51);
+            
+        
+
+        marker_1567054ef908a8cac9bbad5c77cb6160.bindPopup(popup_d6acde2b59aef3dbcaa208a8ea182073)
+        ;
+
+        
+    
+    
+                marker_1567054ef908a8cac9bbad5c77cb6160.setIcon(icon_97944c6e4beecdb151fcbce98050c397);
+            
+    
+            var poly_line_959ed4e95045412f8500862f3f92c2e1 = L.polyline(
+                [[38.47388060036651, 27.080692254047555], [38.4775364281659, 27.073268166249825]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var marker_93deffc7ba22304eb536f77565d11e83 = L.marker(
+                [38.47388060036651, 27.080692254047555],
+                {
+}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var icon_2f11bc1e12c1a6150fb9f09654e2c380 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkblue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2d72f78ad400f6be18cf43a8de904377 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_036e0f0aa86ccad805ee6f7da263d440 = $(`<div id="html_036e0f0aa86ccad805ee6f7da263d440" style="width: 100.0%; height: 100.0%;">Mavişehir İlkokulu</div>`)[0];
+                popup_2d72f78ad400f6be18cf43a8de904377.setContent(html_036e0f0aa86ccad805ee6f7da263d440);
+            
+        
+
+        marker_93deffc7ba22304eb536f77565d11e83.bindPopup(popup_2d72f78ad400f6be18cf43a8de904377)
+        ;
+
+        
+    
+    
+                marker_93deffc7ba22304eb536f77565d11e83.setIcon(icon_2f11bc1e12c1a6150fb9f09654e2c380);
+            
+    
+            var poly_line_c56de4ae5623e0e14512d52a78774f8f = L.polyline(
+                [[38.47996806620604, 27.078995043517796], [38.4775364281659, 27.073268166249825]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var marker_b69f76b984ea05be4b55a6ebe794c531 = L.marker(
+                [38.47996806620604, 27.078995043517796],
+                {
+}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var icon_845b128d78de55927d8b5dee741161fb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkblue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_968cb94a74af827d3b1611e373690d73 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3f9b8e0b8c210f8a86a14076ac8c3f5a = $(`<div id="html_3f9b8e0b8c210f8a86a14076ac8c3f5a" style="width: 100.0%; height: 100.0%;">Karşıyaka Zeki Şairoğlu Mesleki ve Teknik Anadolu Lisesi</div>`)[0];
+                popup_968cb94a74af827d3b1611e373690d73.setContent(html_3f9b8e0b8c210f8a86a14076ac8c3f5a);
+            
+        
+
+        marker_b69f76b984ea05be4b55a6ebe794c531.bindPopup(popup_968cb94a74af827d3b1611e373690d73)
+        ;
+
+        
+    
+    
+                marker_b69f76b984ea05be4b55a6ebe794c531.setIcon(icon_845b128d78de55927d8b5dee741161fb);
+            
+    
+            var poly_line_74a603c4defbe2c43977a071743afb9d = L.polyline(
+                [[38.468891113706555, 27.066546676686155], [38.4775364281659, 27.073268166249825]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var marker_6c69accc593641b8cf0f9ba49fe5e724 = L.marker(
+                [38.468891113706555, 27.066546676686155],
+                {
+}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var icon_d5ef73b4dcfab41fbe8ca1d78002f99c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkblue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4632d1d6e053a33511a38b934e3e151e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b6698f5993634b20fe26f653f50ee9b0 = $(`<div id="html_b6698f5993634b20fe26f653f50ee9b0" style="width: 100.0%; height: 100.0%;">Eraslan Okulu</div>`)[0];
+                popup_4632d1d6e053a33511a38b934e3e151e.setContent(html_b6698f5993634b20fe26f653f50ee9b0);
+            
+        
+
+        marker_6c69accc593641b8cf0f9ba49fe5e724.bindPopup(popup_4632d1d6e053a33511a38b934e3e151e)
+        ;
+
+        
+    
+    
+                marker_6c69accc593641b8cf0f9ba49fe5e724.setIcon(icon_d5ef73b4dcfab41fbe8ca1d78002f99c);
+            
+    
+            var poly_line_78b0829ecf2db6f0eff341fe9a12ebcf = L.polyline(
+                [[38.47688756508605, 27.08508610525331], [38.4775364281659, 27.073268166249825]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var marker_dacc0eee048d1444bada34d098d919dc = L.marker(
+                [38.47688756508605, 27.08508610525331],
+                {
+}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var icon_6493cd8980f34d7b8f4aa1fad3138b78 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkblue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_159935bbcc1c141d483ad335a335eb58 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4e7f8d544d1fbf8b8a5582c8d41c194b = $(`<div id="html_4e7f8d544d1fbf8b8a5582c8d41c194b" style="width: 100.0%; height: 100.0%;">Nebahat Alparslan Karadavut İlkokulu</div>`)[0];
+                popup_159935bbcc1c141d483ad335a335eb58.setContent(html_4e7f8d544d1fbf8b8a5582c8d41c194b);
+            
+        
+
+        marker_dacc0eee048d1444bada34d098d919dc.bindPopup(popup_159935bbcc1c141d483ad335a335eb58)
+        ;
+
+        
+    
+    
+                marker_dacc0eee048d1444bada34d098d919dc.setIcon(icon_6493cd8980f34d7b8f4aa1fad3138b78);
+            
+    
+            var poly_line_2a8fb37acd95a38698016b072482c4dc = L.polyline(
+                [[38.472874761482416, 27.08713830364998], [38.46633717914724, 27.093648649814646]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var marker_91466f6517047191f1ead16feb5a70f5 = L.marker(
+                [38.472874761482416, 27.08713830364998],
+                {
+}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var icon_6b163e229b8c4d886df540a2f8400db5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkblue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_795266cf1d7a59c6d37df26c1a8fe8b5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_884c793dd145cb4a4d4d0d2cf6812ddb = $(`<div id="html_884c793dd145cb4a4d4d0d2cf6812ddb" style="width: 100.0%; height: 100.0%;">Soylu Ana Okulları Plus</div>`)[0];
+                popup_795266cf1d7a59c6d37df26c1a8fe8b5.setContent(html_884c793dd145cb4a4d4d0d2cf6812ddb);
+            
+        
+
+        marker_91466f6517047191f1ead16feb5a70f5.bindPopup(popup_795266cf1d7a59c6d37df26c1a8fe8b5)
+        ;
+
+        
+    
+    
+                marker_91466f6517047191f1ead16feb5a70f5.setIcon(icon_6b163e229b8c4d886df540a2f8400db5);
+            
+    
+            var poly_line_63483690f4815a38a7dbcdf3f1a70765 = L.polyline(
+                [[38.469732998396225, 27.084516555695657], [38.46633717914724, 27.093648649814646]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var marker_20ff8257712abec85bb022b7c608573a = L.marker(
+                [38.469732998396225, 27.084516555695657],
+                {
+}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var icon_7545a1749828d3fdf3a386056b8cfee7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkblue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e9b3c4f92bcedd3d939ecfbe9417f32f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c076a0dd5792b2eb151b98073a2e29e4 = $(`<div id="html_c076a0dd5792b2eb151b98073a2e29e4" style="width: 100.0%; height: 100.0%;">Atakent Erdoğan Kibarer Ortaokulu</div>`)[0];
+                popup_e9b3c4f92bcedd3d939ecfbe9417f32f.setContent(html_c076a0dd5792b2eb151b98073a2e29e4);
+            
+        
+
+        marker_20ff8257712abec85bb022b7c608573a.bindPopup(popup_e9b3c4f92bcedd3d939ecfbe9417f32f)
+        ;
+
+        
+    
+    
+                marker_20ff8257712abec85bb022b7c608573a.setIcon(icon_7545a1749828d3fdf3a386056b8cfee7);
+            
+    
+            var poly_line_a6b15dd242b6074cf5bcc9aa3dfcabe4 = L.polyline(
+                [[38.46929011732564, 27.09061668157372], [38.46633717914724, 27.093648649814646]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var marker_1cd6fe3ebf5914b530a8b8a3f8129334 = L.marker(
+                [38.46929011732564, 27.09061668157372],
+                {
+}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var icon_b4c441380f2035eb43860c0119540611 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkblue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2c14ddef0c44883b68d2c797f0c1d09a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4a2a0323e8a9ebc9f437dffb9a7df346 = $(`<div id="html_4a2a0323e8a9ebc9f437dffb9a7df346" style="width: 100.0%; height: 100.0%;">Hamdullah Suphi Tanrıöver Ortaokulu</div>`)[0];
+                popup_2c14ddef0c44883b68d2c797f0c1d09a.setContent(html_4a2a0323e8a9ebc9f437dffb9a7df346);
+            
+        
+
+        marker_1cd6fe3ebf5914b530a8b8a3f8129334.bindPopup(popup_2c14ddef0c44883b68d2c797f0c1d09a)
+        ;
+
+        
+    
+    
+                marker_1cd6fe3ebf5914b530a8b8a3f8129334.setIcon(icon_b4c441380f2035eb43860c0119540611);
+            
+    
+            var poly_line_173229568cbc8d54ab5e48c4de7daeb4 = L.polyline(
+                [[38.466131628277, 27.08924339030005], [38.46633717914724, 27.093648649814646]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var marker_b4c9e815079c71f9cdf6c45a3d629fef = L.marker(
+                [38.466131628277, 27.08924339030005],
+                {
+}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var icon_8ba2903a718873fba0dd37fd67490de1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkblue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2f38b54493ea95990cd59077ce380327 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_105a36dc3b10b1e15129983c1bc74a3a = $(`<div id="html_105a36dc3b10b1e15129983c1bc74a3a" style="width: 100.0%; height: 100.0%;">Şehit Astsubay Hilmi Öz İlkokulu</div>`)[0];
+                popup_2f38b54493ea95990cd59077ce380327.setContent(html_105a36dc3b10b1e15129983c1bc74a3a);
+            
+        
+
+        marker_b4c9e815079c71f9cdf6c45a3d629fef.bindPopup(popup_2f38b54493ea95990cd59077ce380327)
+        ;
+
+        
+    
+    
+                marker_b4c9e815079c71f9cdf6c45a3d629fef.setIcon(icon_8ba2903a718873fba0dd37fd67490de1);
+            
+    
+            var poly_line_65c3b96c349f4befa8b3ba3efedbe865 = L.polyline(
+                [[38.46664405202294, 27.094025986058703], [38.46633717914724, 27.093648649814646]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var marker_e616d659b2ee7c26f11cd09170a3ea75 = L.marker(
+                [38.46664405202294, 27.094025986058703],
+                {
+}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var icon_2300aa78f172de82107d72e81a5516d3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkblue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8b0b7190bff0b943973b71d53623872f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3e735d8e0d0df5123dc6b8334e8303c1 = $(`<div id="html_3e735d8e0d0df5123dc6b8334e8303c1" style="width: 100.0%; height: 100.0%;">Mehmet Seniye Özbey İlkokulu</div>`)[0];
+                popup_8b0b7190bff0b943973b71d53623872f.setContent(html_3e735d8e0d0df5123dc6b8334e8303c1);
+            
+        
+
+        marker_e616d659b2ee7c26f11cd09170a3ea75.bindPopup(popup_8b0b7190bff0b943973b71d53623872f)
+        ;
+
+        
+    
+    
+                marker_e616d659b2ee7c26f11cd09170a3ea75.setIcon(icon_2300aa78f172de82107d72e81a5516d3);
+            
+    
+            var poly_line_c19456a1867cd6d7aedd26fba5510104 = L.polyline(
+                [[38.46650964611748, 27.095828430427886], [38.46633717914724, 27.093648649814646]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var marker_ddbe8de91ca756670f4db4412cc8e970 = L.marker(
+                [38.46650964611748, 27.095828430427886],
+                {
+}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var icon_6de5f792ff9fc0cf7d9b6be760b832a2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkblue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_97c63d2eda6b0ac3e3e8191ed000c5c9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b92eb5671b9f224c78fe4a888147d84a = $(`<div id="html_b92eb5671b9f224c78fe4a888147d84a" style="width: 100.0%; height: 100.0%;">Karşıyaka Cihat Kora Anadolu Lisesi</div>`)[0];
+                popup_97c63d2eda6b0ac3e3e8191ed000c5c9.setContent(html_b92eb5671b9f224c78fe4a888147d84a);
+            
+        
+
+        marker_ddbe8de91ca756670f4db4412cc8e970.bindPopup(popup_97c63d2eda6b0ac3e3e8191ed000c5c9)
+        ;
+
+        
+    
+    
+                marker_ddbe8de91ca756670f4db4412cc8e970.setIcon(icon_6de5f792ff9fc0cf7d9b6be760b832a2);
+            
+    
+            var poly_line_1f5d2dad25529ab69c7619f28a657413 = L.polyline(
+                [[38.46926491711199, 27.101493255588167], [38.46633717914724, 27.093648649814646]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var marker_950f74c08fee3cf5eb371cc54e5576f0 = L.marker(
+                [38.46926491711199, 27.101493255588167],
+                {
+}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var icon_8ae7a520da7ca7efbb09507840b3dcc0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkblue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ce5cd051b997f3011473f13c6b68a59e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_da63ff73e2818a24536d782229c0efd1 = $(`<div id="html_da63ff73e2818a24536d782229c0efd1" style="width: 100.0%; height: 100.0%;">Faik Muhittin Adam İlköğretim Okulu</div>`)[0];
+                popup_ce5cd051b997f3011473f13c6b68a59e.setContent(html_da63ff73e2818a24536d782229c0efd1);
+            
+        
+
+        marker_950f74c08fee3cf5eb371cc54e5576f0.bindPopup(popup_ce5cd051b997f3011473f13c6b68a59e)
+        ;
+
+        
+    
+    
+                marker_950f74c08fee3cf5eb371cc54e5576f0.setIcon(icon_8ae7a520da7ca7efbb09507840b3dcc0);
+            
+    
+            var poly_line_bdf0290211404b59b6cb46d79a6780dd = L.polyline(
+                [[38.459385774674914, 27.100119964640218], [38.46633717914724, 27.093648649814646]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var marker_2ffebb99e84398029cddf43e293f8008 = L.marker(
+                [38.459385774674914, 27.100119964640218],
+                {
+}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var icon_a848d597abd68c9b8da2e7050447b758 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkblue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2bedd67915aca1885def87a8b51b3a3a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_12b59cdc05c0ebc5c51e9b845717954b = $(`<div id="html_12b59cdc05c0ebc5c51e9b845717954b" style="width: 100.0%; height: 100.0%;">Takev Okulları Karşıyaka Kampüsü</div>`)[0];
+                popup_2bedd67915aca1885def87a8b51b3a3a.setContent(html_12b59cdc05c0ebc5c51e9b845717954b);
+            
+        
+
+        marker_2ffebb99e84398029cddf43e293f8008.bindPopup(popup_2bedd67915aca1885def87a8b51b3a3a)
+        ;
+
+        
+    
+    
+                marker_2ffebb99e84398029cddf43e293f8008.setIcon(icon_a848d597abd68c9b8da2e7050447b758);
+            
+    
+            var poly_line_aacb8c8447c2e0f1075255c355822b94 = L.polyline(
+                [[38.45777272496135, 27.099862472587482], [38.46633717914724, 27.093648649814646]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var marker_6ac9a6d96e3ddd9d19122ec5a5d9bff9 = L.marker(
+                [38.45777272496135, 27.099862472587482],
+                {
+}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var icon_35c2bd3a4134a1f49137d79c65488f9b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkblue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c924378aaa20654f707ed2b8e14d2df0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2d6ffceaaa4c394aa1296be9c2461342 = $(`<div id="html_2d6ffceaaa4c394aa1296be9c2461342" style="width: 100.0%; height: 100.0%;">Mustafa Reşit Paşa Ilkokulu</div>`)[0];
+                popup_c924378aaa20654f707ed2b8e14d2df0.setContent(html_2d6ffceaaa4c394aa1296be9c2461342);
+            
+        
+
+        marker_6ac9a6d96e3ddd9d19122ec5a5d9bff9.bindPopup(popup_c924378aaa20654f707ed2b8e14d2df0)
+        ;
+
+        
+    
+    
+                marker_6ac9a6d96e3ddd9d19122ec5a5d9bff9.setIcon(icon_35c2bd3a4134a1f49137d79c65488f9b);
+            
+    
+            var poly_line_1df9f0b9585f667bc7000ac1a081cdcb = L.polyline(
+                [[38.45927801941901, 27.10518397501077], [38.46011256768126, 27.115417085036533]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var marker_0f25965073ac03f0165c4f93dea70b90 = L.marker(
+                [38.45927801941901, 27.10518397501077],
+                {
+}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var icon_486be6ed4a8bb8d6902635715ef0c530 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkblue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8e27c09174bd4254a21a5bfeff64efe7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cda5e7b98ae7178d8bc2e6318f128271 = $(`<div id="html_cda5e7b98ae7178d8bc2e6318f128271" style="width: 100.0%; height: 100.0%;">Mürşide Akyüz İlkokulu</div>`)[0];
+                popup_8e27c09174bd4254a21a5bfeff64efe7.setContent(html_cda5e7b98ae7178d8bc2e6318f128271);
+            
+        
+
+        marker_0f25965073ac03f0165c4f93dea70b90.bindPopup(popup_8e27c09174bd4254a21a5bfeff64efe7)
+        ;
+
+        
+    
+    
+                marker_0f25965073ac03f0165c4f93dea70b90.setIcon(icon_486be6ed4a8bb8d6902635715ef0c530);
+            
+    
+            var poly_line_2c5058c97a82cff9616fac7449d5a91b = L.polyline(
+                [[38.46341169558202, 27.107016992791596], [38.46011256768126, 27.115417085036533]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var marker_bd9898ac43e90fb40556d9d098d9b83d = L.marker(
+                [38.46341169558202, 27.107016992791596],
+                {
+}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var icon_466bf6da5664d3366653d169d4d9d893 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkblue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6660e2ef041f35da249abf8023cc81fd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3cfb2d88e400e73b69e1292e7ab6e77f = $(`<div id="html_3cfb2d88e400e73b69e1292e7ab6e77f" style="width: 100.0%; height: 100.0%;">Cemil Akyüz Ortaokulu</div>`)[0];
+                popup_6660e2ef041f35da249abf8023cc81fd.setContent(html_3cfb2d88e400e73b69e1292e7ab6e77f);
+            
+        
+
+        marker_bd9898ac43e90fb40556d9d098d9b83d.bindPopup(popup_6660e2ef041f35da249abf8023cc81fd)
+        ;
+
+        
+    
+    
+                marker_bd9898ac43e90fb40556d9d098d9b83d.setIcon(icon_466bf6da5664d3366653d169d4d9d893);
+            
+    
+            var poly_line_3f24dae56eda5ffe56c3797de4d20fa7 = L.polyline(
+                [[38.462435710045966, 27.11200280173358], [38.46011256768126, 27.115417085036533]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var marker_5d875b488b671ffaa4ac9f6df2718496 = L.marker(
+                [38.462435710045966, 27.11200280173358],
+                {
+}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var icon_b48c43dd5a9f1d571cccdd42ba98f3aa = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkblue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_efccb6f4ff3c5a37f5cb1896326e714c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b2d31b6a9655462332f82b263918d1dd = $(`<div id="html_b2d31b6a9655462332f82b263918d1dd" style="width: 100.0%; height: 100.0%;">Zübeyde Hanım ilkokulu ve Selçuk Yaşar Ortaokulu</div>`)[0];
+                popup_efccb6f4ff3c5a37f5cb1896326e714c.setContent(html_b2d31b6a9655462332f82b263918d1dd);
+            
+        
+
+        marker_5d875b488b671ffaa4ac9f6df2718496.bindPopup(popup_efccb6f4ff3c5a37f5cb1896326e714c)
+        ;
+
+        
+    
+    
+                marker_5d875b488b671ffaa4ac9f6df2718496.setIcon(icon_b48c43dd5a9f1d571cccdd42ba98f3aa);
+            
+    
+            var poly_line_136b37990d68cc2bb5bca45d50d338f9 = L.polyline(
+                [[38.457303144861136, 27.113041751059452], [38.46011256768126, 27.115417085036533]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var marker_881d0535669c7fb034efb1442385eb7e = L.marker(
+                [38.457303144861136, 27.113041751059452],
+                {
+}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var icon_666b6b6bbdf18cd37a9951dd07d43d13 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkblue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b7276fdb44e315e202dd18a1a0d6ee7e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3981eaed8a1228312bc65af8f4dcae83 = $(`<div id="html_3981eaed8a1228312bc65af8f4dcae83" style="width: 100.0%; height: 100.0%;">Mirza Nil İlköğretim Okulu</div>`)[0];
+                popup_b7276fdb44e315e202dd18a1a0d6ee7e.setContent(html_3981eaed8a1228312bc65af8f4dcae83);
+            
+        
+
+        marker_881d0535669c7fb034efb1442385eb7e.bindPopup(popup_b7276fdb44e315e202dd18a1a0d6ee7e)
+        ;
+
+        
+    
+    
+                marker_881d0535669c7fb034efb1442385eb7e.setIcon(icon_666b6b6bbdf18cd37a9951dd07d43d13);
+            
+    
+            var poly_line_ca8eb7b35012de3ea623f425286924da = L.polyline(
+                [[38.45622410295723, 27.115735016876275], [38.46011256768126, 27.115417085036533]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var marker_ba0f997a133a8f2b0ac3b3d350bff1d6 = L.marker(
+                [38.45622410295723, 27.115735016876275],
+                {
+}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var icon_f9552075768a1f47eda191bf01a63f9f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkblue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4ca9435cc7bc88d8772e642e999cd51f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d8788dea9ebbe8e349d79b7f224b163c = $(`<div id="html_d8788dea9ebbe8e349d79b7f224b163c" style="width: 100.0%; height: 100.0%;">Karşıyaka Ortaokulu</div>`)[0];
+                popup_4ca9435cc7bc88d8772e642e999cd51f.setContent(html_d8788dea9ebbe8e349d79b7f224b163c);
+            
+        
+
+        marker_ba0f997a133a8f2b0ac3b3d350bff1d6.bindPopup(popup_4ca9435cc7bc88d8772e642e999cd51f)
+        ;
+
+        
+    
+    
+                marker_ba0f997a133a8f2b0ac3b3d350bff1d6.setIcon(icon_f9552075768a1f47eda191bf01a63f9f);
+            
+    
+            var poly_line_9046c23ebb11356f8be9107af2088ec6 = L.polyline(
+                [[38.45642029359475, 27.116611894118957], [38.46011256768126, 27.115417085036533]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var marker_dcf8fe7b2b1333c04cc6b202ad775fff = L.marker(
+                [38.45642029359475, 27.116611894118957],
+                {
+}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var icon_b3a6d048c7274c1f637a7d5b238d8897 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkblue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_91e1667040797ecf17695420baea2987 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_393133847430060f7e779145256a810f = $(`<div id="html_393133847430060f7e779145256a810f" style="width: 100.0%; height: 100.0%;">Ankara İlkokulu</div>`)[0];
+                popup_91e1667040797ecf17695420baea2987.setContent(html_393133847430060f7e779145256a810f);
+            
+        
+
+        marker_dcf8fe7b2b1333c04cc6b202ad775fff.bindPopup(popup_91e1667040797ecf17695420baea2987)
+        ;
+
+        
+    
+    
+                marker_dcf8fe7b2b1333c04cc6b202ad775fff.setIcon(icon_b3a6d048c7274c1f637a7d5b238d8897);
+            
+    
+            var poly_line_a3c42b30855f4007d4561883584abe85 = L.polyline(
+                [[38.46716091672381, 27.117112966829065], [38.46011256768126, 27.115417085036533]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var marker_30eda8249f58f2dc793d06eaee6daaab = L.marker(
+                [38.46716091672381, 27.117112966829065],
+                {
+}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var icon_4a82070ecf4119f7ec626b5417c1ac97 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkblue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_55f00add72d19078422ff2b1f818bdb2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_21ecb078f88afe07ce9f10cb2cc620e6 = $(`<div id="html_21ecb078f88afe07ce9f10cb2cc620e6" style="width: 100.0%; height: 100.0%;">Fevzipaşa Ortaokulu</div>`)[0];
+                popup_55f00add72d19078422ff2b1f818bdb2.setContent(html_21ecb078f88afe07ce9f10cb2cc620e6);
+            
+        
+
+        marker_30eda8249f58f2dc793d06eaee6daaab.bindPopup(popup_55f00add72d19078422ff2b1f818bdb2)
+        ;
+
+        
+    
+    
+                marker_30eda8249f58f2dc793d06eaee6daaab.setIcon(icon_4a82070ecf4119f7ec626b5417c1ac97);
+            
+    
+            var poly_line_1a1efd25cfa9aa4c4e0c3cf8b8489aa7 = L.polyline(
+                [[38.47194128510074, 27.086228160698585], [38.46633717914724, 27.093648649814646]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var marker_35e870fc77cf422503257d9ca0dedfda = L.marker(
+                [38.47194128510074, 27.086228160698585],
+                {
+}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var icon_76ab902c716edf72f19d98c7425351e8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_78e00191580c43308db1b64b28ab79d1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_820f5b473b974839ef16d8e373b17baf = $(`<div id="html_820f5b473b974839ef16d8e373b17baf" style="width: 100.0%; height: 100.0%;">Baskent Hastanesi Mavisehir Poliklinik</div>`)[0];
+                popup_78e00191580c43308db1b64b28ab79d1.setContent(html_820f5b473b974839ef16d8e373b17baf);
+            
+        
+
+        marker_35e870fc77cf422503257d9ca0dedfda.bindPopup(popup_78e00191580c43308db1b64b28ab79d1)
+        ;
+
+        
+    
+    
+                marker_35e870fc77cf422503257d9ca0dedfda.setIcon(icon_76ab902c716edf72f19d98c7425351e8);
+            
+    
+            var poly_line_fe0897e9dfba5d8e694ae4f845a2e509 = L.polyline(
+                [[38.472195707058525, 27.084792286146662], [38.46633717914724, 27.093648649814646]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var marker_9437dddc521283bcfa3df3093b447977 = L.marker(
+                [38.472195707058525, 27.084792286146662],
+                {
+}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var icon_7936f02955d404adc1f7755b92067244 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7c9ea0e0b3657c367cf25d5b1ca1a252 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5bcef5b7026e1b51f75d00e343cb9590 = $(`<div id="html_5bcef5b7026e1b51f75d00e343cb9590" style="width: 100.0%; height: 100.0%;">Özel Karşıyaka Göz Hastanesi</div>`)[0];
+                popup_7c9ea0e0b3657c367cf25d5b1ca1a252.setContent(html_5bcef5b7026e1b51f75d00e343cb9590);
+            
+        
+
+        marker_9437dddc521283bcfa3df3093b447977.bindPopup(popup_7c9ea0e0b3657c367cf25d5b1ca1a252)
+        ;
+
+        
+    
+    
+                marker_9437dddc521283bcfa3df3093b447977.setIcon(icon_7936f02955d404adc1f7755b92067244);
+            
+    
+            var poly_line_97b95153ad52a66867dc3d4b31ad1f45 = L.polyline(
+                [[38.46426447363171, 27.093235429948777], [38.46633717914724, 27.093648649814646]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var marker_12584084864578c854276deae3e7a8e5 = L.marker(
+                [38.46426447363171, 27.093235429948777],
+                {
+}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var icon_747c9e05333c2433d33bb648619943aa = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_134c8f11e217d75de90916d1d6bb51ce = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_22a93faaa825bef371918bfd8503569d = $(`<div id="html_22a93faaa825bef371918bfd8503569d" style="width: 100.0%; height: 100.0%;">Başkent Üniversitesi Zübeyde Hanım Uygulama Ve Araştırma Merkezi</div>`)[0];
+                popup_134c8f11e217d75de90916d1d6bb51ce.setContent(html_22a93faaa825bef371918bfd8503569d);
+            
+        
+
+        marker_12584084864578c854276deae3e7a8e5.bindPopup(popup_134c8f11e217d75de90916d1d6bb51ce)
+        ;
+
+        
+    
+    
+                marker_12584084864578c854276deae3e7a8e5.setIcon(icon_747c9e05333c2433d33bb648619943aa);
+            
+    
+            var poly_line_5778742968014b86d8b9d8f949961e34 = L.polyline(
+                [[38.484727762198624, 27.057962722605936], [38.4775364281659, 27.073268166249825]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var marker_e4adc9b53820c62fd60a9a7417f78e56 = L.marker(
+                [38.484727762198624, 27.057962722605936],
+                {
+}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var icon_d53e9a52be482159b4e5cf73ffbf5a82 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4f176bf5e94920f0def2f625b4f6cce4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d1f7428bc12fa483d5fc311dbae60e56 = $(`<div id="html_d1f7428bc12fa483d5fc311dbae60e56" style="width: 100.0%; height: 100.0%;">İzmir Özel Can Hastanesi</div>`)[0];
+                popup_4f176bf5e94920f0def2f625b4f6cce4.setContent(html_d1f7428bc12fa483d5fc311dbae60e56);
+            
+        
+
+        marker_e4adc9b53820c62fd60a9a7417f78e56.bindPopup(popup_4f176bf5e94920f0def2f625b4f6cce4)
+        ;
+
+        
+    
+    
+                marker_e4adc9b53820c62fd60a9a7417f78e56.setIcon(icon_d53e9a52be482159b4e5cf73ffbf5a82);
+            
+    
+            var poly_line_ce97b1c13319f8327b6d3c74794533e0 = L.polyline(
+                [[38.47464915205004, 27.11169273312283], [38.46011256768126, 27.115417085036533]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var marker_49cd87b781418f6c4f1d4c081145fcb1 = L.marker(
+                [38.47464915205004, 27.11169273312283],
+                {
+}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var icon_bda8089c398a17550c0a0ab796a16820 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_837ca4597f12b345558963ce74da1a89 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_30e55252af85269593c8f484b8c5e388 = $(`<div id="html_30e55252af85269593c8f484b8c5e388" style="width: 100.0%; height: 100.0%;">Medical Point</div>`)[0];
+                popup_837ca4597f12b345558963ce74da1a89.setContent(html_30e55252af85269593c8f484b8c5e388);
+            
+        
+
+        marker_49cd87b781418f6c4f1d4c081145fcb1.bindPopup(popup_837ca4597f12b345558963ce74da1a89)
+        ;
+
+        
+    
+    
+                marker_49cd87b781418f6c4f1d4c081145fcb1.setIcon(icon_bda8089c398a17550c0a0ab796a16820);
+            
+    
+            var poly_line_bdf500626ee00a16b5f2850ae3e9df80 = L.polyline(
+                [[38.46342664183432, 27.09308431384626], [38.46633717914724, 27.093648649814646]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var marker_c775fb03d223ff08b4c0d52d33afbe40 = L.marker(
+                [38.46342664183432, 27.09308431384626],
+                {
+}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var icon_ec0f980706e6303bef91daec2ff25bdf = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_58a48ba40916ee146d98f6cf786a997f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7b49db7c3bfe76c936733922cf6bc0a6 = $(`<div id="html_7b49db7c3bfe76c936733922cf6bc0a6" style="width: 100.0%; height: 100.0%;">Kardiya Tıp Merkezi - Bostanlı Karşıyaka</div>`)[0];
+                popup_58a48ba40916ee146d98f6cf786a997f.setContent(html_7b49db7c3bfe76c936733922cf6bc0a6);
+            
+        
+
+        marker_c775fb03d223ff08b4c0d52d33afbe40.bindPopup(popup_58a48ba40916ee146d98f6cf786a997f)
+        ;
+
+        
+    
+    
+                marker_c775fb03d223ff08b4c0d52d33afbe40.setIcon(icon_ec0f980706e6303bef91daec2ff25bdf);
+            
+    
+            var poly_line_1e40eaae9c21574c407f829b56ab3d7d = L.polyline(
+                [[38.473790710504844, 27.106769232062614], [38.46633717914724, 27.093648649814646]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var marker_47c2dc45a87e95cd110d0c0cdf64a522 = L.marker(
+                [38.473790710504844, 27.106769232062614],
+                {
+}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var icon_880fb5440e3cf5270bbb476b24739242 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_193fc20aa126941f999e75aed2d28316 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_55bc21de58775a7d177d81a1daf6cd77 = $(`<div id="html_55bc21de58775a7d177d81a1daf6cd77" style="width: 100.0%; height: 100.0%;">EÜ suat cemile balcıoğlu KBB polikliniği</div>`)[0];
+                popup_193fc20aa126941f999e75aed2d28316.setContent(html_55bc21de58775a7d177d81a1daf6cd77);
+            
+        
+
+        marker_47c2dc45a87e95cd110d0c0cdf64a522.bindPopup(popup_193fc20aa126941f999e75aed2d28316)
+        ;
+
+        
+    
+    
+                marker_47c2dc45a87e95cd110d0c0cdf64a522.setIcon(icon_880fb5440e3cf5270bbb476b24739242);
+            
+    
+            var poly_line_fe5a930bbb32b99f4148391d1f0af11d = L.polyline(
+                [[38.470554276328166, 27.11328317729399], [38.46011256768126, 27.115417085036533]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var marker_b3b6971924808405291659c39608d623 = L.marker(
+                [38.470554276328166, 27.11328317729399],
+                {
+}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var icon_d0050a9f55e20319a4de2352f4c0444b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_aab3043134daab00faf8390dc2a65e08 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1983395ca674e3ad1b096b1ee8e985cb = $(`<div id="html_1983395ca674e3ad1b096b1ee8e985cb" style="width: 100.0%; height: 100.0%;">Özel Metropol Karşıyaka Tıp Merkezi</div>`)[0];
+                popup_aab3043134daab00faf8390dc2a65e08.setContent(html_1983395ca674e3ad1b096b1ee8e985cb);
+            
+        
+
+        marker_b3b6971924808405291659c39608d623.bindPopup(popup_aab3043134daab00faf8390dc2a65e08)
+        ;
+
+        
+    
+    
+                marker_b3b6971924808405291659c39608d623.setIcon(icon_d0050a9f55e20319a4de2352f4c0444b);
+            
+    
+            var poly_line_d27c988e71a274c739a7ed8b565b8158 = L.polyline(
+                [[38.46434110030231, 27.118348182985272], [38.46011256768126, 27.115417085036533]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var marker_9ea4897d9cd0bb2a39a97eb409b84c55 = L.marker(
+                [38.46434110030231, 27.118348182985272],
+                {
+}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var icon_081e9e7f3dd42e093600ddd3b1bb8653 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_68e995c6b61266400d3381c2dc648484 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_51bdf028dd0d4370dc74af599ae88eb4 = $(`<div id="html_51bdf028dd0d4370dc74af599ae88eb4" style="width: 100.0%; height: 100.0%;">Eşrefpaşa Hastanesi Öğretmen Melahat Özçelik Hizmet Birimi</div>`)[0];
+                popup_68e995c6b61266400d3381c2dc648484.setContent(html_51bdf028dd0d4370dc74af599ae88eb4);
+            
+        
+
+        marker_9ea4897d9cd0bb2a39a97eb409b84c55.bindPopup(popup_68e995c6b61266400d3381c2dc648484)
+        ;
+
+        
+    
+    
+                marker_9ea4897d9cd0bb2a39a97eb409b84c55.setIcon(icon_081e9e7f3dd42e093600ddd3b1bb8653);
+            
+    
+            var poly_line_6e7fa2f5f403e7d31ebe05155f2be158 = L.polyline(
+                [[38.47903772013222, 27.096887825037268], [38.46633717914724, 27.093648649814646]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var marker_7c833a4b766351db5dbefa539c485334 = L.marker(
+                [38.47903772013222, 27.096887825037268],
+                {
+}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var icon_a30a93918aef63ad139868533a909c8d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d72cbd683b587c3dbb5142448d794022 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9c3d1e448242f0a63a45f67c1a0cd939 = $(`<div id="html_9c3d1e448242f0a63a45f67c1a0cd939" style="width: 100.0%; height: 100.0%;">Özel Metropol Şemikler Tıp Merkezi</div>`)[0];
+                popup_d72cbd683b587c3dbb5142448d794022.setContent(html_9c3d1e448242f0a63a45f67c1a0cd939);
+            
+        
+
+        marker_7c833a4b766351db5dbefa539c485334.bindPopup(popup_d72cbd683b587c3dbb5142448d794022)
+        ;
+
+        
+    
+    
+                marker_7c833a4b766351db5dbefa539c485334.setIcon(icon_a30a93918aef63ad139868533a909c8d);
+            
+    
+            var poly_line_9ad21b3b17777eecc9ad9fb00b06e504 = L.polyline(
+                [[38.4864955731181, 27.059878705041314], [38.4775364281659, 27.073268166249825]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var marker_81c4cce42a69e058bb48fe5296081873 = L.marker(
+                [38.4864955731181, 27.059878705041314],
+                {
+}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var icon_0e9d71919b6c335c4b16625731832c6a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6183b98714c2fbdb0c2d4819cf8dcdf6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_80354665b635bc1db391b67101d94aef = $(`<div id="html_80354665b635bc1db391b67101d94aef" style="width: 100.0%; height: 100.0%;">İzmir Ekol Hastanesi</div>`)[0];
+                popup_6183b98714c2fbdb0c2d4819cf8dcdf6.setContent(html_80354665b635bc1db391b67101d94aef);
+            
+        
+
+        marker_81c4cce42a69e058bb48fe5296081873.bindPopup(popup_6183b98714c2fbdb0c2d4819cf8dcdf6)
+        ;
+
+        
+    
+    
+                marker_81c4cce42a69e058bb48fe5296081873.setIcon(icon_0e9d71919b6c335c4b16625731832c6a);
+            
+    
+            var poly_line_9f7f272f13f5ae548e231fba44578e92 = L.polyline(
+                [[38.47117170471288, 27.099218456097017], [38.46633717914724, 27.093648649814646]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var marker_1d3c223cf2ead9065fe790ae7f47639b = L.marker(
+                [38.47117170471288, 27.099218456097017],
+                {
+}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var icon_03bb6aeb51b91e36f02ebc075704868a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f6490ef06a3a0d119c4b356ab120b8cd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f77b103b929aec5d326223daaf7d76bf = $(`<div id="html_f77b103b929aec5d326223daaf7d76bf" style="width: 100.0%; height: 100.0%;">Karşıyaka Ağız ve Diş Sağlığı Merkezi</div>`)[0];
+                popup_f6490ef06a3a0d119c4b356ab120b8cd.setContent(html_f77b103b929aec5d326223daaf7d76bf);
+            
+        
+
+        marker_1d3c223cf2ead9065fe790ae7f47639b.bindPopup(popup_f6490ef06a3a0d119c4b356ab120b8cd)
+        ;
+
+        
+    
+    
+                marker_1d3c223cf2ead9065fe790ae7f47639b.setIcon(icon_03bb6aeb51b91e36f02ebc075704868a);
+            
+    
+            var poly_line_698dc1bbe51950547a591656545d0eb5 = L.polyline(
+                [[38.46320639377013, 27.108766451245646], [38.46011256768126, 27.115417085036533]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var marker_dede47f513a7ccc1435e2a15690db9a8 = L.marker(
+                [38.46320639377013, 27.108766451245646],
+                {
+}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var icon_111af17b14400e656b7c5aa69398e92e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkpurple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_dac9a7e6213afcd5d0d70a37079b1016 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ed8d2094c80243180488290060231ca4 = $(`<div id="html_ed8d2094c80243180488290060231ca4" style="width: 100.0%; height: 100.0%;">Karşıyaka Belediyesi Cihat Kora Kütüphanesi</div>`)[0];
+                popup_dac9a7e6213afcd5d0d70a37079b1016.setContent(html_ed8d2094c80243180488290060231ca4);
+            
+        
+
+        marker_dede47f513a7ccc1435e2a15690db9a8.bindPopup(popup_dac9a7e6213afcd5d0d70a37079b1016)
+        ;
+
+        
+    
+    
+                marker_dede47f513a7ccc1435e2a15690db9a8.setIcon(icon_111af17b14400e656b7c5aa69398e92e);
+            
+    
+            var poly_line_813a6130a25fa6411596e691daa43972 = L.polyline(
+                [[38.46473511410659, 27.092547552182733], [38.46633717914724, 27.093648649814646]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var marker_89a0730f6355158e548a600516f91af2 = L.marker(
+                [38.46473511410659, 27.092547552182733],
+                {
+}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var icon_7750b24df78fe342f1a059983524b264 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkpurple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5d844116aa245667ba4514e47dc99927 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5c6a0511d098c7b7067e05bfa9e483ff = $(`<div id="html_5c6a0511d098c7b7067e05bfa9e483ff" style="width: 100.0%; height: 100.0%;">Görme Engelliler Kütüphanesi Karşiyaka Belediyesi Kültür ve Sosyal İşler Müdürlüğü</div>`)[0];
+                popup_5d844116aa245667ba4514e47dc99927.setContent(html_5c6a0511d098c7b7067e05bfa9e483ff);
+            
+        
+
+        marker_89a0730f6355158e548a600516f91af2.bindPopup(popup_5d844116aa245667ba4514e47dc99927)
+        ;
+
+        
+    
+    
+                marker_89a0730f6355158e548a600516f91af2.setIcon(icon_7750b24df78fe342f1a059983524b264);
+            
+    
+            var poly_line_fec66b9d3b06260c6a041d5369384b33 = L.polyline(
+                [[38.474243947822046, 27.097139493789935], [38.46633717914724, 27.093648649814646]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var marker_1daa568b1ce59c5ddd5fa8bb0eb7a528 = L.marker(
+                [38.474243947822046, 27.097139493789935],
+                {
+}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var icon_208d653688a6153151325f5959b083d9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkpurple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8e5faf5864d84526568d4c096aa4b3d1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_53001e4f1dca499fec3a49851d26a3f5 = $(`<div id="html_53001e4f1dca499fec3a49851d26a3f5" style="width: 100.0%; height: 100.0%;">TC Karşıyaka Belediyesi İsmail Hakkı Tonguç Kütüphanesi</div>`)[0];
+                popup_8e5faf5864d84526568d4c096aa4b3d1.setContent(html_53001e4f1dca499fec3a49851d26a3f5);
+            
+        
+
+        marker_1daa568b1ce59c5ddd5fa8bb0eb7a528.bindPopup(popup_8e5faf5864d84526568d4c096aa4b3d1)
+        ;
+
+        
+    
+    
+                marker_1daa568b1ce59c5ddd5fa8bb0eb7a528.setIcon(icon_208d653688a6153151325f5959b083d9);
+            
+    
+            var poly_line_37d8faff20a217eb014403c595f6b212 = L.polyline(
+                [[38.47042019777542, 27.094171146578763], [38.46633717914724, 27.093648649814646]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var marker_3577fcb86d623e71fe1c4058d4e67e4f = L.marker(
+                [38.47042019777542, 27.094171146578763],
+                {
+}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var icon_f92fdc1ed98d1a08500b7c2b7a4fbb7c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkpurple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d6bb88b02430a6e13b42a4cfd0c1d214 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e529a238260fe1931ccb4edaed5694a4 = $(`<div id="html_e529a238260fe1931ccb4edaed5694a4" style="width: 100.0%; height: 100.0%;">Arya Kitap Kafe</div>`)[0];
+                popup_d6bb88b02430a6e13b42a4cfd0c1d214.setContent(html_e529a238260fe1931ccb4edaed5694a4);
+            
+        
+
+        marker_3577fcb86d623e71fe1c4058d4e67e4f.bindPopup(popup_d6bb88b02430a6e13b42a4cfd0c1d214)
+        ;
+
+        
+    
+    
+                marker_3577fcb86d623e71fe1c4058d4e67e4f.setIcon(icon_f92fdc1ed98d1a08500b7c2b7a4fbb7c);
+            
+    
+            var poly_line_018ce83d9026710175ac4956754ac767 = L.polyline(
+                [[38.45688726956754, 27.120839156411826], [38.46011256768126, 27.115417085036533]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var marker_26a00e3c37b125495a724011db76146b = L.marker(
+                [38.45688726956754, 27.120839156411826],
+                {
+}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var icon_666e1392b64b1a6ac5adebd793d2c1f4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkpurple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6532c893ffb633aa7df3fe6f788db034 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f7ba59a4c131dd10f8bf4516df32ee0e = $(`<div id="html_f7ba59a4c131dd10f8bf4516df32ee0e" style="width: 100.0%; height: 100.0%;">Çocuk Kütüphanesi</div>`)[0];
+                popup_6532c893ffb633aa7df3fe6f788db034.setContent(html_f7ba59a4c131dd10f8bf4516df32ee0e);
+            
+        
+
+        marker_26a00e3c37b125495a724011db76146b.bindPopup(popup_6532c893ffb633aa7df3fe6f788db034)
+        ;
+
+        
+    
+    
+                marker_26a00e3c37b125495a724011db76146b.setIcon(icon_666e1392b64b1a6ac5adebd793d2c1f4);
+            
+    
+            var poly_line_48f85a1bb4d2560407e7aabd6482a1f2 = L.polyline(
+                [[38.45609984651498, 27.119742197921617], [38.46011256768126, 27.115417085036533]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var marker_d7fe05e5915de27866755bf48b27be4f = L.marker(
+                [38.45609984651498, 27.119742197921617],
+                {
+}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var icon_1fba4475e5035bccd2032332cb0b8432 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkpurple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_32a9868e5fa3bad77a96a2bd87f4fdd1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0f55e81971ff2973689b32864d904e6d = $(`<div id="html_0f55e81971ff2973689b32864d904e6d" style="width: 100.0%; height: 100.0%;">Karşıyaka İlçe Halk Kütüphanesi</div>`)[0];
+                popup_32a9868e5fa3bad77a96a2bd87f4fdd1.setContent(html_0f55e81971ff2973689b32864d904e6d);
+            
+        
+
+        marker_d7fe05e5915de27866755bf48b27be4f.bindPopup(popup_32a9868e5fa3bad77a96a2bd87f4fdd1)
+        ;
+
+        
+    
+    
+                marker_d7fe05e5915de27866755bf48b27be4f.setIcon(icon_1fba4475e5035bccd2032332cb0b8432);
+            
+    
+            var poly_line_5fa65cb17e4457a7ba686e38741d6233 = L.polyline(
+                [[38.45776852409012, 27.116113760477745], [38.46011256768126, 27.115417085036533]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var marker_312639d66e5431b8e559ac9e00fb6311 = L.marker(
+                [38.45776852409012, 27.116113760477745],
+                {
+}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var icon_5e31cc66a3430ccbfb7fb03e7908ccf7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkpurple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7898a20df4086071447982ee51d92b99 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_91f2f284eb380d82404f566b657d4ca7 = $(`<div id="html_91f2f284eb380d82404f566b657d4ca7" style="width: 100.0%; height: 100.0%;">Hoca mithat ilçe halk kütüphanesi</div>`)[0];
+                popup_7898a20df4086071447982ee51d92b99.setContent(html_91f2f284eb380d82404f566b657d4ca7);
+            
+        
+
+        marker_312639d66e5431b8e559ac9e00fb6311.bindPopup(popup_7898a20df4086071447982ee51d92b99)
+        ;
+
+        
+    
+    
+                marker_312639d66e5431b8e559ac9e00fb6311.setIcon(icon_5e31cc66a3430ccbfb7fb03e7908ccf7);
+            
+    
+            var poly_line_47cce8614362912a6fd7ede7e180d0c4 = L.polyline(
+                [[38.45609984651498, 27.119742197921617], [38.46011256768126, 27.115417085036533]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var marker_abdd68225fa38f85b57c2141ec026d27 = L.marker(
+                [38.45609984651498, 27.119742197921617],
+                {
+}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var icon_ac6afa1abb529447245698f36be4b6b8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkpurple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a41a2167d29fd802db82aa88917c996c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cd1683e70a2501c76337e31e827e686a = $(`<div id="html_cd1683e70a2501c76337e31e827e686a" style="width: 100.0%; height: 100.0%;">Karşıyaka İlçe Halk Kütüphanesi</div>`)[0];
+                popup_a41a2167d29fd802db82aa88917c996c.setContent(html_cd1683e70a2501c76337e31e827e686a);
+            
+        
+
+        marker_abdd68225fa38f85b57c2141ec026d27.bindPopup(popup_a41a2167d29fd802db82aa88917c996c)
+        ;
+
+        
+    
+    
+                marker_abdd68225fa38f85b57c2141ec026d27.setIcon(icon_ac6afa1abb529447245698f36be4b6b8);
+            
+    
+            var poly_line_015784463d7168fd7b502d652a75dac2 = L.polyline(
+                [[38.45609984651498, 27.119742197921617], [38.46011256768126, 27.115417085036533]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var marker_dd9c2ff64e0e77b3727e3e53d8df9b45 = L.marker(
+                [38.45609984651498, 27.119742197921617],
+                {
+}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var icon_4209efa35f54785fbab907dc5165d87e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkpurple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_474c13e5f7ddeb0de266a81fd511516e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_69277d84b6a03aa4210350fb8cb5e3b8 = $(`<div id="html_69277d84b6a03aa4210350fb8cb5e3b8" style="width: 100.0%; height: 100.0%;">Karşıyaka İlçe Halk Kütüphanesi</div>`)[0];
+                popup_474c13e5f7ddeb0de266a81fd511516e.setContent(html_69277d84b6a03aa4210350fb8cb5e3b8);
+            
+        
+
+        marker_dd9c2ff64e0e77b3727e3e53d8df9b45.bindPopup(popup_474c13e5f7ddeb0de266a81fd511516e)
+        ;
+
+        
+    
+    
+                marker_dd9c2ff64e0e77b3727e3e53d8df9b45.setIcon(icon_4209efa35f54785fbab907dc5165d87e);
+            
+    
+            var poly_line_154f3cd99ca98b7e0b349bf2725a9b2b = L.polyline(
+                [[38.48122980428607, 27.074807741639926], [38.4775364281659, 27.073268166249825]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var marker_6c02fdf68afbcc0a6abf2c0b4784411d = L.marker(
+                [38.48122980428607, 27.074807741639926],
+                {
+}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var icon_d5422f553016fc35444f96657341987b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0dc71d2d261a6c908a47707d2dd6a0f6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b6a1abbae94e8f735393845754186550 = $(`<div id="html_b6a1abbae94e8f735393845754186550" style="width: 100.0%; height: 100.0%;">Hilltown Alışveriş Merkezi (AVM)</div>`)[0];
+                popup_0dc71d2d261a6c908a47707d2dd6a0f6.setContent(html_b6a1abbae94e8f735393845754186550);
+            
+        
+
+        marker_6c02fdf68afbcc0a6abf2c0b4784411d.bindPopup(popup_0dc71d2d261a6c908a47707d2dd6a0f6)
+        ;
+
+        
+    
+    
+                marker_6c02fdf68afbcc0a6abf2c0b4784411d.setIcon(icon_d5422f553016fc35444f96657341987b);
+            
+    
+            var poly_line_856c5bb520ad5b0748e0fb73618cc253 = L.polyline(
+                [[38.47435063639515, 27.074578461466256], [38.4775364281659, 27.073268166249825]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var marker_3de50eba10c36f21e7b07f20346142b6 = L.marker(
+                [38.47435063639515, 27.074578461466256],
+                {
+}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var icon_5cd568560819312276c744e23b0dfaa9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3ea1850d3d7ac2c95d5d0959a399e066 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4911c80bcea971ffe70038d8bd953b74 = $(`<div id="html_4911c80bcea971ffe70038d8bd953b74" style="width: 100.0%; height: 100.0%;">MaviBahçe AVM</div>`)[0];
+                popup_3ea1850d3d7ac2c95d5d0959a399e066.setContent(html_4911c80bcea971ffe70038d8bd953b74);
+            
+        
+
+        marker_3de50eba10c36f21e7b07f20346142b6.bindPopup(popup_3ea1850d3d7ac2c95d5d0959a399e066)
+        ;
+
+        
+    
+    
+                marker_3de50eba10c36f21e7b07f20346142b6.setIcon(icon_5cd568560819312276c744e23b0dfaa9);
+            
+    
+            var poly_line_e78489ff10c8fae43970633b22c09649 = L.polyline(
+                [[38.48292765883805, 27.055914449120774], [38.4775364281659, 27.073268166249825]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var marker_053e66251860bc6bbeee72914c153638 = L.marker(
+                [38.48292765883805, 27.055914449120774],
+                {
+}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var icon_f5afb17a2bb481667e2ce1cf35f4edaf = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b14ed09dc6b57293faaa3a6c8c5eb25c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_72864248342aaacaedafde37d76fd404 = $(`<div id="html_72864248342aaacaedafde37d76fd404" style="width: 100.0%; height: 100.0%;">Çiğli AVM</div>`)[0];
+                popup_b14ed09dc6b57293faaa3a6c8c5eb25c.setContent(html_72864248342aaacaedafde37d76fd404);
+            
+        
+
+        marker_053e66251860bc6bbeee72914c153638.bindPopup(popup_b14ed09dc6b57293faaa3a6c8c5eb25c)
+        ;
+
+        
+    
+    
+                marker_053e66251860bc6bbeee72914c153638.setIcon(icon_f5afb17a2bb481667e2ce1cf35f4edaf);
+            
+    
+            var poly_line_24727dfd273b38b740f5056c38d933f8 = L.polyline(
+                [[38.45566198152952, 27.11964752129573], [38.46011256768126, 27.115417085036533]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var marker_12046e50877565b8cf21f4212d70d850 = L.marker(
+                [38.45566198152952, 27.11964752129573],
+                {
+}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var icon_884b3a5ef585953173cd31a9ef9bcdb8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c7402838e5e6909f2a1aab8b0254cb13 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_86bb228b2826df2a1ee721c6843635c5 = $(`<div id="html_86bb228b2826df2a1ee721c6843635c5" style="width: 100.0%; height: 100.0%;">Karşıyaka Çarşısı</div>`)[0];
+                popup_c7402838e5e6909f2a1aab8b0254cb13.setContent(html_86bb228b2826df2a1ee721c6843635c5);
+            
+        
+
+        marker_12046e50877565b8cf21f4212d70d850.bindPopup(popup_c7402838e5e6909f2a1aab8b0254cb13)
+        ;
+
+        
+    
+    
+                marker_12046e50877565b8cf21f4212d70d850.setIcon(icon_884b3a5ef585953173cd31a9ef9bcdb8);
+            
+    
+            var poly_line_83f0246e6c320904285bc612b82a4191 = L.polyline(
+                [[38.477425626152815, 27.06674084629651], [38.4775364281659, 27.073268166249825]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var marker_ad0cdc532dccab82de8787c6019f87f0 = L.marker(
+                [38.477425626152815, 27.06674084629651],
+                {
+}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var icon_b6f17265d0a52b2df403a2df984e9f91 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d63764b717b406d69b553954f9af2ee9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d4d85d9556574acb8439c3398c064d40 = $(`<div id="html_d4d85d9556574acb8439c3398c064d40" style="width: 100.0%; height: 100.0%;">Koçtaş</div>`)[0];
+                popup_d63764b717b406d69b553954f9af2ee9.setContent(html_d4d85d9556574acb8439c3398c064d40);
+            
+        
+
+        marker_ad0cdc532dccab82de8787c6019f87f0.bindPopup(popup_d63764b717b406d69b553954f9af2ee9)
+        ;
+
+        
+    
+    
+                marker_ad0cdc532dccab82de8787c6019f87f0.setIcon(icon_b6f17265d0a52b2df403a2df984e9f91);
+            
+    
+            var poly_line_b185a1047e34741047caa26eabde959b = L.polyline(
+                [[38.478797796364155, 27.081726652317208], [38.4775364281659, 27.073268166249825]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var marker_6a037b83dbe050c1e8212a6cf400c685 = L.marker(
+                [38.478797796364155, 27.081726652317208],
+                {
+}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var icon_2161064a22145cdc8a6796bcd286b093 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3ada631dcefe4f75623bd7e4aceadc49 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c11fb1e561a9c84e1b2fbcae92af1999 = $(`<div id="html_c11fb1e561a9c84e1b2fbcae92af1999" style="width: 100.0%; height: 100.0%;">Park Yasam Is Merkezi</div>`)[0];
+                popup_3ada631dcefe4f75623bd7e4aceadc49.setContent(html_c11fb1e561a9c84e1b2fbcae92af1999);
+            
+        
+
+        marker_6a037b83dbe050c1e8212a6cf400c685.bindPopup(popup_3ada631dcefe4f75623bd7e4aceadc49)
+        ;
+
+        
+    
+    
+                marker_6a037b83dbe050c1e8212a6cf400c685.setIcon(icon_2161064a22145cdc8a6796bcd286b093);
+            
+    
+            var poly_line_f1518c76b158696f4300f23aecf8a79d = L.polyline(
+                [[38.45295856503067, 27.097437741344073], [38.46633717914724, 27.093648649814646]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var marker_e92db0004b5badf7baf541a8ee8225d2 = L.marker(
+                [38.45295856503067, 27.097437741344073],
+                {
+}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var icon_b08221904dce5d84588c532ba4e7447d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9c31dedc11778ba190b852a146e870eb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e137c27d5ec95b17083d5b5d18383374 = $(`<div id="html_e137c27d5ec95b17083d5b5d18383374" style="width: 100.0%; height: 100.0%;">Bostanlı İskelesi</div>`)[0];
+                popup_9c31dedc11778ba190b852a146e870eb.setContent(html_e137c27d5ec95b17083d5b5d18383374);
+            
+        
+
+        marker_e92db0004b5badf7baf541a8ee8225d2.bindPopup(popup_9c31dedc11778ba190b852a146e870eb)
+        ;
+
+        
+    
+    
+                marker_e92db0004b5badf7baf541a8ee8225d2.setIcon(icon_b08221904dce5d84588c532ba4e7447d);
+            
+    
+            var poly_line_3c4ebbb7fdb7ef6a6001931177841a85 = L.polyline(
+                [[38.45520691341136, 27.120686858749604], [38.46011256768126, 27.115417085036533]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var marker_2475a4ff44705ccbc6c036c7c7ce3150 = L.marker(
+                [38.45520691341136, 27.120686858749604],
+                {
+}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var icon_6c5100d2e8e26cf1680487ec3fd9c4d4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_74378aa4aebef4b209c8e688bab48ca1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_67e9830cbc489d9dba41e1e83c2ddc3c = $(`<div id="html_67e9830cbc489d9dba41e1e83c2ddc3c" style="width: 100.0%; height: 100.0%;">Karşıyaka İskelesi</div>`)[0];
+                popup_74378aa4aebef4b209c8e688bab48ca1.setContent(html_67e9830cbc489d9dba41e1e83c2ddc3c);
+            
+        
+
+        marker_2475a4ff44705ccbc6c036c7c7ce3150.bindPopup(popup_74378aa4aebef4b209c8e688bab48ca1)
+        ;
+
+        
+    
+    
+                marker_2475a4ff44705ccbc6c036c7c7ce3150.setIcon(icon_6c5100d2e8e26cf1680487ec3fd9c4d4);
+            
+    
+            var poly_line_96940a679c09934afde0217d3829a6a7 = L.polyline(
+                [[38.46707876943459, 27.0792119551581], [38.4775364281659, 27.073268166249825]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var marker_02cc5a2109677932e89a4cac805a5fa1 = L.marker(
+                [38.46707876943459, 27.0792119551581],
+                {
+}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var icon_fb6d299579516a1d81c618df534a5ed7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightblue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_52e12ca7073db31e5fee99cfba73259d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a770a83520d145d0a1e20b43fd886324 = $(`<div id="html_a770a83520d145d0a1e20b43fd886324" style="width: 100.0%; height: 100.0%;">Mavişehir Balıkçı Barınağı & Çayevi</div>`)[0];
+                popup_52e12ca7073db31e5fee99cfba73259d.setContent(html_a770a83520d145d0a1e20b43fd886324);
+            
+        
+
+        marker_02cc5a2109677932e89a4cac805a5fa1.bindPopup(popup_52e12ca7073db31e5fee99cfba73259d)
+        ;
+
+        
+    
+    
+                marker_02cc5a2109677932e89a4cac805a5fa1.setIcon(icon_fb6d299579516a1d81c618df534a5ed7);
+            
+    
+            var poly_line_e53db5529cc25e0c5b958e797a724d9d = L.polyline(
+                [[38.45691997820512, 27.092018314512995], [38.46633717914724, 27.093648649814646]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var marker_b8a1a3466576803277bbae75c2b2d93b = L.marker(
+                [38.45691997820512, 27.092018314512995],
+                {
+}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var icon_153a2994a76c8414925ab98342fbe530 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "pink",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f422c70f45ffc3b3f1a124466654ef9c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3d54dec0bb0bbf01e8b93270f81c6bbc = $(`<div id="html_3d54dec0bb0bbf01e8b93270f81c6bbc" style="width: 100.0%; height: 100.0%;">Bostanlı Sahili</div>`)[0];
+                popup_f422c70f45ffc3b3f1a124466654ef9c.setContent(html_3d54dec0bb0bbf01e8b93270f81c6bbc);
+            
+        
+
+        marker_b8a1a3466576803277bbae75c2b2d93b.bindPopup(popup_f422c70f45ffc3b3f1a124466654ef9c)
+        ;
+
+        
+    
+    
+                marker_b8a1a3466576803277bbae75c2b2d93b.setIcon(icon_153a2994a76c8414925ab98342fbe530);
+            
+    
+            var poly_line_a1a255dd9f703b51297788ec25b3cd54 = L.polyline(
+                [[38.45332975216585, 27.117614781926935], [38.46011256768126, 27.115417085036533]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var marker_426e4c723fd97c5a8581f3c75a9c4221 = L.marker(
+                [38.45332975216585, 27.117614781926935],
+                {
+}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var icon_7a722fa08c677e577c73d0e19acc0a3d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "pink",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f131ed4c7bf99d9dba1c8fe5108224ee = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_91868c5838f689166bcbdfb0d95d8235 = $(`<div id="html_91868c5838f689166bcbdfb0d95d8235" style="width: 100.0%; height: 100.0%;">Karşıyaka Sahil</div>`)[0];
+                popup_f131ed4c7bf99d9dba1c8fe5108224ee.setContent(html_91868c5838f689166bcbdfb0d95d8235);
+            
+        
+
+        marker_426e4c723fd97c5a8581f3c75a9c4221.bindPopup(popup_f131ed4c7bf99d9dba1c8fe5108224ee)
+        ;
+
+        
+    
+    
+                marker_426e4c723fd97c5a8581f3c75a9c4221.setIcon(icon_7a722fa08c677e577c73d0e19acc0a3d);
+            
+    
+            var poly_line_8e9c55507c7ca433df2daa30e71d88f6 = L.polyline(
+                [[38.45513463863861, 27.09998034356864], [38.46633717914724, 27.093648649814646]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var marker_eb18943136d12ad55a2135b24669e617 = L.marker(
+                [38.45513463863861, 27.09998034356864],
+                {
+}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var icon_6f13f82d4a4e62226b0b7b03d9341d74 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "pink",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a2b14315bdb41e6a63d94d0338dc9476 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a0274282cbfd589e7b4c8d47cda5a05a = $(`<div id="html_a0274282cbfd589e7b4c8d47cda5a05a" style="width: 100.0%; height: 100.0%;">Suat Taşer Açık Hava Tiyatrosu</div>`)[0];
+                popup_a2b14315bdb41e6a63d94d0338dc9476.setContent(html_a0274282cbfd589e7b4c8d47cda5a05a);
+            
+        
+
+        marker_eb18943136d12ad55a2135b24669e617.bindPopup(popup_a2b14315bdb41e6a63d94d0338dc9476)
+        ;
+
+        
+    
+    
+                marker_eb18943136d12ad55a2135b24669e617.setIcon(icon_6f13f82d4a4e62226b0b7b03d9341d74);
+            
+    
+            var poly_line_e7c84d78f3e0628d12fd1cbe51cc4906 = L.polyline(
+                [[38.468553008910696, 27.08933878770079], [38.46633717914724, 27.093648649814646]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var marker_49306341b41034a0b59d0d076b3bd87d = L.marker(
+                [38.468553008910696, 27.08933878770079],
+                {
+}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var icon_1498fe18585a142862c09cee9fc0dcd2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "pink",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ea4faa4ab67020fdc7f58bf33d0d5fa4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d8e67966ff4ff1fddddc409ac3242528 = $(`<div id="html_d8e67966ff4ff1fddddc409ac3242528" style="width: 100.0%; height: 100.0%;">Karşıyaka Belediyesi Opera Ve Tiyatro Sahnesi</div>`)[0];
+                popup_ea4faa4ab67020fdc7f58bf33d0d5fa4.setContent(html_d8e67966ff4ff1fddddc409ac3242528);
+            
+        
+
+        marker_49306341b41034a0b59d0d076b3bd87d.bindPopup(popup_ea4faa4ab67020fdc7f58bf33d0d5fa4)
+        ;
+
+        
+    
+    
+                marker_49306341b41034a0b59d0d076b3bd87d.setIcon(icon_1498fe18585a142862c09cee9fc0dcd2);
+            
+    
+            var poly_line_a8cd0ac4eb4bd655aa180bdf7b6d334c = L.polyline(
+                [[38.46101458242327, 27.087761060664597], [38.46633717914724, 27.093648649814646]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var marker_c226c78c7f84d6d2de3fa050a586bb1d = L.marker(
+                [38.46101458242327, 27.087761060664597],
+                {
+}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var icon_6d6e79b818660b10b30ba86c0977a61e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkgreen",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_85de7fe71e55d603f1126d13251521ff = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f7e226ed9b6f1e68e834eaae9cf2d961 = $(`<div id="html_f7e226ed9b6f1e68e834eaae9cf2d961" style="width: 100.0%; height: 100.0%;">Bostanlı Pazar Yeri (Bospa)</div>`)[0];
+                popup_85de7fe71e55d603f1126d13251521ff.setContent(html_f7e226ed9b6f1e68e834eaae9cf2d961);
+            
+        
+
+        marker_c226c78c7f84d6d2de3fa050a586bb1d.bindPopup(popup_85de7fe71e55d603f1126d13251521ff)
+        ;
+
+        
+    
+    
+                marker_c226c78c7f84d6d2de3fa050a586bb1d.setIcon(icon_6d6e79b818660b10b30ba86c0977a61e);
+            
+    
+            var poly_line_9f2332127bf9425315ac10de4749b512 = L.polyline(
+                [[38.46101458242327, 27.087761060664597], [38.46633717914724, 27.093648649814646]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var marker_694d830b9e668eca6c14a5f0e4a2aa20 = L.marker(
+                [38.46101458242327, 27.087761060664597],
+                {
+}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var icon_3b93050dbf354f239aea0ac18e251482 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkgreen",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fd1f4ff32f5af98d66fc91edd335c552 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_45f7515bdd1c8e239f94654497f62179 = $(`<div id="html_45f7515bdd1c8e239f94654497f62179" style="width: 100.0%; height: 100.0%;">Yalı Mahallesi Pazar Yeri</div>`)[0];
+                popup_fd1f4ff32f5af98d66fc91edd335c552.setContent(html_45f7515bdd1c8e239f94654497f62179);
+            
+        
+
+        marker_694d830b9e668eca6c14a5f0e4a2aa20.bindPopup(popup_fd1f4ff32f5af98d66fc91edd335c552)
+        ;
+
+        
+    
+    
+                marker_694d830b9e668eca6c14a5f0e4a2aa20.setIcon(icon_3b93050dbf354f239aea0ac18e251482);
+            
+    
+            var poly_line_1a06da0020f77d4ea4151a59c6de442f = L.polyline(
+                [[38.46804354167932, 27.08021706083721], [38.4775364281659, 27.073268166249825]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var marker_3d62e262219422e4c205aab0d1e9a957 = L.marker(
+                [38.46804354167932, 27.08021706083721],
+                {
+}
+            ).addTo(map_3401b2c2fbceca7014743cd4ed7ce1c4);
+        
+    
+            var icon_219279cb8e2d6f4b4080674b5be9bc7d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "cadetblue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8e6d51ba9411b637b9c4f072d7624d26 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_56657b2367e09b4fe0a363bdeab8d1a9 = $(`<div id="html_56657b2367e09b4fe0a363bdeab8d1a9" style="width: 100.0%; height: 100.0%;">Mavişehir Sports International</div>`)[0];
+                popup_8e6d51ba9411b637b9c4f072d7624d26.setContent(html_56657b2367e09b4fe0a363bdeab8d1a9);
+            
+        
+
+        marker_3d62e262219422e4c205aab0d1e9a957.bindPopup(popup_8e6d51ba9411b637b9c4f072d7624d26)
+        ;
+
+        
+    
+    
+                marker_3d62e262219422e4c205aab0d1e9a957.setIcon(icon_219279cb8e2d6f4b4080674b5be9bc7d);
+            
+</script>
+</html>
