@@ -131,4 +131,5 @@ elif choice == "Lokasyon (Admin)":
         html = f.read()
     st.components.v1.html(html, height=600)
     st.markdown("**1. Mavişehir:** 300 müşteri, 210₺ ort. sipariş, 1500 yaya trafiği")
-    st.markdown("**2. Bostanlı:** 400 müşter
+    st.markdown("**2. Bostanlı:** 400 müşteri, 250₺ ort. sipariş, 2500 yaya trafiği")
+    st.markdown("**3. Karşıyaka:** 450 müşteri, 150₺ ort. sipariş, 3500 yaya trafiği")
