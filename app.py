@@ -102,7 +102,7 @@ elif choice == "Günlük Kâr Hesapla":
     emp = st.number_input("Çalışan Sayısı:", value=2)
     mkt = st.number_input("Pazarlama Harcaması (₺):", value=0)
     if st.button("Hesapla"):
-        inp = pd.DataFrame([{
+        inp = pd.DataFrame([{  
             "Number_of_Customers_Per_Day": num,
             "Average_Order_Value": avg_o,
             "Operating_Hours_Per_Day": hrs,
@@ -110,9 +110,13 @@ elif choice == "Günlük Kâr Hesapla":
             "Marketing_Spend_Per_Day": mkt,
             "Location_Foot_Traffic": foot
         }])
-        pred = model.predict(pd.DataFrame(scaler.transform(inp), columns=inp.columns))
-        profit = (pred[0] - emp*1000) * (hrs/10)
-        st.success(f"Tahmini Gelir: ₺{profit:.2f}")
+        try:
+            data_scaled = scaler.transform(inp)
+            preds = model.predict(pd.DataFrame(data_scaled, columns=inp.columns))
+            profit = (preds[0] - emp*1000) * (hrs/10)
+            st.success(f"Tahmini Gelir: ₺{profit:.2f}")
+        except Exception as e:
+            st.error(f"Gelir tahmini hesaplanırken hata oluştu: {e}") ₺{profit:.2f}")
 
 elif choice == "Lokasyon (Admin)":
     render_header(title="Optimal Lokasyonlar")
