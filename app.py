@@ -14,7 +14,11 @@ def load_models():
 
 @st.cache_data
 def load_transaction_data():
-    df = pd.read_csv("CoffeeShop2_updated.csv").drop(columns=["Unnamed: 0"], errors="ignore")
+    try:
+        df = pd.read_csv("CoffeeShop2_updated.csv").drop(columns=["Unnamed: 0"], errors="ignore")
+    except FileNotFoundError:
+        st.error("Veri dosyası bulunamadı: CoffeeShop2_updated.csv")
+        return pd.DataFrame()
     return df
 
 # Shared header without images
