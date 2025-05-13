@@ -1,0 +1,4486 @@
+order_id,item_name,item_id,item_cat,item_size
+1,Croissant,It015,Bakery,
+1,Cheesecake,It018,Bakery,
+2,Caramel Macchiato,It004,Drinks,Medium
+2,Tea,It019,Drinks,
+3,Apple Pie,It025,Bakery,
+3,Cappuccino,It001,Drinks,Medium
+3,Iced Americano,It009,Drinks,Medium
+4,Apple Pie,It025,Bakery,
+4,Cappuccino,It001,Drinks,Medium
+4,White Mocha,It007,Drinks,Medium
+4,Espresso,It005,Drinks,
+5,Mocha,It006,Drinks,Medium
+5,Toast,It014,Bakery,
+5,Cappuccino,It001,Drinks,Medium
+5,Donut,It024,Bakery,
+6,Tea,It019,Drinks,
+6,Cheesecake,It018,Bakery,
+7,Iced Tea,It011,Drinks,Medium
+7,Sandwich Salami&Mozzarella,It013,Bakery,
+7,Hot Chocolate,It008,Drinks,Medium
+7,Americano,It022,Drinks,Medium
+8,Hot Chocolate,It008,Drinks,Medium
+8,Caramel Macchiato,It004,Drinks,Medium
+8,White Mocha,It007,Drinks,Medium
+8,Flat White,It003,Drinks,
+9,Iced Tea,It011,Drinks,Medium
+9,Iced Latte,It010,Drinks,Medium
+9,Caramel Macchiato,It004,Drinks,Medium
+9,Sandwich Salami&Mozzarella,It013,Bakery,
+10,Carrot Cake,It026,Bakery,
+10,Flat White,It003,Drinks,
+11,Lemonade,It012,Drinks,Medium
+11,Croissant,It015,Bakery,
+11,Iced Mocha,It021,Drinks,Medium
+11,Cappuccino,It001,Drinks,Medium
+12,Toast,It014,Bakery,
+12,Americano,It022,Drinks,Medium
+13,Caramel Macchiato,It004,Drinks,Medium
+13,Hot Chocolate,It008,Drinks,Medium
+14,Tramisu,It023,Bakery,
+14,Apple Pie,It025,Bakery,
+14,Latte,It002,Drinks,Medium
+14,Carrot Cake,It026,Bakery,
+15,Iced Americano,It009,Drinks,Medium
+15,Croissant,It015,Bakery,
+15,White Mocha,It007,Drinks,Medium
+15,Sandwich Salami&Mozzarella,It013,Bakery,
+16,Latte,It002,Drinks,Medium
+16,Cookie,It017,Bakery,
+16,Tea,It019,Drinks,
+16,Caramel Macchiato,It004,Drinks,Medium
+17,Flat White,It003,Drinks,
+17,Toast,It014,Bakery,
+17,Carrot Cake,It026,Bakery,
+18,Cheesecake,It018,Bakery,
+18,Brownie,It016,Bakery,
+18,Carrot Cake,It026,Bakery,
+19,Cookie,It017,Bakery,
+19,White Mocha,It007,Drinks,Medium
+19,Toast,It014,Bakery,
+20,White Mocha,It007,Drinks,Medium
+20,Hot Chocolate,It008,Drinks,Medium
+21,Iced Latte,It010,Drinks,Medium
+21,Hot Chocolate,It008,Drinks,Medium
+22,Cheesecake,It018,Bakery,
+22,Carrot Cake,It026,Bakery,
+23,Herbal Tea,It020,Drinks,
+23,Espresso,It005,Drinks,
+24,Apple Pie,It025,Bakery,
+24,Toast,It014,Bakery,
+25,Cheesecake,It018,Bakery,
+25,Mocha,It006,Drinks,Medium
+26,Latte,It002,Drinks,Medium
+26,White Mocha,It007,Drinks,Medium
+26,Sandwich Salami&Mozzarella,It013,Bakery,
+27,Lemonade,It012,Drinks,Medium
+27,White Mocha,It007,Drinks,Medium
+27,Mocha,It006,Drinks,Medium
+27,Iced Latte,It010,Drinks,Medium
+28,Lemonade,It012,Drinks,Medium
+28,Brownie,It016,Bakery,
+29,Sandwich Salami&Mozzarella,It013,Bakery,
+29,Carrot Cake,It026,Bakery,
+29,Croissant,It015,Bakery,
+30,Carrot Cake,It026,Bakery,
+30,Brownie,It016,Bakery,
+30,Iced Latte,It010,Drinks,Medium
+30,Iced Tea,It011,Drinks,Medium
+31,White Mocha,It007,Drinks,Medium
+31,Tramisu,It023,Bakery,
+31,Carrot Cake,It026,Bakery,
+31,Iced Tea,It011,Drinks,Medium
+32,Cheesecake,It018,Bakery,
+32,Cookie,It017,Bakery,
+32,Tea,It019,Drinks,
+32,White Mocha,It007,Drinks,Medium
+33,Latte,It002,Drinks,Medium
+33,Cookie,It017,Bakery,
+33,Iced Latte,It010,Drinks,Medium
+33,Croissant,It015,Bakery,
+34,Espresso,It005,Drinks,
+34,Sandwich Salami&Mozzarella,It013,Bakery,
+34,Iced Tea,It011,Drinks,Medium
+34,Flat White,It003,Drinks,
+35,Americano,It022,Drinks,Medium
+35,Lemonade,It012,Drinks,Medium
+35,Iced Latte,It010,Drinks,Medium
+36,Donut,It024,Bakery,
+36,Carrot Cake,It026,Bakery,
+36,Cheesecake,It018,Bakery,
+36,Iced Americano,It009,Drinks,Medium
+37,Sandwich Salami&Mozzarella,It013,Bakery,
+37,Iced Americano,It009,Drinks,Medium
+37,Espresso,It005,Drinks,
+37,Cappuccino,It001,Drinks,Medium
+38,Iced Mocha,It021,Drinks,Medium
+38,Cheesecake,It018,Bakery,
+39,Herbal Tea,It020,Drinks,
+39,Cheesecake,It018,Bakery,
+40,Iced Tea,It011,Drinks,Medium
+40,Donut,It024,Bakery,
+40,Flat White,It003,Drinks,
+40,Tea,It019,Drinks,
+41,Donut,It024,Bakery,
+41,Sandwich Salami&Mozzarella,It013,Bakery,
+42,White Mocha,It007,Drinks,Medium
+42,Flat White,It003,Drinks,
+42,Caramel Macchiato,It004,Drinks,Medium
+43,Iced Tea,It011,Drinks,Medium
+43,Donut,It024,Bakery,
+43,Iced Americano,It009,Drinks,Medium
+43,Caramel Macchiato,It004,Drinks,Medium
+44,Cookie,It017,Bakery,
+44,Iced Americano,It009,Drinks,Medium
+44,Latte,It002,Drinks,Medium
+44,Flat White,It003,Drinks,
+45,Carrot Cake,It026,Bakery,
+45,Americano,It022,Drinks,Medium
+45,Apple Pie,It025,Bakery,
+46,Iced Latte,It010,Drinks,Medium
+46,Mocha,It006,Drinks,Medium
+46,Cheesecake,It018,Bakery,
+47,Latte,It002,Drinks,Medium
+47,Toast,It014,Bakery,
+47,Tea,It019,Drinks,
+48,Caramel Macchiato,It004,Drinks,Medium
+48,Herbal Tea,It020,Drinks,
+48,Iced Tea,It011,Drinks,Medium
+48,Tramisu,It023,Bakery,
+49,Cappuccino,It001,Drinks,Medium
+49,Toast,It014,Bakery,
+49,Iced Latte,It010,Drinks,Medium
+50,Herbal Tea,It020,Drinks,
+50,Mocha,It006,Drinks,Medium
+50,Americano,It022,Drinks,Medium
+51,Mocha,It006,Drinks,Medium
+51,Carrot Cake,It026,Bakery,
+51,Croissant,It015,Bakery,
+52,Sandwich Salami&Mozzarella,It013,Bakery,
+52,Americano,It022,Drinks,Medium
+53,Iced Americano,It009,Drinks,Medium
+53,Cheesecake,It018,Bakery,
+53,Americano,It022,Drinks,Medium
+54,Tea,It019,Drinks,
+54,Mocha,It006,Drinks,Medium
+54,Lemonade,It012,Drinks,Medium
+55,Cappuccino,It001,Drinks,Medium
+55,Caramel Macchiato,It004,Drinks,Medium
+55,Hot Chocolate,It008,Drinks,Medium
+56,Flat White,It003,Drinks,
+56,Americano,It022,Drinks,Medium
+56,Iced Latte,It010,Drinks,Medium
+57,Iced Americano,It009,Drinks,Medium
+57,Tea,It019,Drinks,
+57,Hot Chocolate,It008,Drinks,Medium
+58,Iced Tea,It011,Drinks,Medium
+58,Cheesecake,It018,Bakery,
+59,Cheesecake,It018,Bakery,
+59,Tea,It019,Drinks,
+60,Espresso,It005,Drinks,
+60,Latte,It002,Drinks,Medium
+60,Tea,It019,Drinks,
+61,Hot Chocolate,It008,Drinks,Medium
+61,Mocha,It006,Drinks,Medium
+61,Lemonade,It012,Drinks,Medium
+61,Herbal Tea,It020,Drinks,
+62,Herbal Tea,It020,Drinks,
+62,Espresso,It005,Drinks,
+63,White Mocha,It007,Drinks,Medium
+63,Iced Mocha,It021,Drinks,Medium
+63,Herbal Tea,It020,Drinks,
+63,Carrot Cake,It026,Bakery,
+64,Hot Chocolate,It008,Drinks,Medium
+64,Brownie,It016,Bakery,
+64,Lemonade,It012,Drinks,Medium
+64,White Mocha,It007,Drinks,Medium
+65,Flat White,It003,Drinks,
+65,Espresso,It005,Drinks,
+66,Donut,It024,Bakery,
+66,Brownie,It016,Bakery,
+67,Herbal Tea,It020,Drinks,
+67,Iced Americano,It009,Drinks,Medium
+68,Cookie,It017,Bakery,
+68,Iced Mocha,It021,Drinks,Medium
+69,Flat White,It003,Drinks,
+69,Latte,It002,Drinks,Medium
+69,Tea,It019,Drinks,
+70,White Mocha,It007,Drinks,Medium
+70,Tramisu,It023,Bakery,
+70,Espresso,It005,Drinks,
+71,Tea,It019,Drinks,
+71,Brownie,It016,Bakery,
+71,Flat White,It003,Drinks,
+71,Cookie,It017,Bakery,
+72,Cookie,It017,Bakery,
+72,Iced Mocha,It021,Drinks,Medium
+73,Herbal Tea,It020,Drinks,
+73,Latte,It002,Drinks,Medium
+73,Cheesecake,It018,Bakery,
+73,Cappuccino,It001,Drinks,Medium
+74,Mocha,It006,Drinks,Medium
+74,Americano,It022,Drinks,Medium
+74,Tea,It019,Drinks,
+75,Latte,It002,Drinks,Medium
+75,Tea,It019,Drinks,
+76,White Mocha,It007,Drinks,Medium
+76,Iced Americano,It009,Drinks,Medium
+76,Tea,It019,Drinks,
+76,Herbal Tea,It020,Drinks,
+77,Lemonade,It012,Drinks,Medium
+77,Sandwich Salami&Mozzarella,It013,Bakery,
+77,Donut,It024,Bakery,
+78,Carrot Cake,It026,Bakery,
+78,Espresso,It005,Drinks,
+78,White Mocha,It007,Drinks,Medium
+78,Hot Chocolate,It008,Drinks,Medium
+79,Mocha,It006,Drinks,Medium
+79,Iced Latte,It010,Drinks,Medium
+79,Donut,It024,Bakery,
+80,Flat White,It003,Drinks,
+80,Espresso,It005,Drinks,
+81,Brownie,It016,Bakery,
+81,White Mocha,It007,Drinks,Medium
+81,Carrot Cake,It026,Bakery,
+82,Caramel Macchiato,It004,Drinks,Medium
+82,Cheesecake,It018,Bakery,
+82,Toast,It014,Bakery,
+82,Americano,It022,Drinks,Medium
+83,Tea,It019,Drinks,
+83,Croissant,It015,Bakery,
+84,Flat White,It003,Drinks,
+84,Caramel Macchiato,It004,Drinks,Medium
+84,Iced Americano,It009,Drinks,Medium
+85,Flat White,It003,Drinks,
+85,Tramisu,It023,Bakery,
+85,Iced Americano,It009,Drinks,Medium
+85,Cookie,It017,Bakery,
+86,Donut,It024,Bakery,
+86,Carrot Cake,It026,Bakery,
+87,Hot Chocolate,It008,Drinks,Medium
+87,Cappuccino,It001,Drinks,Medium
+87,Iced Americano,It009,Drinks,Medium
+88,Donut,It024,Bakery,
+88,Iced Mocha,It021,Drinks,Medium
+88,Apple Pie,It025,Bakery,
+89,Iced Latte,It010,Drinks,Medium
+89,Tea,It019,Drinks,
+89,Lemonade,It012,Drinks,Medium
+89,Toast,It014,Bakery,
+90,Cheesecake,It018,Bakery,
+90,White Mocha,It007,Drinks,Medium
+90,Brownie,It016,Bakery,
+91,Lemonade,It012,Drinks,Medium
+91,Espresso,It005,Drinks,
+91,Iced Latte,It010,Drinks,Medium
+92,Iced Mocha,It021,Drinks,Medium
+92,Croissant,It015,Bakery,
+93,Carrot Cake,It026,Bakery,
+93,Iced Latte,It010,Drinks,Medium
+93,Apple Pie,It025,Bakery,
+93,Flat White,It003,Drinks,
+94,Sandwich Salami&Mozzarella,It013,Bakery,
+94,Croissant,It015,Bakery,
+94,Iced Latte,It010,Drinks,Medium
+94,Iced Mocha,It021,Drinks,Medium
+95,Lemonade,It012,Drinks,Medium
+95,Sandwich Salami&Mozzarella,It013,Bakery,
+95,Iced Americano,It009,Drinks,Medium
+95,Cheesecake,It018,Bakery,
+96,Iced Mocha,It021,Drinks,Medium
+96,Herbal Tea,It020,Drinks,
+96,Carrot Cake,It026,Bakery,
+97,Iced Americano,It009,Drinks,Medium
+97,Americano,It022,Drinks,Medium
+98,Iced Americano,It009,Drinks,Medium
+98,Espresso,It005,Drinks,
+98,Brownie,It016,Bakery,
+99,Espresso,It005,Drinks,
+99,Iced Tea,It011,Drinks,Medium
+99,Caramel Macchiato,It004,Drinks,Medium
+100,Apple Pie,It025,Bakery,
+100,White Mocha,It007,Drinks,Medium
+101,Donut,It024,Bakery,
+101,Iced Americano,It009,Drinks,Medium
+101,Apple Pie,It025,Bakery,
+101,Iced Mocha,It021,Drinks,Medium
+102,Donut,It024,Bakery,
+102,Mocha,It006,Drinks,Medium
+102,White Mocha,It007,Drinks,Medium
+103,Carrot Cake,It026,Bakery,
+103,Sandwich Salami&Mozzarella,It013,Bakery,
+104,Iced Mocha,It021,Drinks,Medium
+104,Tea,It019,Drinks,
+105,Croissant,It015,Bakery,
+105,Tea,It019,Drinks,
+105,Mocha,It006,Drinks,Medium
+105,Donut,It024,Bakery,
+106,Mocha,It006,Drinks,Medium
+106,Sandwich Salami&Mozzarella,It013,Bakery,
+107,Espresso,It005,Drinks,
+107,Cheesecake,It018,Bakery,
+107,Carrot Cake,It026,Bakery,
+107,Donut,It024,Bakery,
+108,Mocha,It006,Drinks,Medium
+108,Espresso,It005,Drinks,
+109,Iced Americano,It009,Drinks,Medium
+109,Cookie,It017,Bakery,
+109,Americano,It022,Drinks,Medium
+109,Donut,It024,Bakery,
+110,Americano,It022,Drinks,Medium
+110,Iced Tea,It011,Drinks,Medium
+110,Iced Americano,It009,Drinks,Medium
+110,Cappuccino,It001,Drinks,Medium
+111,Latte,It002,Drinks,Medium
+111,Cheesecake,It018,Bakery,
+111,Tramisu,It023,Bakery,
+111,Hot Chocolate,It008,Drinks,Medium
+112,Apple Pie,It025,Bakery,
+112,Carrot Cake,It026,Bakery,
+113,Cappuccino,It001,Drinks,Medium
+113,Lemonade,It012,Drinks,Medium
+114,Sandwich Salami&Mozzarella,It013,Bakery,
+114,Americano,It022,Drinks,Medium
+114,Carrot Cake,It026,Bakery,
+115,Sandwich Salami&Mozzarella,It013,Bakery,
+115,Carrot Cake,It026,Bakery,
+115,Cappuccino,It001,Drinks,Medium
+115,Mocha,It006,Drinks,Medium
+116,White Mocha,It007,Drinks,Medium
+116,Iced Latte,It010,Drinks,Medium
+117,Carrot Cake,It026,Bakery,
+117,Toast,It014,Bakery,
+117,Lemonade,It012,Drinks,Medium
+117,Tramisu,It023,Bakery,
+118,White Mocha,It007,Drinks,Medium
+118,Iced Americano,It009,Drinks,Medium
+118,Iced Latte,It010,Drinks,Medium
+119,Cookie,It017,Bakery,
+119,Iced Mocha,It021,Drinks,Medium
+119,Iced Tea,It011,Drinks,Medium
+120,Iced Latte,It010,Drinks,Medium
+120,Apple Pie,It025,Bakery,
+121,Iced Latte,It010,Drinks,Medium
+121,Espresso,It005,Drinks,
+122,Carrot Cake,It026,Bakery,
+122,Iced Tea,It011,Drinks,Medium
+123,Mocha,It006,Drinks,Medium
+123,Tea,It019,Drinks,
+123,Iced Latte,It010,Drinks,Medium
+123,Cappuccino,It001,Drinks,Medium
+124,Sandwich Salami&Mozzarella,It013,Bakery,
+124,Carrot Cake,It026,Bakery,
+124,Tramisu,It023,Bakery,
+125,Caramel Macchiato,It004,Drinks,Medium
+125,Iced Americano,It009,Drinks,Medium
+125,Espresso,It005,Drinks,
+126,Carrot Cake,It026,Bakery,
+126,Cheesecake,It018,Bakery,
+126,Flat White,It003,Drinks,
+127,Tramisu,It023,Bakery,
+127,Tea,It019,Drinks,
+128,Sandwich Salami&Mozzarella,It013,Bakery,
+128,Latte,It002,Drinks,Medium
+128,Lemonade,It012,Drinks,Medium
+128,Flat White,It003,Drinks,
+129,Herbal Tea,It020,Drinks,
+129,Sandwich Salami&Mozzarella,It013,Bakery,
+130,Cookie,It017,Bakery,
+130,Cappuccino,It001,Drinks,Medium
+130,Croissant,It015,Bakery,
+131,White Mocha,It007,Drinks,Medium
+131,Carrot Cake,It026,Bakery,
+131,Herbal Tea,It020,Drinks,
+131,Mocha,It006,Drinks,Medium
+132,Lemonade,It012,Drinks,Medium
+132,Toast,It014,Bakery,
+132,Herbal Tea,It020,Drinks,
+133,Flat White,It003,Drinks,
+133,Iced Americano,It009,Drinks,Medium
+134,Iced Americano,It009,Drinks,Medium
+134,Brownie,It016,Bakery,
+135,Cappuccino,It001,Drinks,Medium
+135,White Mocha,It007,Drinks,Medium
+135,Americano,It022,Drinks,Medium
+136,Mocha,It006,Drinks,Medium
+136,Carrot Cake,It026,Bakery,
+137,Toast,It014,Bakery,
+137,Donut,It024,Bakery,
+137,Iced Tea,It011,Drinks,Medium
+138,Iced Mocha,It021,Drinks,Medium
+138,Iced Tea,It011,Drinks,Medium
+139,Caramel Macchiato,It004,Drinks,Medium
+139,Tea,It019,Drinks,
+139,Croissant,It015,Bakery,
+140,Iced Americano,It009,Drinks,Medium
+140,Tramisu,It023,Bakery,
+141,Herbal Tea,It020,Drinks,
+141,Hot Chocolate,It008,Drinks,Medium
+141,Croissant,It015,Bakery,
+142,Sandwich Salami&Mozzarella,It013,Bakery,
+142,Americano,It022,Drinks,Medium
+143,Cappuccino,It001,Drinks,Medium
+143,Lemonade,It012,Drinks,Medium
+144,Tramisu,It023,Bakery,
+144,Flat White,It003,Drinks,
+144,Caramel Macchiato,It004,Drinks,Medium
+145,Americano,It022,Drinks,Medium
+145,Cheesecake,It018,Bakery,
+146,Carrot Cake,It026,Bakery,
+146,Flat White,It003,Drinks,
+146,Herbal Tea,It020,Drinks,
+147,Espresso,It005,Drinks,
+147,Latte,It002,Drinks,Medium
+148,Carrot Cake,It026,Bakery,
+148,Toast,It014,Bakery,
+148,Sandwich Salami&Mozzarella,It013,Bakery,
+148,Espresso,It005,Drinks,
+149,Iced Latte,It010,Drinks,Medium
+149,Lemonade,It012,Drinks,Medium
+149,Brownie,It016,Bakery,
+150,Lemonade,It012,Drinks,Medium
+150,Sandwich Salami&Mozzarella,It013,Bakery,
+150,Carrot Cake,It026,Bakery,
+150,Cappuccino,It001,Drinks,Medium
+151,Flat White,It003,Drinks,
+151,Cheesecake,It018,Bakery,
+152,Cookie,It017,Bakery,
+152,Iced Tea,It011,Drinks,Medium
+152,Lemonade,It012,Drinks,Medium
+152,Toast,It014,Bakery,
+153,Flat White,It003,Drinks,
+153,Herbal Tea,It020,Drinks,
+153,Caramel Macchiato,It004,Drinks,Medium
+153,White Mocha,It007,Drinks,Medium
+154,Iced Americano,It009,Drinks,Medium
+154,Caramel Macchiato,It004,Drinks,Medium
+154,Herbal Tea,It020,Drinks,
+154,Mocha,It006,Drinks,Medium
+155,Cheesecake,It018,Bakery,
+155,Brownie,It016,Bakery,
+155,Iced Latte,It010,Drinks,Medium
+156,Latte,It002,Drinks,Medium
+156,Iced Latte,It010,Drinks,Medium
+156,Herbal Tea,It020,Drinks,
+156,Sandwich Salami&Mozzarella,It013,Bakery,
+157,Donut,It024,Bakery,
+157,Flat White,It003,Drinks,
+157,Americano,It022,Drinks,Medium
+158,Mocha,It006,Drinks,Medium
+158,Hot Chocolate,It008,Drinks,Medium
+158,Carrot Cake,It026,Bakery,
+159,Iced Americano,It009,Drinks,Medium
+159,Iced Tea,It011,Drinks,Medium
+159,Caramel Macchiato,It004,Drinks,Medium
+159,Espresso,It005,Drinks,
+160,Espresso,It005,Drinks,
+160,Lemonade,It012,Drinks,Medium
+161,Caramel Macchiato,It004,Drinks,Medium
+161,Sandwich Salami&Mozzarella,It013,Bakery,
+162,Hot Chocolate,It008,Drinks,Medium
+162,White Mocha,It007,Drinks,Medium
+162,Brownie,It016,Bakery,
+162,Sandwich Salami&Mozzarella,It013,Bakery,
+163,Mocha,It006,Drinks,Medium
+163,Iced Tea,It011,Drinks,Medium
+164,Brownie,It016,Bakery,
+164,Iced Tea,It011,Drinks,Medium
+164,Toast,It014,Bakery,
+165,Lemonade,It012,Drinks,Medium
+165,Caramel Macchiato,It004,Drinks,Medium
+165,White Mocha,It007,Drinks,Medium
+165,Brownie,It016,Bakery,
+166,Apple Pie,It025,Bakery,
+166,Iced Americano,It009,Drinks,Medium
+166,Donut,It024,Bakery,
+167,Sandwich Salami&Mozzarella,It013,Bakery,
+167,Brownie,It016,Bakery,
+168,Iced Latte,It010,Drinks,Medium
+168,Carrot Cake,It026,Bakery,
+169,Brownie,It016,Bakery,
+169,Iced Mocha,It021,Drinks,Medium
+169,Lemonade,It012,Drinks,Medium
+169,Caramel Macchiato,It004,Drinks,Medium
+170,Hot Chocolate,It008,Drinks,Medium
+170,Sandwich Salami&Mozzarella,It013,Bakery,
+170,Lemonade,It012,Drinks,Medium
+170,Cappuccino,It001,Drinks,Medium
+171,Apple Pie,It025,Bakery,
+171,Brownie,It016,Bakery,
+172,White Mocha,It007,Drinks,Medium
+172,Carrot Cake,It026,Bakery,
+172,Croissant,It015,Bakery,
+172,Lemonade,It012,Drinks,Medium
+173,Iced Americano,It009,Drinks,Medium
+173,Espresso,It005,Drinks,
+173,Iced Mocha,It021,Drinks,Medium
+174,Herbal Tea,It020,Drinks,
+174,Americano,It022,Drinks,Medium
+174,Tramisu,It023,Bakery,
+174,Caramel Macchiato,It004,Drinks,Medium
+175,Cappuccino,It001,Drinks,Medium
+175,Sandwich Salami&Mozzarella,It013,Bakery,
+175,Lemonade,It012,Drinks,Medium
+175,Iced Americano,It009,Drinks,Medium
+176,Cookie,It017,Bakery,
+176,Lemonade,It012,Drinks,Medium
+176,Donut,It024,Bakery,
+176,Apple Pie,It025,Bakery,
+177,Iced Latte,It010,Drinks,Medium
+177,Flat White,It003,Drinks,
+177,Cappuccino,It001,Drinks,Medium
+177,Iced Mocha,It021,Drinks,Medium
+178,Carrot Cake,It026,Bakery,
+178,Espresso,It005,Drinks,
+178,Americano,It022,Drinks,Medium
+179,Brownie,It016,Bakery,
+179,Caramel Macchiato,It004,Drinks,Medium
+180,Lemonade,It012,Drinks,Medium
+180,Latte,It002,Drinks,Medium
+181,Sandwich Salami&Mozzarella,It013,Bakery,
+181,Iced Americano,It009,Drinks,Medium
+182,Americano,It022,Drinks,Medium
+182,Toast,It014,Bakery,
+182,Cheesecake,It018,Bakery,
+183,Apple Pie,It025,Bakery,
+183,Iced Tea,It011,Drinks,Medium
+184,Flat White,It003,Drinks,
+184,Cookie,It017,Bakery,
+184,Carrot Cake,It026,Bakery,
+185,Toast,It014,Bakery,
+185,Americano,It022,Drinks,Medium
+185,Iced Americano,It009,Drinks,Medium
+186,Herbal Tea,It020,Drinks,
+186,Donut,It024,Bakery,
+186,Iced Latte,It010,Drinks,Medium
+187,Sandwich Salami&Mozzarella,It013,Bakery,
+187,Cookie,It017,Bakery,
+187,Iced Mocha,It021,Drinks,Medium
+187,Caramel Macchiato,It004,Drinks,Medium
+188,Mocha,It006,Drinks,Medium
+188,Croissant,It015,Bakery,
+189,Cappuccino,It001,Drinks,Medium
+189,Carrot Cake,It026,Bakery,
+190,Apple Pie,It025,Bakery,
+190,Iced Americano,It009,Drinks,Medium
+190,Cookie,It017,Bakery,
+190,Cheesecake,It018,Bakery,
+191,Latte,It002,Drinks,Medium
+191,Herbal Tea,It020,Drinks,
+192,Iced Latte,It010,Drinks,Medium
+192,Tea,It019,Drinks,
+192,Mocha,It006,Drinks,Medium
+192,Iced Tea,It011,Drinks,Medium
+193,White Mocha,It007,Drinks,Medium
+193,Flat White,It003,Drinks,
+193,Americano,It022,Drinks,Medium
+194,Croissant,It015,Bakery,
+194,Herbal Tea,It020,Drinks,
+195,Lemonade,It012,Drinks,Medium
+195,Cookie,It017,Bakery,
+196,Cappuccino,It001,Drinks,Medium
+196,Cookie,It017,Bakery,
+196,Tea,It019,Drinks,
+196,Flat White,It003,Drinks,
+197,Tramisu,It023,Bakery,
+197,Apple Pie,It025,Bakery,
+197,White Mocha,It007,Drinks,Medium
+198,Tea,It019,Drinks,
+198,Hot Chocolate,It008,Drinks,Medium
+198,Iced Americano,It009,Drinks,Medium
+198,Cheesecake,It018,Bakery,
+199,Sandwich Salami&Mozzarella,It013,Bakery,
+199,Iced Americano,It009,Drinks,Medium
+199,Herbal Tea,It020,Drinks,
+200,Caramel Macchiato,It004,Drinks,Medium
+200,Cheesecake,It018,Bakery,
+201,Iced Americano,It009,Drinks,Medium
+201,Cappuccino,It001,Drinks,Medium
+201,Iced Latte,It010,Drinks,Medium
+202,Apple Pie,It025,Bakery,
+202,Herbal Tea,It020,Drinks,
+202,Croissant,It015,Bakery,
+203,Iced Americano,It009,Drinks,Medium
+203,Carrot Cake,It026,Bakery,
+203,Cheesecake,It018,Bakery,
+203,Sandwich Salami&Mozzarella,It013,Bakery,
+204,Tea,It019,Drinks,
+204,Donut,It024,Bakery,
+204,Cappuccino,It001,Drinks,Medium
+204,Iced Americano,It009,Drinks,Medium
+205,Brownie,It016,Bakery,
+205,Latte,It002,Drinks,Medium
+206,Espresso,It005,Drinks,
+206,Cappuccino,It001,Drinks,Medium
+206,Tramisu,It023,Bakery,
+207,Iced Mocha,It021,Drinks,Medium
+207,Cheesecake,It018,Bakery,
+207,Iced Latte,It010,Drinks,Medium
+207,Hot Chocolate,It008,Drinks,Medium
+208,Cheesecake,It018,Bakery,
+208,Hot Chocolate,It008,Drinks,Medium
+208,Croissant,It015,Bakery,
+208,Tramisu,It023,Bakery,
+209,Carrot Cake,It026,Bakery,
+209,Americano,It022,Drinks,Medium
+209,Toast,It014,Bakery,
+210,Iced Tea,It011,Drinks,Medium
+210,Iced Mocha,It021,Drinks,Medium
+210,Espresso,It005,Drinks,
+210,Tramisu,It023,Bakery,
+211,Brownie,It016,Bakery,
+211,Donut,It024,Bakery,
+212,Iced Mocha,It021,Drinks,Medium
+212,Espresso,It005,Drinks,
+212,Brownie,It016,Bakery,
+213,Iced Tea,It011,Drinks,Medium
+213,Cappuccino,It001,Drinks,Medium
+214,Carrot Cake,It026,Bakery,
+214,Americano,It022,Drinks,Medium
+214,Cappuccino,It001,Drinks,Medium
+215,Croissant,It015,Bakery,
+215,Brownie,It016,Bakery,
+215,Flat White,It003,Drinks,
+216,Tramisu,It023,Bakery,
+216,Hot Chocolate,It008,Drinks,Medium
+216,Carrot Cake,It026,Bakery,
+216,Iced Mocha,It021,Drinks,Medium
+217,Latte,It002,Drinks,Medium
+217,Caramel Macchiato,It004,Drinks,Medium
+217,Donut,It024,Bakery,
+218,Tramisu,It023,Bakery,
+218,Cheesecake,It018,Bakery,
+218,Latte,It002,Drinks,Medium
+218,Flat White,It003,Drinks,
+219,Espresso,It005,Drinks,
+219,Apple Pie,It025,Bakery,
+220,Hot Chocolate,It008,Drinks,Medium
+220,Iced Americano,It009,Drinks,Medium
+220,Tramisu,It023,Bakery,
+220,White Mocha,It007,Drinks,Medium
+221,Americano,It022,Drinks,Medium
+221,Cookie,It017,Bakery,
+221,Espresso,It005,Drinks,
+221,Tramisu,It023,Bakery,
+222,Lemonade,It012,Drinks,Medium
+222,Cookie,It017,Bakery,
+222,Sandwich Salami&Mozzarella,It013,Bakery,
+222,White Mocha,It007,Drinks,Medium
+223,Sandwich Salami&Mozzarella,It013,Bakery,
+223,Latte,It002,Drinks,Medium
+223,Toast,It014,Bakery,
+223,Iced Mocha,It021,Drinks,Medium
+224,Tramisu,It023,Bakery,
+224,Toast,It014,Bakery,
+224,Iced Latte,It010,Drinks,Medium
+225,Croissant,It015,Bakery,
+225,Caramel Macchiato,It004,Drinks,Medium
+225,Tramisu,It023,Bakery,
+225,Iced Mocha,It021,Drinks,Medium
+226,Americano,It022,Drinks,Medium
+226,Tramisu,It023,Bakery,
+226,Espresso,It005,Drinks,
+226,Iced Latte,It010,Drinks,Medium
+227,Carrot Cake,It026,Bakery,
+227,Cappuccino,It001,Drinks,Medium
+227,Hot Chocolate,It008,Drinks,Medium
+227,Tea,It019,Drinks,
+228,Cappuccino,It001,Drinks,Medium
+228,Iced Americano,It009,Drinks,Medium
+228,Hot Chocolate,It008,Drinks,Medium
+228,Lemonade,It012,Drinks,Medium
+229,Mocha,It006,Drinks,Medium
+229,Americano,It022,Drinks,Medium
+230,Toast,It014,Bakery,
+230,White Mocha,It007,Drinks,Medium
+231,Croissant,It015,Bakery,
+231,Mocha,It006,Drinks,Medium
+231,Hot Chocolate,It008,Drinks,Medium
+231,Caramel Macchiato,It004,Drinks,Medium
+232,Tramisu,It023,Bakery,
+232,Sandwich Salami&Mozzarella,It013,Bakery,
+232,Latte,It002,Drinks,Medium
+233,Latte,It002,Drinks,Medium
+233,Cappuccino,It001,Drinks,Medium
+233,Iced Latte,It010,Drinks,Medium
+233,Iced Mocha,It021,Drinks,Medium
+234,Apple Pie,It025,Bakery,
+234,Sandwich Salami&Mozzarella,It013,Bakery,
+235,Croissant,It015,Bakery,
+235,Cookie,It017,Bakery,
+235,Tea,It019,Drinks,
+235,Herbal Tea,It020,Drinks,
+236,Cappuccino,It001,Drinks,Medium
+236,Flat White,It003,Drinks,
+236,Cheesecake,It018,Bakery,
+237,Tramisu,It023,Bakery,
+237,White Mocha,It007,Drinks,Medium
+237,Brownie,It016,Bakery,
+238,Sandwich Salami&Mozzarella,It013,Bakery,
+238,Latte,It002,Drinks,Medium
+238,Espresso,It005,Drinks,
+239,Caramel Macchiato,It004,Drinks,Medium
+239,Croissant,It015,Bakery,
+240,Lemonade,It012,Drinks,Medium
+240,Herbal Tea,It020,Drinks,
+240,Tramisu,It023,Bakery,
+241,Cookie,It017,Bakery,
+241,Brownie,It016,Bakery,
+241,Toast,It014,Bakery,
+241,Apple Pie,It025,Bakery,
+242,Tramisu,It023,Bakery,
+242,Cookie,It017,Bakery,
+242,Mocha,It006,Drinks,Medium
+242,Iced Tea,It011,Drinks,Medium
+243,Caramel Macchiato,It004,Drinks,Medium
+243,Croissant,It015,Bakery,
+243,Herbal Tea,It020,Drinks,
+244,Iced Americano,It009,Drinks,Medium
+244,Donut,It024,Bakery,
+244,Flat White,It003,Drinks,
+245,Sandwich Salami&Mozzarella,It013,Bakery,
+245,Latte,It002,Drinks,Medium
+245,Hot Chocolate,It008,Drinks,Medium
+245,Cappuccino,It001,Drinks,Medium
+246,Latte,It002,Drinks,Medium
+246,Toast,It014,Bakery,
+247,White Mocha,It007,Drinks,Medium
+247,Cappuccino,It001,Drinks,Medium
+248,White Mocha,It007,Drinks,Medium
+248,Carrot Cake,It026,Bakery,
+248,Iced Tea,It011,Drinks,Medium
+249,Caramel Macchiato,It004,Drinks,Medium
+249,Flat White,It003,Drinks,
+249,Brownie,It016,Bakery,
+250,Iced Americano,It009,Drinks,Medium
+250,Herbal Tea,It020,Drinks,
+250,Carrot Cake,It026,Bakery,
+251,Tea,It019,Drinks,
+251,Sandwich Salami&Mozzarella,It013,Bakery,
+252,Apple Pie,It025,Bakery,
+252,Flat White,It003,Drinks,
+252,Brownie,It016,Bakery,
+252,Tea,It019,Drinks,
+253,Caramel Macchiato,It004,Drinks,Medium
+253,Carrot Cake,It026,Bakery,
+253,Croissant,It015,Bakery,
+254,Cappuccino,It001,Drinks,Medium
+254,Latte,It002,Drinks,Medium
+254,Apple Pie,It025,Bakery,
+254,Tramisu,It023,Bakery,
+255,Mocha,It006,Drinks,Medium
+255,Herbal Tea,It020,Drinks,
+255,White Mocha,It007,Drinks,Medium
+256,Iced Latte,It010,Drinks,Medium
+256,Hot Chocolate,It008,Drinks,Medium
+256,Apple Pie,It025,Bakery,
+256,Iced Tea,It011,Drinks,Medium
+257,Lemonade,It012,Drinks,Medium
+257,Latte,It002,Drinks,Medium
+257,Croissant,It015,Bakery,
+258,Iced Tea,It011,Drinks,Medium
+258,Hot Chocolate,It008,Drinks,Medium
+258,Cheesecake,It018,Bakery,
+258,Iced Americano,It009,Drinks,Medium
+259,Tramisu,It023,Bakery,
+259,Donut,It024,Bakery,
+260,Flat White,It003,Drinks,
+260,Cappuccino,It001,Drinks,Medium
+260,Cookie,It017,Bakery,
+261,White Mocha,It007,Drinks,Medium
+261,Mocha,It006,Drinks,Medium
+262,Caramel Macchiato,It004,Drinks,Medium
+262,Tea,It019,Drinks,
+263,Americano,It022,Drinks,Medium
+263,Mocha,It006,Drinks,Medium
+263,Tramisu,It023,Bakery,
+264,Lemonade,It012,Drinks,Medium
+264,Caramel Macchiato,It004,Drinks,Medium
+264,Cappuccino,It001,Drinks,Medium
+264,Flat White,It003,Drinks,
+265,Iced Tea,It011,Drinks,Medium
+265,Iced Latte,It010,Drinks,Medium
+265,Tramisu,It023,Bakery,
+266,Cookie,It017,Bakery,
+266,Tea,It019,Drinks,
+267,Croissant,It015,Bakery,
+267,Iced Mocha,It021,Drinks,Medium
+267,Hot Chocolate,It008,Drinks,Medium
+267,Cappuccino,It001,Drinks,Medium
+268,Latte,It002,Drinks,Medium
+268,Hot Chocolate,It008,Drinks,Medium
+269,Herbal Tea,It020,Drinks,
+269,Donut,It024,Bakery,
+269,Cappuccino,It001,Drinks,Medium
+269,Iced Mocha,It021,Drinks,Medium
+270,Tea,It019,Drinks,
+270,Mocha,It006,Drinks,Medium
+270,Hot Chocolate,It008,Drinks,Medium
+270,Toast,It014,Bakery,
+271,Hot Chocolate,It008,Drinks,Medium
+271,Americano,It022,Drinks,Medium
+272,Croissant,It015,Bakery,
+272,Sandwich Salami&Mozzarella,It013,Bakery,
+273,Tramisu,It023,Bakery,
+273,Iced Latte,It010,Drinks,Medium
+274,Caramel Macchiato,It004,Drinks,Medium
+274,Sandwich Salami&Mozzarella,It013,Bakery,
+274,Espresso,It005,Drinks,
+274,Iced Latte,It010,Drinks,Medium
+275,White Mocha,It007,Drinks,Medium
+275,Herbal Tea,It020,Drinks,
+276,Tea,It019,Drinks,
+276,Flat White,It003,Drinks,
+277,Herbal Tea,It020,Drinks,
+277,Caramel Macchiato,It004,Drinks,Medium
+278,Cheesecake,It018,Bakery,
+278,Iced Latte,It010,Drinks,Medium
+279,Caramel Macchiato,It004,Drinks,Medium
+279,Lemonade,It012,Drinks,Medium
+280,Espresso,It005,Drinks,
+280,Cappuccino,It001,Drinks,Medium
+280,Tramisu,It023,Bakery,
+281,Latte,It002,Drinks,Medium
+281,Carrot Cake,It026,Bakery,
+281,Espresso,It005,Drinks,
+282,Tramisu,It023,Bakery,
+282,Croissant,It015,Bakery,
+282,Brownie,It016,Bakery,
+282,White Mocha,It007,Drinks,Medium
+283,Tea,It019,Drinks,
+283,Lemonade,It012,Drinks,Medium
+283,Hot Chocolate,It008,Drinks,Medium
+283,Iced Tea,It011,Drinks,Medium
+284,Mocha,It006,Drinks,Medium
+284,Flat White,It003,Drinks,
+284,Lemonade,It012,Drinks,Medium
+284,White Mocha,It007,Drinks,Medium
+285,Lemonade,It012,Drinks,Medium
+285,White Mocha,It007,Drinks,Medium
+286,Iced Americano,It009,Drinks,Medium
+286,Donut,It024,Bakery,
+286,Americano,It022,Drinks,Medium
+286,Iced Mocha,It021,Drinks,Medium
+287,Donut,It024,Bakery,
+287,Herbal Tea,It020,Drinks,
+288,Iced Tea,It011,Drinks,Medium
+288,Iced Latte,It010,Drinks,Medium
+288,Lemonade,It012,Drinks,Medium
+288,Cookie,It017,Bakery,
+289,Toast,It014,Bakery,
+289,Brownie,It016,Bakery,
+289,Cookie,It017,Bakery,
+289,Americano,It022,Drinks,Medium
+290,Americano,It022,Drinks,Medium
+290,Latte,It002,Drinks,Medium
+290,Sandwich Salami&Mozzarella,It013,Bakery,
+291,Iced Mocha,It021,Drinks,Medium
+291,Iced Tea,It011,Drinks,Medium
+291,Cookie,It017,Bakery,
+292,Flat White,It003,Drinks,
+292,Mocha,It006,Drinks,Medium
+293,Cappuccino,It001,Drinks,Medium
+293,Sandwich Salami&Mozzarella,It013,Bakery,
+293,Americano,It022,Drinks,Medium
+293,Tea,It019,Drinks,
+294,Cookie,It017,Bakery,
+294,Carrot Cake,It026,Bakery,
+294,Espresso,It005,Drinks,
+294,Tramisu,It023,Bakery,
+295,Mocha,It006,Drinks,Medium
+295,Espresso,It005,Drinks,
+296,Brownie,It016,Bakery,
+296,Latte,It002,Drinks,Medium
+296,Herbal Tea,It020,Drinks,
+296,Donut,It024,Bakery,
+297,Iced Mocha,It021,Drinks,Medium
+297,Americano,It022,Drinks,Medium
+297,Flat White,It003,Drinks,
+298,Cappuccino,It001,Drinks,Medium
+298,Tea,It019,Drinks,
+298,White Mocha,It007,Drinks,Medium
+299,Tramisu,It023,Bakery,
+299,Caramel Macchiato,It004,Drinks,Medium
+300,Sandwich Salami&Mozzarella,It013,Bakery,
+300,Tramisu,It023,Bakery,
+301,Iced Tea,It011,Drinks,Medium
+301,Iced Mocha,It021,Drinks,Medium
+302,Iced Mocha,It021,Drinks,Medium
+302,Tramisu,It023,Bakery,
+302,Donut,It024,Bakery,
+303,Flat White,It003,Drinks,
+303,Cappuccino,It001,Drinks,Medium
+303,Tea,It019,Drinks,
+303,Toast,It014,Bakery,
+304,Croissant,It015,Bakery,
+304,Lemonade,It012,Drinks,Medium
+304,Latte,It002,Drinks,Medium
+305,Brownie,It016,Bakery,
+305,Lemonade,It012,Drinks,Medium
+305,Hot Chocolate,It008,Drinks,Medium
+305,White Mocha,It007,Drinks,Medium
+306,Tea,It019,Drinks,
+306,Sandwich Salami&Mozzarella,It013,Bakery,
+307,Tea,It019,Drinks,
+307,White Mocha,It007,Drinks,Medium
+307,Caramel Macchiato,It004,Drinks,Medium
+308,Cappuccino,It001,Drinks,Medium
+308,Brownie,It016,Bakery,
+309,Cookie,It017,Bakery,
+309,Carrot Cake,It026,Bakery,
+309,Croissant,It015,Bakery,
+309,Hot Chocolate,It008,Drinks,Medium
+310,Apple Pie,It025,Bakery,
+310,Mocha,It006,Drinks,Medium
+310,Espresso,It005,Drinks,
+310,Cheesecake,It018,Bakery,
+311,Cookie,It017,Bakery,
+311,Iced Mocha,It021,Drinks,Medium
+311,Tramisu,It023,Bakery,
+312,Iced Latte,It010,Drinks,Medium
+312,Donut,It024,Bakery,
+313,Iced Tea,It011,Drinks,Medium
+313,Espresso,It005,Drinks,
+313,Tea,It019,Drinks,
+314,Iced Latte,It010,Drinks,Medium
+314,Brownie,It016,Bakery,
+315,Cappuccino,It001,Drinks,Medium
+315,Iced Latte,It010,Drinks,Medium
+316,Iced Mocha,It021,Drinks,Medium
+316,Tea,It019,Drinks,
+316,Cookie,It017,Bakery,
+316,Latte,It002,Drinks,Medium
+317,Lemonade,It012,Drinks,Medium
+317,Iced Latte,It010,Drinks,Medium
+317,Sandwich Salami&Mozzarella,It013,Bakery,
+317,Iced Tea,It011,Drinks,Medium
+318,Tramisu,It023,Bakery,
+318,Toast,It014,Bakery,
+318,Donut,It024,Bakery,
+319,Iced Latte,It010,Drinks,Medium
+319,White Mocha,It007,Drinks,Medium
+320,Iced Latte,It010,Drinks,Medium
+320,Iced Mocha,It021,Drinks,Medium
+320,Mocha,It006,Drinks,Medium
+321,Espresso,It005,Drinks,
+321,Americano,It022,Drinks,Medium
+321,Sandwich Salami&Mozzarella,It013,Bakery,
+322,Lemonade,It012,Drinks,Medium
+322,Caramel Macchiato,It004,Drinks,Medium
+322,Donut,It024,Bakery,
+322,Flat White,It003,Drinks,
+323,Tramisu,It023,Bakery,
+323,Americano,It022,Drinks,Medium
+323,Cheesecake,It018,Bakery,
+323,Brownie,It016,Bakery,
+324,Cappuccino,It001,Drinks,Medium
+324,Herbal Tea,It020,Drinks,
+324,Cheesecake,It018,Bakery,
+325,Americano,It022,Drinks,Medium
+325,Iced Latte,It010,Drinks,Medium
+326,Iced Tea,It011,Drinks,Medium
+326,Cookie,It017,Bakery,
+326,Tramisu,It023,Bakery,
+327,Cookie,It017,Bakery,
+327,Cheesecake,It018,Bakery,
+327,Herbal Tea,It020,Drinks,
+327,Sandwich Salami&Mozzarella,It013,Bakery,
+328,Espresso,It005,Drinks,
+328,Iced Americano,It009,Drinks,Medium
+328,Caramel Macchiato,It004,Drinks,Medium
+329,Iced Latte,It010,Drinks,Medium
+329,Mocha,It006,Drinks,Medium
+330,Iced Americano,It009,Drinks,Medium
+330,Cappuccino,It001,Drinks,Medium
+331,Caramel Macchiato,It004,Drinks,Medium
+331,Mocha,It006,Drinks,Medium
+331,Americano,It022,Drinks,Medium
+331,Cappuccino,It001,Drinks,Medium
+332,Tea,It019,Drinks,
+332,Cookie,It017,Bakery,
+333,Americano,It022,Drinks,Medium
+333,Iced Tea,It011,Drinks,Medium
+333,Brownie,It016,Bakery,
+333,Carrot Cake,It026,Bakery,
+334,Caramel Macchiato,It004,Drinks,Medium
+334,Tea,It019,Drinks,
+334,Herbal Tea,It020,Drinks,
+335,Croissant,It015,Bakery,
+335,Cookie,It017,Bakery,
+335,Latte,It002,Drinks,Medium
+335,Brownie,It016,Bakery,
+336,Brownie,It016,Bakery,
+336,Cappuccino,It001,Drinks,Medium
+336,Croissant,It015,Bakery,
+337,Tea,It019,Drinks,
+337,Iced Latte,It010,Drinks,Medium
+337,Iced Americano,It009,Drinks,Medium
+337,Toast,It014,Bakery,
+338,Iced Latte,It010,Drinks,Medium
+338,Flat White,It003,Drinks,
+339,Lemonade,It012,Drinks,Medium
+339,Espresso,It005,Drinks,
+339,Mocha,It006,Drinks,Medium
+339,Croissant,It015,Bakery,
+340,Donut,It024,Bakery,
+340,Latte,It002,Drinks,Medium
+340,Iced Tea,It011,Drinks,Medium
+340,Cheesecake,It018,Bakery,
+341,Apple Pie,It025,Bakery,
+341,Cookie,It017,Bakery,
+341,Cappuccino,It001,Drinks,Medium
+342,Americano,It022,Drinks,Medium
+342,Tea,It019,Drinks,
+342,Croissant,It015,Bakery,
+343,White Mocha,It007,Drinks,Medium
+343,Donut,It024,Bakery,
+344,Carrot Cake,It026,Bakery,
+344,Espresso,It005,Drinks,
+345,Brownie,It016,Bakery,
+345,Americano,It022,Drinks,Medium
+345,Toast,It014,Bakery,
+345,Mocha,It006,Drinks,Medium
+346,Cookie,It017,Bakery,
+346,Brownie,It016,Bakery,
+346,Donut,It024,Bakery,
+346,Hot Chocolate,It008,Drinks,Medium
+347,Mocha,It006,Drinks,Medium
+347,Cheesecake,It018,Bakery,
+348,Herbal Tea,It020,Drinks,
+348,Iced Americano,It009,Drinks,Medium
+348,Sandwich Salami&Mozzarella,It013,Bakery,
+348,Flat White,It003,Drinks,
+349,Apple Pie,It025,Bakery,
+349,Toast,It014,Bakery,
+350,Cappuccino,It001,Drinks,Medium
+350,Iced Mocha,It021,Drinks,Medium
+350,Iced Latte,It010,Drinks,Medium
+350,Mocha,It006,Drinks,Medium
+351,Carrot Cake,It026,Bakery,
+351,Iced Tea,It011,Drinks,Medium
+351,Mocha,It006,Drinks,Medium
+352,Herbal Tea,It020,Drinks,
+352,Caramel Macchiato,It004,Drinks,Medium
+352,Latte,It002,Drinks,Medium
+353,Tramisu,It023,Bakery,
+353,Donut,It024,Bakery,
+353,Carrot Cake,It026,Bakery,
+354,Hot Chocolate,It008,Drinks,Medium
+354,Caramel Macchiato,It004,Drinks,Medium
+355,Iced Mocha,It021,Drinks,Medium
+355,Herbal Tea,It020,Drinks,
+355,Cheesecake,It018,Bakery,
+356,White Mocha,It007,Drinks,Medium
+356,Flat White,It003,Drinks,
+357,Cheesecake,It018,Bakery,
+357,Toast,It014,Bakery,
+357,Cappuccino,It001,Drinks,Medium
+357,Flat White,It003,Drinks,
+358,Hot Chocolate,It008,Drinks,Medium
+358,White Mocha,It007,Drinks,Medium
+358,Espresso,It005,Drinks,
+358,Toast,It014,Bakery,
+359,Herbal Tea,It020,Drinks,
+359,White Mocha,It007,Drinks,Medium
+359,Croissant,It015,Bakery,
+360,Iced Americano,It009,Drinks,Medium
+360,Apple Pie,It025,Bakery,
+360,White Mocha,It007,Drinks,Medium
+360,Lemonade,It012,Drinks,Medium
+361,Americano,It022,Drinks,Medium
+361,Brownie,It016,Bakery,
+361,Latte,It002,Drinks,Medium
+361,Toast,It014,Bakery,
+362,Iced Americano,It009,Drinks,Medium
+362,Espresso,It005,Drinks,
+363,Americano,It022,Drinks,Medium
+363,Brownie,It016,Bakery,
+363,Hot Chocolate,It008,Drinks,Medium
+364,Iced Latte,It010,Drinks,Medium
+364,Mocha,It006,Drinks,Medium
+364,Herbal Tea,It020,Drinks,
+365,Mocha,It006,Drinks,Medium
+365,Herbal Tea,It020,Drinks,
+366,Flat White,It003,Drinks,
+366,Hot Chocolate,It008,Drinks,Medium
+366,Iced Mocha,It021,Drinks,Medium
+367,Apple Pie,It025,Bakery,
+367,Americano,It022,Drinks,Medium
+367,Cheesecake,It018,Bakery,
+367,Croissant,It015,Bakery,
+368,Iced Latte,It010,Drinks,Medium
+368,Caramel Macchiato,It004,Drinks,Medium
+368,Cookie,It017,Bakery,
+368,Tramisu,It023,Bakery,
+369,Cookie,It017,Bakery,
+369,Apple Pie,It025,Bakery,
+369,Cheesecake,It018,Bakery,
+370,Iced Latte,It010,Drinks,Medium
+370,Brownie,It016,Bakery,
+371,Americano,It022,Drinks,Medium
+371,Cookie,It017,Bakery,
+372,Herbal Tea,It020,Drinks,
+372,Americano,It022,Drinks,Medium
+372,Flat White,It003,Drinks,
+372,Iced Mocha,It021,Drinks,Medium
+373,Mocha,It006,Drinks,Medium
+373,Carrot Cake,It026,Bakery,
+373,Iced Mocha,It021,Drinks,Medium
+373,Lemonade,It012,Drinks,Medium
+374,Espresso,It005,Drinks,
+374,Flat White,It003,Drinks,
+374,Herbal Tea,It020,Drinks,
+375,Tea,It019,Drinks,
+375,Espresso,It005,Drinks,
+375,Lemonade,It012,Drinks,Medium
+376,Caramel Macchiato,It004,Drinks,Medium
+376,Brownie,It016,Bakery,
+376,Iced Tea,It011,Drinks,Medium
+376,Croissant,It015,Bakery,
+377,Iced Tea,It011,Drinks,Medium
+377,Mocha,It006,Drinks,Medium
+377,Cheesecake,It018,Bakery,
+377,Espresso,It005,Drinks,
+378,Brownie,It016,Bakery,
+378,Cappuccino,It001,Drinks,Medium
+378,Iced Tea,It011,Drinks,Medium
+379,Iced Americano,It009,Drinks,Medium
+379,Donut,It024,Bakery,
+379,Apple Pie,It025,Bakery,
+379,Croissant,It015,Bakery,
+380,Carrot Cake,It026,Bakery,
+380,Hot Chocolate,It008,Drinks,Medium
+380,Iced Americano,It009,Drinks,Medium
+381,Carrot Cake,It026,Bakery,
+381,Caramel Macchiato,It004,Drinks,Medium
+382,Tramisu,It023,Bakery,
+382,Espresso,It005,Drinks,
+383,Iced Mocha,It021,Drinks,Medium
+383,Herbal Tea,It020,Drinks,
+383,Brownie,It016,Bakery,
+383,Carrot Cake,It026,Bakery,
+384,Tea,It019,Drinks,
+384,Cookie,It017,Bakery,
+384,Flat White,It003,Drinks,
+384,Carrot Cake,It026,Bakery,
+385,Herbal Tea,It020,Drinks,
+385,Iced Mocha,It021,Drinks,Medium
+385,Mocha,It006,Drinks,Medium
+386,Sandwich Salami&Mozzarella,It013,Bakery,
+386,Espresso,It005,Drinks,
+386,Herbal Tea,It020,Drinks,
+387,Sandwich Salami&Mozzarella,It013,Bakery,
+387,Espresso,It005,Drinks,
+388,Espresso,It005,Drinks,
+388,Donut,It024,Bakery,
+388,Iced Latte,It010,Drinks,Medium
+388,Iced Tea,It011,Drinks,Medium
+389,Tea,It019,Drinks,
+389,Carrot Cake,It026,Bakery,
+390,Iced Americano,It009,Drinks,Medium
+390,Latte,It002,Drinks,Medium
+391,White Mocha,It007,Drinks,Medium
+391,Brownie,It016,Bakery,
+391,Hot Chocolate,It008,Drinks,Medium
+391,Mocha,It006,Drinks,Medium
+392,Croissant,It015,Bakery,
+392,Iced Tea,It011,Drinks,Medium
+393,Cheesecake,It018,Bakery,
+393,Donut,It024,Bakery,
+394,Cappuccino,It001,Drinks,Medium
+394,Donut,It024,Bakery,
+395,Mocha,It006,Drinks,Medium
+395,Donut,It024,Bakery,
+396,Iced Americano,It009,Drinks,Medium
+396,Apple Pie,It025,Bakery,
+396,Lemonade,It012,Drinks,Medium
+396,Americano,It022,Drinks,Medium
+397,Caramel Macchiato,It004,Drinks,Medium
+397,Herbal Tea,It020,Drinks,
+397,Mocha,It006,Drinks,Medium
+397,Sandwich Salami&Mozzarella,It013,Bakery,
+398,Donut,It024,Bakery,
+398,White Mocha,It007,Drinks,Medium
+398,Hot Chocolate,It008,Drinks,Medium
+398,Flat White,It003,Drinks,
+399,Iced Tea,It011,Drinks,Medium
+399,Iced Americano,It009,Drinks,Medium
+400,White Mocha,It007,Drinks,Medium
+400,Hot Chocolate,It008,Drinks,Medium
+400,Espresso,It005,Drinks,
+400,Flat White,It003,Drinks,
+401,Brownie,It016,Bakery,
+401,Cheesecake,It018,Bakery,
+401,Cappuccino,It001,Drinks,Medium
+402,Espresso,It005,Drinks,
+402,Cookie,It017,Bakery,
+403,Iced Americano,It009,Drinks,Medium
+403,Tramisu,It023,Bakery,
+404,Lemonade,It012,Drinks,Medium
+404,Hot Chocolate,It008,Drinks,Medium
+404,Sandwich Salami&Mozzarella,It013,Bakery,
+404,Apple Pie,It025,Bakery,
+405,Cheesecake,It018,Bakery,
+405,Apple Pie,It025,Bakery,
+405,Lemonade,It012,Drinks,Medium
+405,Espresso,It005,Drinks,
+406,Mocha,It006,Drinks,Medium
+406,Iced Americano,It009,Drinks,Medium
+406,Lemonade,It012,Drinks,Medium
+407,Iced Latte,It010,Drinks,Medium
+407,Latte,It002,Drinks,Medium
+407,Iced Mocha,It021,Drinks,Medium
+407,Cookie,It017,Bakery,
+408,Croissant,It015,Bakery,
+408,Toast,It014,Bakery,
+409,Lemonade,It012,Drinks,Medium
+409,Tramisu,It023,Bakery,
+410,Tramisu,It023,Bakery,
+410,Iced Latte,It010,Drinks,Medium
+410,Iced Mocha,It021,Drinks,Medium
+411,Sandwich Salami&Mozzarella,It013,Bakery,
+411,White Mocha,It007,Drinks,Medium
+411,Hot Chocolate,It008,Drinks,Medium
+411,Caramel Macchiato,It004,Drinks,Medium
+412,Donut,It024,Bakery,
+412,Latte,It002,Drinks,Medium
+412,Apple Pie,It025,Bakery,
+412,Croissant,It015,Bakery,
+413,Caramel Macchiato,It004,Drinks,Medium
+413,Tramisu,It023,Bakery,
+414,Brownie,It016,Bakery,
+414,White Mocha,It007,Drinks,Medium
+414,Caramel Macchiato,It004,Drinks,Medium
+415,Carrot Cake,It026,Bakery,
+415,Hot Chocolate,It008,Drinks,Medium
+415,Espresso,It005,Drinks,
+416,White Mocha,It007,Drinks,Medium
+416,Tea,It019,Drinks,
+416,Sandwich Salami&Mozzarella,It013,Bakery,
+417,Cappuccino,It001,Drinks,Medium
+417,Iced Americano,It009,Drinks,Medium
+418,Tramisu,It023,Bakery,
+418,Herbal Tea,It020,Drinks,
+418,Croissant,It015,Bakery,
+418,Iced Tea,It011,Drinks,Medium
+419,Caramel Macchiato,It004,Drinks,Medium
+419,Lemonade,It012,Drinks,Medium
+420,Iced Tea,It011,Drinks,Medium
+420,Iced Americano,It009,Drinks,Medium
+420,Latte,It002,Drinks,Medium
+421,Espresso,It005,Drinks,
+421,Sandwich Salami&Mozzarella,It013,Bakery,
+421,Mocha,It006,Drinks,Medium
+422,Mocha,It006,Drinks,Medium
+422,Flat White,It003,Drinks,
+423,Cookie,It017,Bakery,
+423,Brownie,It016,Bakery,
+424,Hot Chocolate,It008,Drinks,Medium
+424,Latte,It002,Drinks,Medium
+425,Caramel Macchiato,It004,Drinks,Medium
+425,Tramisu,It023,Bakery,
+425,Sandwich Salami&Mozzarella,It013,Bakery,
+425,Lemonade,It012,Drinks,Medium
+426,Caramel Macchiato,It004,Drinks,Medium
+426,Croissant,It015,Bakery,
+426,White Mocha,It007,Drinks,Medium
+427,Tea,It019,Drinks,
+427,Carrot Cake,It026,Bakery,
+427,Hot Chocolate,It008,Drinks,Medium
+428,Flat White,It003,Drinks,
+428,Tramisu,It023,Bakery,
+428,Brownie,It016,Bakery,
+428,Iced Tea,It011,Drinks,Medium
+429,Caramel Macchiato,It004,Drinks,Medium
+429,Cookie,It017,Bakery,
+429,Cappuccino,It001,Drinks,Medium
+429,Iced Latte,It010,Drinks,Medium
+430,Americano,It022,Drinks,Medium
+430,White Mocha,It007,Drinks,Medium
+430,Donut,It024,Bakery,
+431,Iced Americano,It009,Drinks,Medium
+431,Tramisu,It023,Bakery,
+431,Croissant,It015,Bakery,
+432,Iced Americano,It009,Drinks,Medium
+432,Flat White,It003,Drinks,
+432,Herbal Tea,It020,Drinks,
+432,Tramisu,It023,Bakery,
+433,Iced Tea,It011,Drinks,Medium
+433,Brownie,It016,Bakery,
+434,White Mocha,It007,Drinks,Medium
+434,Sandwich Salami&Mozzarella,It013,Bakery,
+434,Cookie,It017,Bakery,
+434,Iced Latte,It010,Drinks,Medium
+435,Apple Pie,It025,Bakery,
+435,Brownie,It016,Bakery,
+435,Flat White,It003,Drinks,
+436,Flat White,It003,Drinks,
+436,Cappuccino,It001,Drinks,Medium
+436,Cookie,It017,Bakery,
+437,Brownie,It016,Bakery,
+437,Caramel Macchiato,It004,Drinks,Medium
+437,Hot Chocolate,It008,Drinks,Medium
+438,Lemonade,It012,Drinks,Medium
+438,Cookie,It017,Bakery,
+438,Espresso,It005,Drinks,
+439,Apple Pie,It025,Bakery,
+439,Americano,It022,Drinks,Medium
+440,White Mocha,It007,Drinks,Medium
+440,Cookie,It017,Bakery,
+441,Carrot Cake,It026,Bakery,
+441,White Mocha,It007,Drinks,Medium
+441,Iced Mocha,It021,Drinks,Medium
+441,Cappuccino,It001,Drinks,Medium
+442,Tramisu,It023,Bakery,
+442,Iced Mocha,It021,Drinks,Medium
+443,Hot Chocolate,It008,Drinks,Medium
+443,Iced Americano,It009,Drinks,Medium
+444,Flat White,It003,Drinks,
+444,Americano,It022,Drinks,Medium
+444,Iced Latte,It010,Drinks,Medium
+444,Lemonade,It012,Drinks,Medium
+445,Cookie,It017,Bakery,
+445,Apple Pie,It025,Bakery,
+445,White Mocha,It007,Drinks,Medium
+446,Flat White,It003,Drinks,
+446,Mocha,It006,Drinks,Medium
+446,Americano,It022,Drinks,Medium
+447,Toast,It014,Bakery,
+447,Tramisu,It023,Bakery,
+447,Iced Americano,It009,Drinks,Medium
+447,Americano,It022,Drinks,Medium
+448,White Mocha,It007,Drinks,Medium
+448,Croissant,It015,Bakery,
+449,Apple Pie,It025,Bakery,
+449,Carrot Cake,It026,Bakery,
+450,Latte,It002,Drinks,Medium
+450,Iced Americano,It009,Drinks,Medium
+451,Lemonade,It012,Drinks,Medium
+451,Croissant,It015,Bakery,
+451,Iced Americano,It009,Drinks,Medium
+452,Donut,It024,Bakery,
+452,Cookie,It017,Bakery,
+452,Caramel Macchiato,It004,Drinks,Medium
+452,Iced Tea,It011,Drinks,Medium
+453,Espresso,It005,Drinks,
+453,Toast,It014,Bakery,
+453,Apple Pie,It025,Bakery,
+453,Brownie,It016,Bakery,
+454,Donut,It024,Bakery,
+454,Cheesecake,It018,Bakery,
+454,Cappuccino,It001,Drinks,Medium
+454,Iced Tea,It011,Drinks,Medium
+455,Apple Pie,It025,Bakery,
+455,Donut,It024,Bakery,
+455,Americano,It022,Drinks,Medium
+456,Caramel Macchiato,It004,Drinks,Medium
+456,Flat White,It003,Drinks,
+456,Cappuccino,It001,Drinks,Medium
+457,Tramisu,It023,Bakery,
+457,Iced Americano,It009,Drinks,Medium
+457,Caramel Macchiato,It004,Drinks,Medium
+458,Donut,It024,Bakery,
+458,Iced Tea,It011,Drinks,Medium
+458,Tramisu,It023,Bakery,
+458,Toast,It014,Bakery,
+459,Caramel Macchiato,It004,Drinks,Medium
+459,Tea,It019,Drinks,
+459,Cappuccino,It001,Drinks,Medium
+460,Iced Latte,It010,Drinks,Medium
+460,Latte,It002,Drinks,Medium
+460,Carrot Cake,It026,Bakery,
+461,Herbal Tea,It020,Drinks,
+461,Flat White,It003,Drinks,
+461,Brownie,It016,Bakery,
+462,Iced Mocha,It021,Drinks,Medium
+462,Carrot Cake,It026,Bakery,
+462,Latte,It002,Drinks,Medium
+462,Toast,It014,Bakery,
+463,Donut,It024,Bakery,
+463,Iced Tea,It011,Drinks,Medium
+463,Tea,It019,Drinks,
+464,Americano,It022,Drinks,Medium
+464,Iced Tea,It011,Drinks,Medium
+465,Iced Americano,It009,Drinks,Medium
+465,Caramel Macchiato,It004,Drinks,Medium
+465,White Mocha,It007,Drinks,Medium
+465,Herbal Tea,It020,Drinks,
+466,Americano,It022,Drinks,Medium
+466,Herbal Tea,It020,Drinks,
+466,Iced Americano,It009,Drinks,Medium
+467,Mocha,It006,Drinks,Medium
+467,Sandwich Salami&Mozzarella,It013,Bakery,
+467,Carrot Cake,It026,Bakery,
+467,Herbal Tea,It020,Drinks,
+468,Espresso,It005,Drinks,
+468,Americano,It022,Drinks,Medium
+468,Lemonade,It012,Drinks,Medium
+469,Tramisu,It023,Bakery,
+469,Cheesecake,It018,Bakery,
+470,Latte,It002,Drinks,Medium
+470,Iced Americano,It009,Drinks,Medium
+471,Iced Tea,It011,Drinks,Medium
+471,Americano,It022,Drinks,Medium
+472,Espresso,It005,Drinks,
+472,Caramel Macchiato,It004,Drinks,Medium
+472,Cappuccino,It001,Drinks,Medium
+473,Caramel Macchiato,It004,Drinks,Medium
+473,Toast,It014,Bakery,
+474,Tramisu,It023,Bakery,
+474,Brownie,It016,Bakery,
+475,Hot Chocolate,It008,Drinks,Medium
+475,Cappuccino,It001,Drinks,Medium
+476,Brownie,It016,Bakery,
+476,Cappuccino,It001,Drinks,Medium
+476,Latte,It002,Drinks,Medium
+477,Donut,It024,Bakery,
+477,Tramisu,It023,Bakery,
+477,Latte,It002,Drinks,Medium
+477,Tea,It019,Drinks,
+478,Brownie,It016,Bakery,
+478,Cheesecake,It018,Bakery,
+479,Iced Latte,It010,Drinks,Medium
+479,Donut,It024,Bakery,
+479,Flat White,It003,Drinks,
+480,Iced Americano,It009,Drinks,Medium
+480,Tea,It019,Drinks,
+480,Hot Chocolate,It008,Drinks,Medium
+481,Lemonade,It012,Drinks,Medium
+481,Espresso,It005,Drinks,
+481,Mocha,It006,Drinks,Medium
+481,Carrot Cake,It026,Bakery,
+482,Iced Tea,It011,Drinks,Medium
+482,Herbal Tea,It020,Drinks,
+483,Cappuccino,It001,Drinks,Medium
+483,Cookie,It017,Bakery,
+483,Brownie,It016,Bakery,
+484,Iced Americano,It009,Drinks,Medium
+484,Tea,It019,Drinks,
+484,Flat White,It003,Drinks,
+485,Hot Chocolate,It008,Drinks,Medium
+485,Espresso,It005,Drinks,
+485,Brownie,It016,Bakery,
+486,Donut,It024,Bakery,
+486,Cheesecake,It018,Bakery,
+487,Tramisu,It023,Bakery,
+487,Apple Pie,It025,Bakery,
+488,Cappuccino,It001,Drinks,Medium
+488,Mocha,It006,Drinks,Medium
+489,Tramisu,It023,Bakery,
+489,Latte,It002,Drinks,Medium
+489,Iced Americano,It009,Drinks,Medium
+490,Toast,It014,Bakery,
+490,Sandwich Salami&Mozzarella,It013,Bakery,
+490,Hot Chocolate,It008,Drinks,Medium
+490,Tea,It019,Drinks,
+491,Tramisu,It023,Bakery,
+491,Mocha,It006,Drinks,Medium
+491,Iced Tea,It011,Drinks,Medium
+491,Lemonade,It012,Drinks,Medium
+492,Latte,It002,Drinks,Medium
+492,Croissant,It015,Bakery,
+492,Espresso,It005,Drinks,
+493,Tea,It019,Drinks,
+493,Cookie,It017,Bakery,
+494,Cheesecake,It018,Bakery,
+494,Donut,It024,Bakery,
+495,Carrot Cake,It026,Bakery,
+495,Iced Latte,It010,Drinks,Medium
+495,Iced Americano,It009,Drinks,Medium
+496,Iced Latte,It010,Drinks,Medium
+496,Americano,It022,Drinks,Medium
+496,Iced Americano,It009,Drinks,Medium
+497,Toast,It014,Bakery,
+497,Caramel Macchiato,It004,Drinks,Medium
+497,Americano,It022,Drinks,Medium
+498,Flat White,It003,Drinks,
+498,Cookie,It017,Bakery,
+498,Lemonade,It012,Drinks,Medium
+498,Iced Mocha,It021,Drinks,Medium
+499,Sandwich Salami&Mozzarella,It013,Bakery,
+499,Flat White,It003,Drinks,
+500,Donut,It024,Bakery,
+500,Toast,It014,Bakery,
+500,Herbal Tea,It020,Drinks,
+500,Carrot Cake,It026,Bakery,
+501,Toast,It014,Bakery,
+501,Flat White,It003,Drinks,
+501,Cheesecake,It018,Bakery,
+502,Cookie,It017,Bakery,
+502,White Mocha,It007,Drinks,Medium
+502,Iced Latte,It010,Drinks,Medium
+503,Apple Pie,It025,Bakery,
+503,Cookie,It017,Bakery,
+503,Caramel Macchiato,It004,Drinks,Medium
+504,Apple Pie,It025,Bakery,
+504,White Mocha,It007,Drinks,Medium
+504,Cookie,It017,Bakery,
+504,Iced Mocha,It021,Drinks,Medium
+505,Americano,It022,Drinks,Medium
+505,Cappuccino,It001,Drinks,Medium
+505,Herbal Tea,It020,Drinks,
+505,Croissant,It015,Bakery,
+506,Cheesecake,It018,Bakery,
+506,Espresso,It005,Drinks,
+506,Cappuccino,It001,Drinks,Medium
+506,Latte,It002,Drinks,Medium
+507,Toast,It014,Bakery,
+507,Carrot Cake,It026,Bakery,
+508,Donut,It024,Bakery,
+508,Iced Americano,It009,Drinks,Medium
+509,Iced Mocha,It021,Drinks,Medium
+509,Toast,It014,Bakery,
+510,Mocha,It006,Drinks,Medium
+510,White Mocha,It007,Drinks,Medium
+510,Lemonade,It012,Drinks,Medium
+510,Caramel Macchiato,It004,Drinks,Medium
+511,Americano,It022,Drinks,Medium
+511,Cookie,It017,Bakery,
+511,Cheesecake,It018,Bakery,
+512,Croissant,It015,Bakery,
+512,Iced Americano,It009,Drinks,Medium
+512,Caramel Macchiato,It004,Drinks,Medium
+513,Herbal Tea,It020,Drinks,
+513,Sandwich Salami&Mozzarella,It013,Bakery,
+513,Iced Mocha,It021,Drinks,Medium
+513,Donut,It024,Bakery,
+514,Carrot Cake,It026,Bakery,
+514,Iced Americano,It009,Drinks,Medium
+515,Brownie,It016,Bakery,
+515,Sandwich Salami&Mozzarella,It013,Bakery,
+515,Iced Tea,It011,Drinks,Medium
+515,Apple Pie,It025,Bakery,
+516,Americano,It022,Drinks,Medium
+516,Toast,It014,Bakery,
+517,Iced Latte,It010,Drinks,Medium
+517,Mocha,It006,Drinks,Medium
+518,Apple Pie,It025,Bakery,
+518,Donut,It024,Bakery,
+518,Herbal Tea,It020,Drinks,
+518,Iced Americano,It009,Drinks,Medium
+519,Iced Mocha,It021,Drinks,Medium
+519,Tramisu,It023,Bakery,
+519,Iced Tea,It011,Drinks,Medium
+519,Toast,It014,Bakery,
+520,Herbal Tea,It020,Drinks,
+520,Cappuccino,It001,Drinks,Medium
+521,Espresso,It005,Drinks,
+521,Iced Mocha,It021,Drinks,Medium
+522,Flat White,It003,Drinks,
+522,Herbal Tea,It020,Drinks,
+522,Latte,It002,Drinks,Medium
+523,Iced Latte,It010,Drinks,Medium
+523,Americano,It022,Drinks,Medium
+523,Croissant,It015,Bakery,
+523,Donut,It024,Bakery,
+524,Sandwich Salami&Mozzarella,It013,Bakery,
+524,Espresso,It005,Drinks,
+524,White Mocha,It007,Drinks,Medium
+524,Hot Chocolate,It008,Drinks,Medium
+525,Hot Chocolate,It008,Drinks,Medium
+525,Brownie,It016,Bakery,
+525,White Mocha,It007,Drinks,Medium
+525,Apple Pie,It025,Bakery,
+526,Latte,It002,Drinks,Medium
+526,Hot Chocolate,It008,Drinks,Medium
+527,Americano,It022,Drinks,Medium
+527,Tramisu,It023,Bakery,
+527,Mocha,It006,Drinks,Medium
+527,White Mocha,It007,Drinks,Medium
+528,Tea,It019,Drinks,
+528,Iced Tea,It011,Drinks,Medium
+528,Hot Chocolate,It008,Drinks,Medium
+529,Croissant,It015,Bakery,
+529,Hot Chocolate,It008,Drinks,Medium
+529,Iced Mocha,It021,Drinks,Medium
+529,Iced Latte,It010,Drinks,Medium
+530,Mocha,It006,Drinks,Medium
+530,Tea,It019,Drinks,
+531,Brownie,It016,Bakery,
+531,Cookie,It017,Bakery,
+531,Iced Tea,It011,Drinks,Medium
+531,Mocha,It006,Drinks,Medium
+532,Hot Chocolate,It008,Drinks,Medium
+532,Cappuccino,It001,Drinks,Medium
+532,Iced Mocha,It021,Drinks,Medium
+533,Cappuccino,It001,Drinks,Medium
+533,Apple Pie,It025,Bakery,
+533,Iced Tea,It011,Drinks,Medium
+534,Lemonade,It012,Drinks,Medium
+534,Cookie,It017,Bakery,
+534,Iced Latte,It010,Drinks,Medium
+535,Tramisu,It023,Bakery,
+535,Iced Americano,It009,Drinks,Medium
+535,Donut,It024,Bakery,
+536,Iced Latte,It010,Drinks,Medium
+536,Croissant,It015,Bakery,
+536,Tramisu,It023,Bakery,
+537,White Mocha,It007,Drinks,Medium
+537,Iced Americano,It009,Drinks,Medium
+538,Iced Latte,It010,Drinks,Medium
+538,Tea,It019,Drinks,
+538,Lemonade,It012,Drinks,Medium
+538,Tramisu,It023,Bakery,
+539,Americano,It022,Drinks,Medium
+539,Apple Pie,It025,Bakery,
+540,Tramisu,It023,Bakery,
+540,Latte,It002,Drinks,Medium
+540,Sandwich Salami&Mozzarella,It013,Bakery,
+540,Brownie,It016,Bakery,
+541,Americano,It022,Drinks,Medium
+541,Carrot Cake,It026,Bakery,
+542,Latte,It002,Drinks,Medium
+542,Cheesecake,It018,Bakery,
+542,Americano,It022,Drinks,Medium
+542,Iced Tea,It011,Drinks,Medium
+543,Iced Americano,It009,Drinks,Medium
+543,Toast,It014,Bakery,
+543,Latte,It002,Drinks,Medium
+544,Tea,It019,Drinks,
+544,Sandwich Salami&Mozzarella,It013,Bakery,
+544,Flat White,It003,Drinks,
+544,White Mocha,It007,Drinks,Medium
+545,Brownie,It016,Bakery,
+545,Carrot Cake,It026,Bakery,
+546,Tramisu,It023,Bakery,
+546,Sandwich Salami&Mozzarella,It013,Bakery,
+546,Iced Tea,It011,Drinks,Medium
+546,Tea,It019,Drinks,
+547,Iced Latte,It010,Drinks,Medium
+547,Toast,It014,Bakery,
+548,Toast,It014,Bakery,
+548,Tea,It019,Drinks,
+548,Iced Tea,It011,Drinks,Medium
+548,Croissant,It015,Bakery,
+549,Brownie,It016,Bakery,
+549,Donut,It024,Bakery,
+549,Cappuccino,It001,Drinks,Medium
+550,Carrot Cake,It026,Bakery,
+550,Croissant,It015,Bakery,
+550,Mocha,It006,Drinks,Medium
+550,Cookie,It017,Bakery,
+551,Flat White,It003,Drinks,
+551,Herbal Tea,It020,Drinks,
+551,White Mocha,It007,Drinks,Medium
+552,Croissant,It015,Bakery,
+552,Americano,It022,Drinks,Medium
+553,Brownie,It016,Bakery,
+553,Donut,It024,Bakery,
+553,Sandwich Salami&Mozzarella,It013,Bakery,
+554,Toast,It014,Bakery,
+554,Donut,It024,Bakery,
+554,Cheesecake,It018,Bakery,
+554,Iced Mocha,It021,Drinks,Medium
+555,Mocha,It006,Drinks,Medium
+555,Herbal Tea,It020,Drinks,
+555,Caramel Macchiato,It004,Drinks,Medium
+555,Iced Americano,It009,Drinks,Medium
+556,Carrot Cake,It026,Bakery,
+556,Mocha,It006,Drinks,Medium
+556,Caramel Macchiato,It004,Drinks,Medium
+557,Carrot Cake,It026,Bakery,
+557,Latte,It002,Drinks,Medium
+557,Iced Mocha,It021,Drinks,Medium
+558,Latte,It002,Drinks,Medium
+558,Cookie,It017,Bakery,
+559,Herbal Tea,It020,Drinks,
+559,Apple Pie,It025,Bakery,
+560,Cookie,It017,Bakery,
+560,Herbal Tea,It020,Drinks,
+560,Tramisu,It023,Bakery,
+561,Flat White,It003,Drinks,
+561,Mocha,It006,Drinks,Medium
+561,Lemonade,It012,Drinks,Medium
+561,Espresso,It005,Drinks,
+562,Brownie,It016,Bakery,
+562,Tramisu,It023,Bakery,
+562,Caramel Macchiato,It004,Drinks,Medium
+562,Hot Chocolate,It008,Drinks,Medium
+563,Cheesecake,It018,Bakery,
+563,Latte,It002,Drinks,Medium
+563,Toast,It014,Bakery,
+563,Espresso,It005,Drinks,
+564,Sandwich Salami&Mozzarella,It013,Bakery,
+564,Lemonade,It012,Drinks,Medium
+565,Sandwich Salami&Mozzarella,It013,Bakery,
+565,Toast,It014,Bakery,
+565,Brownie,It016,Bakery,
+566,Iced Latte,It010,Drinks,Medium
+566,Iced Mocha,It021,Drinks,Medium
+566,Herbal Tea,It020,Drinks,
+566,Latte,It002,Drinks,Medium
+567,Iced Latte,It010,Drinks,Medium
+567,Carrot Cake,It026,Bakery,
+567,Apple Pie,It025,Bakery,
+568,Iced Latte,It010,Drinks,Medium
+568,Mocha,It006,Drinks,Medium
+568,Hot Chocolate,It008,Drinks,Medium
+569,Mocha,It006,Drinks,Medium
+569,Latte,It002,Drinks,Medium
+569,Iced Mocha,It021,Drinks,Medium
+569,Herbal Tea,It020,Drinks,
+570,Espresso,It005,Drinks,
+570,Carrot Cake,It026,Bakery,
+570,Apple Pie,It025,Bakery,
+570,Cheesecake,It018,Bakery,
+571,Hot Chocolate,It008,Drinks,Medium
+571,Toast,It014,Bakery,
+571,Croissant,It015,Bakery,
+572,Flat White,It003,Drinks,
+572,Caramel Macchiato,It004,Drinks,Medium
+572,Croissant,It015,Bakery,
+573,Mocha,It006,Drinks,Medium
+573,Apple Pie,It025,Bakery,
+573,Carrot Cake,It026,Bakery,
+573,Flat White,It003,Drinks,
+574,Hot Chocolate,It008,Drinks,Medium
+574,Tramisu,It023,Bakery,
+574,Donut,It024,Bakery,
+574,White Mocha,It007,Drinks,Medium
+575,Iced Tea,It011,Drinks,Medium
+575,Cheesecake,It018,Bakery,
+576,Brownie,It016,Bakery,
+576,Herbal Tea,It020,Drinks,
+577,Tramisu,It023,Bakery,
+577,Iced Americano,It009,Drinks,Medium
+577,Flat White,It003,Drinks,
+578,White Mocha,It007,Drinks,Medium
+578,Tea,It019,Drinks,
+578,Cookie,It017,Bakery,
+579,Tea,It019,Drinks,
+579,Tramisu,It023,Bakery,
+579,Caramel Macchiato,It004,Drinks,Medium
+579,Espresso,It005,Drinks,
+580,Iced Americano,It009,Drinks,Medium
+580,White Mocha,It007,Drinks,Medium
+580,Espresso,It005,Drinks,
+580,Iced Tea,It011,Drinks,Medium
+581,Iced Americano,It009,Drinks,Medium
+581,Espresso,It005,Drinks,
+582,Americano,It022,Drinks,Medium
+582,Brownie,It016,Bakery,
+582,Cheesecake,It018,Bakery,
+583,Toast,It014,Bakery,
+583,Hot Chocolate,It008,Drinks,Medium
+583,Espresso,It005,Drinks,
+584,Iced Latte,It010,Drinks,Medium
+584,Donut,It024,Bakery,
+584,Caramel Macchiato,It004,Drinks,Medium
+585,Cheesecake,It018,Bakery,
+585,Hot Chocolate,It008,Drinks,Medium
+586,Donut,It024,Bakery,
+586,Hot Chocolate,It008,Drinks,Medium
+587,Carrot Cake,It026,Bakery,
+587,Tramisu,It023,Bakery,
+587,Tea,It019,Drinks,
+588,Toast,It014,Bakery,
+588,Lemonade,It012,Drinks,Medium
+588,Cookie,It017,Bakery,
+589,Croissant,It015,Bakery,
+589,Cappuccino,It001,Drinks,Medium
+590,Caramel Macchiato,It004,Drinks,Medium
+590,Iced Americano,It009,Drinks,Medium
+590,Tea,It019,Drinks,
+591,Donut,It024,Bakery,
+591,Flat White,It003,Drinks,
+591,Iced Mocha,It021,Drinks,Medium
+592,Lemonade,It012,Drinks,Medium
+592,Iced Tea,It011,Drinks,Medium
+593,Herbal Tea,It020,Drinks,
+593,Americano,It022,Drinks,Medium
+594,Tramisu,It023,Bakery,
+594,Caramel Macchiato,It004,Drinks,Medium
+595,Apple Pie,It025,Bakery,
+595,Mocha,It006,Drinks,Medium
+595,Iced Americano,It009,Drinks,Medium
+596,Latte,It002,Drinks,Medium
+596,Iced Americano,It009,Drinks,Medium
+596,Iced Tea,It011,Drinks,Medium
+596,Herbal Tea,It020,Drinks,
+597,Cheesecake,It018,Bakery,
+597,Mocha,It006,Drinks,Medium
+597,Iced Latte,It010,Drinks,Medium
+597,Cappuccino,It001,Drinks,Medium
+598,Espresso,It005,Drinks,
+598,Brownie,It016,Bakery,
+599,Toast,It014,Bakery,
+599,Apple Pie,It025,Bakery,
+600,Latte,It002,Drinks,Medium
+600,Toast,It014,Bakery,
+600,Hot Chocolate,It008,Drinks,Medium
+601,Iced Americano,It009,Drinks,Medium
+601,Toast,It014,Bakery,
+601,Espresso,It005,Drinks,
+602,Tramisu,It023,Bakery,
+602,Carrot Cake,It026,Bakery,
+602,Toast,It014,Bakery,
+602,Iced Tea,It011,Drinks,Medium
+603,Caramel Macchiato,It004,Drinks,Medium
+603,Croissant,It015,Bakery,
+603,Brownie,It016,Bakery,
+603,Mocha,It006,Drinks,Medium
+604,Carrot Cake,It026,Bakery,
+604,Flat White,It003,Drinks,
+604,Tramisu,It023,Bakery,
+604,Croissant,It015,Bakery,
+605,Cheesecake,It018,Bakery,
+605,Toast,It014,Bakery,
+606,Espresso,It005,Drinks,
+606,Latte,It002,Drinks,Medium
+606,Cappuccino,It001,Drinks,Medium
+607,Tea,It019,Drinks,
+607,Iced Tea,It011,Drinks,Medium
+607,Flat White,It003,Drinks,
+608,Apple Pie,It025,Bakery,
+608,Herbal Tea,It020,Drinks,
+609,Tea,It019,Drinks,
+609,Cappuccino,It001,Drinks,Medium
+610,Cookie,It017,Bakery,
+610,Donut,It024,Bakery,
+611,Carrot Cake,It026,Bakery,
+611,Cappuccino,It001,Drinks,Medium
+611,Latte,It002,Drinks,Medium
+611,Donut,It024,Bakery,
+612,Sandwich Salami&Mozzarella,It013,Bakery,
+612,Iced Mocha,It021,Drinks,Medium
+612,Latte,It002,Drinks,Medium
+612,Mocha,It006,Drinks,Medium
+613,Carrot Cake,It026,Bakery,
+613,Lemonade,It012,Drinks,Medium
+613,Iced Mocha,It021,Drinks,Medium
+613,Espresso,It005,Drinks,
+614,Hot Chocolate,It008,Drinks,Medium
+614,Croissant,It015,Bakery,
+615,Cookie,It017,Bakery,
+615,Mocha,It006,Drinks,Medium
+615,Iced Latte,It010,Drinks,Medium
+616,Cappuccino,It001,Drinks,Medium
+616,Tramisu,It023,Bakery,
+616,Apple Pie,It025,Bakery,
+617,Apple Pie,It025,Bakery,
+617,Iced Americano,It009,Drinks,Medium
+617,Cappuccino,It001,Drinks,Medium
+617,Caramel Macchiato,It004,Drinks,Medium
+618,Sandwich Salami&Mozzarella,It013,Bakery,
+618,Iced Americano,It009,Drinks,Medium
+619,Cookie,It017,Bakery,
+619,Donut,It024,Bakery,
+619,Brownie,It016,Bakery,
+620,Iced Americano,It009,Drinks,Medium
+620,Latte,It002,Drinks,Medium
+621,Hot Chocolate,It008,Drinks,Medium
+621,Carrot Cake,It026,Bakery,
+621,Tea,It019,Drinks,
+621,Sandwich Salami&Mozzarella,It013,Bakery,
+622,Espresso,It005,Drinks,
+622,Tea,It019,Drinks,
+623,Espresso,It005,Drinks,
+623,Carrot Cake,It026,Bakery,
+624,Iced Latte,It010,Drinks,Medium
+624,Cookie,It017,Bakery,
+624,Croissant,It015,Bakery,
+625,Tea,It019,Drinks,
+625,Mocha,It006,Drinks,Medium
+626,Caramel Macchiato,It004,Drinks,Medium
+626,Iced Tea,It011,Drinks,Medium
+627,Hot Chocolate,It008,Drinks,Medium
+627,Croissant,It015,Bakery,
+628,Americano,It022,Drinks,Medium
+628,Lemonade,It012,Drinks,Medium
+629,Iced Tea,It011,Drinks,Medium
+629,Cheesecake,It018,Bakery,
+630,Iced Mocha,It021,Drinks,Medium
+630,Apple Pie,It025,Bakery,
+630,Mocha,It006,Drinks,Medium
+631,Brownie,It016,Bakery,
+631,Herbal Tea,It020,Drinks,
+631,Hot Chocolate,It008,Drinks,Medium
+631,Cheesecake,It018,Bakery,
+632,Caramel Macchiato,It004,Drinks,Medium
+632,Lemonade,It012,Drinks,Medium
+632,Carrot Cake,It026,Bakery,
+632,Herbal Tea,It020,Drinks,
+633,Herbal Tea,It020,Drinks,
+633,Tramisu,It023,Bakery,
+634,Herbal Tea,It020,Drinks,
+634,Croissant,It015,Bakery,
+634,Carrot Cake,It026,Bakery,
+635,Croissant,It015,Bakery,
+635,Cappuccino,It001,Drinks,Medium
+636,Americano,It022,Drinks,Medium
+636,Caramel Macchiato,It004,Drinks,Medium
+636,Donut,It024,Bakery,
+637,Espresso,It005,Drinks,
+637,Toast,It014,Bakery,
+638,Americano,It022,Drinks,Medium
+638,Brownie,It016,Bakery,
+638,Sandwich Salami&Mozzarella,It013,Bakery,
+639,Latte,It002,Drinks,Medium
+639,Espresso,It005,Drinks,
+640,Hot Chocolate,It008,Drinks,Medium
+640,Iced Americano,It009,Drinks,Medium
+641,Tea,It019,Drinks,
+641,Croissant,It015,Bakery,
+642,Donut,It024,Bakery,
+642,Carrot Cake,It026,Bakery,
+643,Sandwich Salami&Mozzarella,It013,Bakery,
+643,Hot Chocolate,It008,Drinks,Medium
+644,Tea,It019,Drinks,
+644,Iced Mocha,It021,Drinks,Medium
+644,Iced Latte,It010,Drinks,Medium
+644,Espresso,It005,Drinks,
+645,Cappuccino,It001,Drinks,Medium
+645,Americano,It022,Drinks,Medium
+645,Donut,It024,Bakery,
+646,Lemonade,It012,Drinks,Medium
+646,Iced Americano,It009,Drinks,Medium
+647,Donut,It024,Bakery,
+647,Toast,It014,Bakery,
+648,Cappuccino,It001,Drinks,Medium
+648,Mocha,It006,Drinks,Medium
+648,Donut,It024,Bakery,
+649,Caramel Macchiato,It004,Drinks,Medium
+649,Sandwich Salami&Mozzarella,It013,Bakery,
+650,Apple Pie,It025,Bakery,
+650,Iced Latte,It010,Drinks,Medium
+650,Iced Americano,It009,Drinks,Medium
+650,Croissant,It015,Bakery,
+651,Croissant,It015,Bakery,
+651,Cheesecake,It018,Bakery,
+651,Brownie,It016,Bakery,
+652,Tea,It019,Drinks,
+652,Donut,It024,Bakery,
+653,Caramel Macchiato,It004,Drinks,Medium
+653,Lemonade,It012,Drinks,Medium
+653,Mocha,It006,Drinks,Medium
+654,Iced Americano,It009,Drinks,Medium
+654,Iced Mocha,It021,Drinks,Medium
+655,Apple Pie,It025,Bakery,
+655,Caramel Macchiato,It004,Drinks,Medium
+655,White Mocha,It007,Drinks,Medium
+655,Espresso,It005,Drinks,
+656,Mocha,It006,Drinks,Medium
+656,Flat White,It003,Drinks,
+656,Carrot Cake,It026,Bakery,
+656,Iced Americano,It009,Drinks,Medium
+657,Espresso,It005,Drinks,
+657,Tea,It019,Drinks,
+658,Espresso,It005,Drinks,
+658,Americano,It022,Drinks,Medium
+659,Iced Americano,It009,Drinks,Medium
+659,Apple Pie,It025,Bakery,
+659,Sandwich Salami&Mozzarella,It013,Bakery,
+659,Iced Mocha,It021,Drinks,Medium
+660,Herbal Tea,It020,Drinks,
+660,Apple Pie,It025,Bakery,
+661,Apple Pie,It025,Bakery,
+661,Donut,It024,Bakery,
+661,Iced Latte,It010,Drinks,Medium
+662,Cookie,It017,Bakery,
+662,Lemonade,It012,Drinks,Medium
+662,Sandwich Salami&Mozzarella,It013,Bakery,
+662,Iced Mocha,It021,Drinks,Medium
+663,Donut,It024,Bakery,
+663,Iced Tea,It011,Drinks,Medium
+663,Tea,It019,Drinks,
+664,Croissant,It015,Bakery,
+664,Latte,It002,Drinks,Medium
+664,Carrot Cake,It026,Bakery,
+665,Cookie,It017,Bakery,
+665,Hot Chocolate,It008,Drinks,Medium
+665,Iced Americano,It009,Drinks,Medium
+666,Brownie,It016,Bakery,
+666,Tea,It019,Drinks,
+667,Cappuccino,It001,Drinks,Medium
+667,Flat White,It003,Drinks,
+667,Caramel Macchiato,It004,Drinks,Medium
+668,Americano,It022,Drinks,Medium
+668,Mocha,It006,Drinks,Medium
+668,Carrot Cake,It026,Bakery,
+669,Flat White,It003,Drinks,
+669,Tea,It019,Drinks,
+669,Iced Tea,It011,Drinks,Medium
+670,Espresso,It005,Drinks,
+670,Iced Americano,It009,Drinks,Medium
+670,Sandwich Salami&Mozzarella,It013,Bakery,
+671,Cappuccino,It001,Drinks,Medium
+671,Toast,It014,Bakery,
+672,Toast,It014,Bakery,
+672,Cappuccino,It001,Drinks,Medium
+672,Apple Pie,It025,Bakery,
+672,Tea,It019,Drinks,
+673,Latte,It002,Drinks,Medium
+673,Flat White,It003,Drinks,
+674,Iced Latte,It010,Drinks,Medium
+674,Iced Americano,It009,Drinks,Medium
+674,Brownie,It016,Bakery,
+674,Croissant,It015,Bakery,
+675,Flat White,It003,Drinks,
+675,Carrot Cake,It026,Bakery,
+676,Iced Americano,It009,Drinks,Medium
+676,Brownie,It016,Bakery,
+676,Sandwich Salami&Mozzarella,It013,Bakery,
+677,Sandwich Salami&Mozzarella,It013,Bakery,
+677,Latte,It002,Drinks,Medium
+677,Iced Latte,It010,Drinks,Medium
+677,Iced Mocha,It021,Drinks,Medium
+678,Flat White,It003,Drinks,
+678,Iced Latte,It010,Drinks,Medium
+678,Iced Americano,It009,Drinks,Medium
+679,Tea,It019,Drinks,
+679,Iced Americano,It009,Drinks,Medium
+679,Donut,It024,Bakery,
+680,Sandwich Salami&Mozzarella,It013,Bakery,
+680,Flat White,It003,Drinks,
+681,Americano,It022,Drinks,Medium
+681,Iced Latte,It010,Drinks,Medium
+681,Croissant,It015,Bakery,
+682,Herbal Tea,It020,Drinks,
+682,Iced Americano,It009,Drinks,Medium
+683,Cookie,It017,Bakery,
+683,Mocha,It006,Drinks,Medium
+683,Donut,It024,Bakery,
+683,Herbal Tea,It020,Drinks,
+684,Cheesecake,It018,Bakery,
+684,Lemonade,It012,Drinks,Medium
+685,Carrot Cake,It026,Bakery,
+685,Flat White,It003,Drinks,
+686,Apple Pie,It025,Bakery,
+686,Iced Mocha,It021,Drinks,Medium
+686,Tramisu,It023,Bakery,
+687,Croissant,It015,Bakery,
+687,Toast,It014,Bakery,
+688,Croissant,It015,Bakery,
+688,Iced Latte,It010,Drinks,Medium
+689,Lemonade,It012,Drinks,Medium
+689,Iced Mocha,It021,Drinks,Medium
+689,Hot Chocolate,It008,Drinks,Medium
+690,Carrot Cake,It026,Bakery,
+690,Iced Latte,It010,Drinks,Medium
+690,Brownie,It016,Bakery,
+690,Herbal Tea,It020,Drinks,
+691,Brownie,It016,Bakery,
+691,Hot Chocolate,It008,Drinks,Medium
+692,Caramel Macchiato,It004,Drinks,Medium
+692,Tramisu,It023,Bakery,
+693,Flat White,It003,Drinks,
+693,Cheesecake,It018,Bakery,
+693,Latte,It002,Drinks,Medium
+693,Caramel Macchiato,It004,Drinks,Medium
+694,Latte,It002,Drinks,Medium
+694,Hot Chocolate,It008,Drinks,Medium
+694,Iced Mocha,It021,Drinks,Medium
+694,Iced Latte,It010,Drinks,Medium
+695,Iced Mocha,It021,Drinks,Medium
+695,Lemonade,It012,Drinks,Medium
+695,Carrot Cake,It026,Bakery,
+696,Sandwich Salami&Mozzarella,It013,Bakery,
+696,Lemonade,It012,Drinks,Medium
+696,Donut,It024,Bakery,
+696,Hot Chocolate,It008,Drinks,Medium
+697,Carrot Cake,It026,Bakery,
+697,Cookie,It017,Bakery,
+698,Iced Mocha,It021,Drinks,Medium
+698,Mocha,It006,Drinks,Medium
+698,Carrot Cake,It026,Bakery,
+699,Caramel Macchiato,It004,Drinks,Medium
+699,Sandwich Salami&Mozzarella,It013,Bakery,
+699,Iced Latte,It010,Drinks,Medium
+700,Mocha,It006,Drinks,Medium
+700,Carrot Cake,It026,Bakery,
+700,Hot Chocolate,It008,Drinks,Medium
+701,White Mocha,It007,Drinks,Medium
+701,Apple Pie,It025,Bakery,
+701,Caramel Macchiato,It004,Drinks,Medium
+702,Latte,It002,Drinks,Medium
+702,Croissant,It015,Bakery,
+702,Iced Mocha,It021,Drinks,Medium
+703,Tea,It019,Drinks,
+703,Brownie,It016,Bakery,
+704,Mocha,It006,Drinks,Medium
+704,Cheesecake,It018,Bakery,
+705,Iced Latte,It010,Drinks,Medium
+705,Iced Mocha,It021,Drinks,Medium
+706,Caramel Macchiato,It004,Drinks,Medium
+706,Lemonade,It012,Drinks,Medium
+706,Iced Tea,It011,Drinks,Medium
+707,Americano,It022,Drinks,Medium
+707,White Mocha,It007,Drinks,Medium
+708,Cheesecake,It018,Bakery,
+708,Tramisu,It023,Bakery,
+709,Flat White,It003,Drinks,
+709,Cheesecake,It018,Bakery,
+709,Hot Chocolate,It008,Drinks,Medium
+710,Iced Tea,It011,Drinks,Medium
+710,Herbal Tea,It020,Drinks,
+710,White Mocha,It007,Drinks,Medium
+710,Brownie,It016,Bakery,
+711,Croissant,It015,Bakery,
+711,Espresso,It005,Drinks,
+711,Lemonade,It012,Drinks,Medium
+711,Caramel Macchiato,It004,Drinks,Medium
+712,Apple Pie,It025,Bakery,
+712,Tramisu,It023,Bakery,
+712,Cheesecake,It018,Bakery,
+713,Tramisu,It023,Bakery,
+713,Espresso,It005,Drinks,
+713,Apple Pie,It025,Bakery,
+713,Iced Latte,It010,Drinks,Medium
+714,Iced Tea,It011,Drinks,Medium
+714,Donut,It024,Bakery,
+715,Toast,It014,Bakery,
+715,Iced Tea,It011,Drinks,Medium
+716,Brownie,It016,Bakery,
+716,Sandwich Salami&Mozzarella,It013,Bakery,
+717,Iced Americano,It009,Drinks,Medium
+717,Sandwich Salami&Mozzarella,It013,Bakery,
+717,Toast,It014,Bakery,
+717,Mocha,It006,Drinks,Medium
+718,Iced Americano,It009,Drinks,Medium
+718,Donut,It024,Bakery,
+719,Brownie,It016,Bakery,
+719,Croissant,It015,Bakery,
+719,Iced Americano,It009,Drinks,Medium
+720,Carrot Cake,It026,Bakery,
+720,Americano,It022,Drinks,Medium
+721,Herbal Tea,It020,Drinks,
+721,Iced Americano,It009,Drinks,Medium
+722,Iced Mocha,It021,Drinks,Medium
+722,Cookie,It017,Bakery,
+723,Brownie,It016,Bakery,
+723,Americano,It022,Drinks,Medium
+724,Mocha,It006,Drinks,Medium
+724,Flat White,It003,Drinks,
+725,Cappuccino,It001,Drinks,Medium
+725,Herbal Tea,It020,Drinks,
+726,Apple Pie,It025,Bakery,
+726,Iced Latte,It010,Drinks,Medium
+727,Herbal Tea,It020,Drinks,
+727,Donut,It024,Bakery,
+727,Brownie,It016,Bakery,
+728,Donut,It024,Bakery,
+728,Mocha,It006,Drinks,Medium
+729,Croissant,It015,Bakery,
+729,Carrot Cake,It026,Bakery,
+730,Cookie,It017,Bakery,
+730,Hot Chocolate,It008,Drinks,Medium
+730,Tramisu,It023,Bakery,
+731,Tea,It019,Drinks,
+731,Iced Mocha,It021,Drinks,Medium
+731,Iced Americano,It009,Drinks,Medium
+731,Carrot Cake,It026,Bakery,
+732,White Mocha,It007,Drinks,Medium
+732,Cookie,It017,Bakery,
+732,Toast,It014,Bakery,
+732,Iced Americano,It009,Drinks,Medium
+733,Brownie,It016,Bakery,
+733,Cappuccino,It001,Drinks,Medium
+734,White Mocha,It007,Drinks,Medium
+734,Croissant,It015,Bakery,
+735,Americano,It022,Drinks,Medium
+735,Cheesecake,It018,Bakery,
+735,Brownie,It016,Bakery,
+735,Lemonade,It012,Drinks,Medium
+736,Donut,It024,Bakery,
+736,Espresso,It005,Drinks,
+737,Tea,It019,Drinks,
+737,Hot Chocolate,It008,Drinks,Medium
+737,Cheesecake,It018,Bakery,
+738,Herbal Tea,It020,Drinks,
+738,Mocha,It006,Drinks,Medium
+738,Hot Chocolate,It008,Drinks,Medium
+739,Croissant,It015,Bakery,
+739,Americano,It022,Drinks,Medium
+740,Hot Chocolate,It008,Drinks,Medium
+740,White Mocha,It007,Drinks,Medium
+740,Cappuccino,It001,Drinks,Medium
+740,Flat White,It003,Drinks,
+741,Donut,It024,Bakery,
+741,Cappuccino,It001,Drinks,Medium
+741,White Mocha,It007,Drinks,Medium
+742,Mocha,It006,Drinks,Medium
+742,Lemonade,It012,Drinks,Medium
+742,Cheesecake,It018,Bakery,
+743,Cookie,It017,Bakery,
+743,Apple Pie,It025,Bakery,
+743,Donut,It024,Bakery,
+744,Tea,It019,Drinks,
+744,Iced Tea,It011,Drinks,Medium
+744,Tramisu,It023,Bakery,
+744,Espresso,It005,Drinks,
+745,Carrot Cake,It026,Bakery,
+745,Herbal Tea,It020,Drinks,
+745,Iced Mocha,It021,Drinks,Medium
+746,Espresso,It005,Drinks,
+746,Brownie,It016,Bakery,
+746,Mocha,It006,Drinks,Medium
+747,Caramel Macchiato,It004,Drinks,Medium
+747,Cappuccino,It001,Drinks,Medium
+748,Caramel Macchiato,It004,Drinks,Medium
+748,Sandwich Salami&Mozzarella,It013,Bakery,
+749,Tea,It019,Drinks,
+749,Sandwich Salami&Mozzarella,It013,Bakery,
+750,Americano,It022,Drinks,Medium
+750,Flat White,It003,Drinks,
+751,Mocha,It006,Drinks,Medium
+751,Tramisu,It023,Bakery,
+751,Hot Chocolate,It008,Drinks,Medium
+752,White Mocha,It007,Drinks,Medium
+752,Cappuccino,It001,Drinks,Medium
+752,Herbal Tea,It020,Drinks,
+753,Latte,It002,Drinks,Medium
+753,Iced Americano,It009,Drinks,Medium
+753,Croissant,It015,Bakery,
+754,Flat White,It003,Drinks,
+754,Iced Mocha,It021,Drinks,Medium
+754,Espresso,It005,Drinks,
+754,Cheesecake,It018,Bakery,
+755,Hot Chocolate,It008,Drinks,Medium
+755,Cappuccino,It001,Drinks,Medium
+755,Latte,It002,Drinks,Medium
+756,Donut,It024,Bakery,
+756,Tramisu,It023,Bakery,
+756,Cookie,It017,Bakery,
+756,Cheesecake,It018,Bakery,
+757,Tea,It019,Drinks,
+757,Iced Americano,It009,Drinks,Medium
+757,Croissant,It015,Bakery,
+757,Flat White,It003,Drinks,
+758,Latte,It002,Drinks,Medium
+758,Brownie,It016,Bakery,
+758,Iced Tea,It011,Drinks,Medium
+759,Flat White,It003,Drinks,
+759,Tramisu,It023,Bakery,
+759,Cheesecake,It018,Bakery,
+759,Mocha,It006,Drinks,Medium
+760,Lemonade,It012,Drinks,Medium
+760,Cappuccino,It001,Drinks,Medium
+760,Brownie,It016,Bakery,
+760,Apple Pie,It025,Bakery,
+761,White Mocha,It007,Drinks,Medium
+761,Mocha,It006,Drinks,Medium
+761,Apple Pie,It025,Bakery,
+762,Brownie,It016,Bakery,
+762,Herbal Tea,It020,Drinks,
+763,Cheesecake,It018,Bakery,
+763,Croissant,It015,Bakery,
+764,White Mocha,It007,Drinks,Medium
+764,Iced Americano,It009,Drinks,Medium
+764,Mocha,It006,Drinks,Medium
+764,Latte,It002,Drinks,Medium
+765,Espresso,It005,Drinks,
+765,Iced Latte,It010,Drinks,Medium
+765,Brownie,It016,Bakery,
+765,Caramel Macchiato,It004,Drinks,Medium
+766,Iced Americano,It009,Drinks,Medium
+766,Lemonade,It012,Drinks,Medium
+767,Cappuccino,It001,Drinks,Medium
+767,Iced Latte,It010,Drinks,Medium
+767,Donut,It024,Bakery,
+768,Donut,It024,Bakery,
+768,Croissant,It015,Bakery,
+768,Tea,It019,Drinks,
+768,Iced Americano,It009,Drinks,Medium
+769,Tea,It019,Drinks,
+769,Mocha,It006,Drinks,Medium
+769,Flat White,It003,Drinks,
+769,Carrot Cake,It026,Bakery,
+770,White Mocha,It007,Drinks,Medium
+770,Latte,It002,Drinks,Medium
+771,Tea,It019,Drinks,
+771,Iced Americano,It009,Drinks,Medium
+771,Donut,It024,Bakery,
+771,Iced Mocha,It021,Drinks,Medium
+772,Donut,It024,Bakery,
+772,Tea,It019,Drinks,
+773,Croissant,It015,Bakery,
+773,Latte,It002,Drinks,Medium
+773,Herbal Tea,It020,Drinks,
+773,Iced Tea,It011,Drinks,Medium
+774,White Mocha,It007,Drinks,Medium
+774,Americano,It022,Drinks,Medium
+774,Brownie,It016,Bakery,
+775,Brownie,It016,Bakery,
+775,Carrot Cake,It026,Bakery,
+776,Toast,It014,Bakery,
+776,Iced Mocha,It021,Drinks,Medium
+777,Iced Tea,It011,Drinks,Medium
+777,Espresso,It005,Drinks,
+777,Iced Latte,It010,Drinks,Medium
+777,Herbal Tea,It020,Drinks,
+778,Cappuccino,It001,Drinks,Medium
+778,Iced Americano,It009,Drinks,Medium
+778,Carrot Cake,It026,Bakery,
+778,Cheesecake,It018,Bakery,
+779,Carrot Cake,It026,Bakery,
+779,Hot Chocolate,It008,Drinks,Medium
+779,Mocha,It006,Drinks,Medium
+780,Mocha,It006,Drinks,Medium
+780,Herbal Tea,It020,Drinks,
+780,Hot Chocolate,It008,Drinks,Medium
+781,Iced Latte,It010,Drinks,Medium
+781,Cookie,It017,Bakery,
+781,Americano,It022,Drinks,Medium
+782,Hot Chocolate,It008,Drinks,Medium
+782,Tea,It019,Drinks,
+782,Americano,It022,Drinks,Medium
+783,Cappuccino,It001,Drinks,Medium
+783,Iced Latte,It010,Drinks,Medium
+783,Iced Americano,It009,Drinks,Medium
+784,Donut,It024,Bakery,
+784,Caramel Macchiato,It004,Drinks,Medium
+784,Herbal Tea,It020,Drinks,
+785,Flat White,It003,Drinks,
+785,Cookie,It017,Bakery,
+785,Lemonade,It012,Drinks,Medium
+786,Cheesecake,It018,Bakery,
+786,Sandwich Salami&Mozzarella,It013,Bakery,
+787,Americano,It022,Drinks,Medium
+787,Croissant,It015,Bakery,
+787,Brownie,It016,Bakery,
+787,Herbal Tea,It020,Drinks,
+788,Iced Tea,It011,Drinks,Medium
+788,Croissant,It015,Bakery,
+788,Mocha,It006,Drinks,Medium
+788,Cappuccino,It001,Drinks,Medium
+789,Iced Americano,It009,Drinks,Medium
+789,Americano,It022,Drinks,Medium
+789,Caramel Macchiato,It004,Drinks,Medium
+790,Lemonade,It012,Drinks,Medium
+790,Iced Americano,It009,Drinks,Medium
+791,Sandwich Salami&Mozzarella,It013,Bakery,
+791,Flat White,It003,Drinks,
+791,Tramisu,It023,Bakery,
+791,Americano,It022,Drinks,Medium
+792,Caramel Macchiato,It004,Drinks,Medium
+792,Carrot Cake,It026,Bakery,
+792,Iced Mocha,It021,Drinks,Medium
+793,Iced Americano,It009,Drinks,Medium
+793,Cheesecake,It018,Bakery,
+793,Lemonade,It012,Drinks,Medium
+794,Cappuccino,It001,Drinks,Medium
+794,Herbal Tea,It020,Drinks,
+794,Iced Mocha,It021,Drinks,Medium
+794,White Mocha,It007,Drinks,Medium
+795,Caramel Macchiato,It004,Drinks,Medium
+795,Herbal Tea,It020,Drinks,
+795,Donut,It024,Bakery,
+796,Flat White,It003,Drinks,
+796,Herbal Tea,It020,Drinks,
+796,Latte,It002,Drinks,Medium
+797,Latte,It002,Drinks,Medium
+797,Iced Latte,It010,Drinks,Medium
+798,Iced Americano,It009,Drinks,Medium
+798,Caramel Macchiato,It004,Drinks,Medium
+798,Iced Tea,It011,Drinks,Medium
+798,Americano,It022,Drinks,Medium
+799,Donut,It024,Bakery,
+799,Mocha,It006,Drinks,Medium
+799,Croissant,It015,Bakery,
+799,Brownie,It016,Bakery,
+800,Caramel Macchiato,It004,Drinks,Medium
+800,Apple Pie,It025,Bakery,
+801,Iced Tea,It011,Drinks,Medium
+801,Latte,It002,Drinks,Medium
+802,Caramel Macchiato,It004,Drinks,Medium
+802,Americano,It022,Drinks,Medium
+803,Iced Mocha,It021,Drinks,Medium
+803,Brownie,It016,Bakery,
+804,Herbal Tea,It020,Drinks,
+804,Croissant,It015,Bakery,
+804,Espresso,It005,Drinks,
+805,Caramel Macchiato,It004,Drinks,Medium
+805,Donut,It024,Bakery,
+805,Iced Latte,It010,Drinks,Medium
+806,White Mocha,It007,Drinks,Medium
+806,Donut,It024,Bakery,
+807,Herbal Tea,It020,Drinks,
+807,Croissant,It015,Bakery,
+807,Iced Latte,It010,Drinks,Medium
+808,Croissant,It015,Bakery,
+808,Iced Mocha,It021,Drinks,Medium
+808,Sandwich Salami&Mozzarella,It013,Bakery,
+809,White Mocha,It007,Drinks,Medium
+809,Caramel Macchiato,It004,Drinks,Medium
+809,Iced Americano,It009,Drinks,Medium
+809,Americano,It022,Drinks,Medium
+810,Lemonade,It012,Drinks,Medium
+810,Tea,It019,Drinks,
+810,Americano,It022,Drinks,Medium
+810,White Mocha,It007,Drinks,Medium
+811,White Mocha,It007,Drinks,Medium
+811,Herbal Tea,It020,Drinks,
+811,Brownie,It016,Bakery,
+811,Carrot Cake,It026,Bakery,
+812,Lemonade,It012,Drinks,Medium
+812,Mocha,It006,Drinks,Medium
+812,Iced Latte,It010,Drinks,Medium
+812,Cappuccino,It001,Drinks,Medium
+813,Apple Pie,It025,Bakery,
+813,Donut,It024,Bakery,
+813,Toast,It014,Bakery,
+814,Cheesecake,It018,Bakery,
+814,Carrot Cake,It026,Bakery,
+814,Sandwich Salami&Mozzarella,It013,Bakery,
+815,Sandwich Salami&Mozzarella,It013,Bakery,
+815,Toast,It014,Bakery,
+815,Latte,It002,Drinks,Medium
+816,White Mocha,It007,Drinks,Medium
+816,Apple Pie,It025,Bakery,
+816,Caramel Macchiato,It004,Drinks,Medium
+817,Hot Chocolate,It008,Drinks,Medium
+817,Americano,It022,Drinks,Medium
+818,Espresso,It005,Drinks,
+818,Caramel Macchiato,It004,Drinks,Medium
+818,Iced Mocha,It021,Drinks,Medium
+818,Cookie,It017,Bakery,
+819,Iced Mocha,It021,Drinks,Medium
+819,White Mocha,It007,Drinks,Medium
+819,Americano,It022,Drinks,Medium
+820,Cheesecake,It018,Bakery,
+820,Mocha,It006,Drinks,Medium
+821,Espresso,It005,Drinks,
+821,Cookie,It017,Bakery,
+822,Herbal Tea,It020,Drinks,
+822,Americano,It022,Drinks,Medium
+822,Mocha,It006,Drinks,Medium
+823,Herbal Tea,It020,Drinks,
+823,Iced Americano,It009,Drinks,Medium
+824,Latte,It002,Drinks,Medium
+824,Herbal Tea,It020,Drinks,
+825,Flat White,It003,Drinks,
+825,Iced Americano,It009,Drinks,Medium
+826,Latte,It002,Drinks,Medium
+826,Sandwich Salami&Mozzarella,It013,Bakery,
+826,Iced Mocha,It021,Drinks,Medium
+826,Donut,It024,Bakery,
+827,Tramisu,It023,Bakery,
+827,Donut,It024,Bakery,
+828,Donut,It024,Bakery,
+828,Lemonade,It012,Drinks,Medium
+829,Espresso,It005,Drinks,
+829,Sandwich Salami&Mozzarella,It013,Bakery,
+830,Iced Mocha,It021,Drinks,Medium
+830,Donut,It024,Bakery,
+830,White Mocha,It007,Drinks,Medium
+831,Iced Americano,It009,Drinks,Medium
+831,Donut,It024,Bakery,
+831,White Mocha,It007,Drinks,Medium
+831,Hot Chocolate,It008,Drinks,Medium
+832,Carrot Cake,It026,Bakery,
+832,Iced Mocha,It021,Drinks,Medium
+832,Caramel Macchiato,It004,Drinks,Medium
+833,Cheesecake,It018,Bakery,
+833,Iced Tea,It011,Drinks,Medium
+833,Iced Americano,It009,Drinks,Medium
+833,Tea,It019,Drinks,
+834,Espresso,It005,Drinks,
+834,Croissant,It015,Bakery,
+835,Americano,It022,Drinks,Medium
+835,Sandwich Salami&Mozzarella,It013,Bakery,
+835,Iced Americano,It009,Drinks,Medium
+835,Toast,It014,Bakery,
+836,Mocha,It006,Drinks,Medium
+836,Caramel Macchiato,It004,Drinks,Medium
+836,Donut,It024,Bakery,
+837,Apple Pie,It025,Bakery,
+837,Tramisu,It023,Bakery,
+838,Tramisu,It023,Bakery,
+838,Flat White,It003,Drinks,
+838,Tea,It019,Drinks,
+838,Mocha,It006,Drinks,Medium
+839,Iced Latte,It010,Drinks,Medium
+839,Brownie,It016,Bakery,
+840,Caramel Macchiato,It004,Drinks,Medium
+840,Toast,It014,Bakery,
+840,White Mocha,It007,Drinks,Medium
+840,Cheesecake,It018,Bakery,
+841,White Mocha,It007,Drinks,Medium
+841,Cappuccino,It001,Drinks,Medium
+841,Cheesecake,It018,Bakery,
+841,Brownie,It016,Bakery,
+842,Donut,It024,Bakery,
+842,Iced Latte,It010,Drinks,Medium
+842,Toast,It014,Bakery,
+843,Iced Latte,It010,Drinks,Medium
+843,Tea,It019,Drinks,
+843,Mocha,It006,Drinks,Medium
+844,Mocha,It006,Drinks,Medium
+844,Iced Latte,It010,Drinks,Medium
+844,Cheesecake,It018,Bakery,
+845,Donut,It024,Bakery,
+845,Iced Tea,It011,Drinks,Medium
+845,Tramisu,It023,Bakery,
+846,Americano,It022,Drinks,Medium
+846,Espresso,It005,Drinks,
+846,Donut,It024,Bakery,
+846,Tramisu,It023,Bakery,
+847,Americano,It022,Drinks,Medium
+847,Lemonade,It012,Drinks,Medium
+847,Tea,It019,Drinks,
+848,Apple Pie,It025,Bakery,
+848,Carrot Cake,It026,Bakery,
+849,Espresso,It005,Drinks,
+849,Iced Tea,It011,Drinks,Medium
+849,Americano,It022,Drinks,Medium
+849,Iced Americano,It009,Drinks,Medium
+850,Tramisu,It023,Bakery,
+850,Brownie,It016,Bakery,
+850,Toast,It014,Bakery,
+850,Espresso,It005,Drinks,
+851,Herbal Tea,It020,Drinks,
+851,Apple Pie,It025,Bakery,
+851,Sandwich Salami&Mozzarella,It013,Bakery,
+851,Caramel Macchiato,It004,Drinks,Medium
+852,Cookie,It017,Bakery,
+852,Carrot Cake,It026,Bakery,
+852,Lemonade,It012,Drinks,Medium
+853,Flat White,It003,Drinks,
+853,Caramel Macchiato,It004,Drinks,Medium
+853,Iced Americano,It009,Drinks,Medium
+853,Sandwich Salami&Mozzarella,It013,Bakery,
+854,Toast,It014,Bakery,
+854,Herbal Tea,It020,Drinks,
+855,Caramel Macchiato,It004,Drinks,Medium
+855,Cappuccino,It001,Drinks,Medium
+855,Herbal Tea,It020,Drinks,
+856,Lemonade,It012,Drinks,Medium
+856,Hot Chocolate,It008,Drinks,Medium
+856,Flat White,It003,Drinks,
+856,Sandwich Salami&Mozzarella,It013,Bakery,
+857,Iced Mocha,It021,Drinks,Medium
+857,Toast,It014,Bakery,
+858,Hot Chocolate,It008,Drinks,Medium
+858,Donut,It024,Bakery,
+858,Flat White,It003,Drinks,
+859,Tea,It019,Drinks,
+859,Cheesecake,It018,Bakery,
+859,Americano,It022,Drinks,Medium
+860,Cheesecake,It018,Bakery,
+860,Carrot Cake,It026,Bakery,
+860,Tramisu,It023,Bakery,
+861,Iced Americano,It009,Drinks,Medium
+861,Cappuccino,It001,Drinks,Medium
+862,Americano,It022,Drinks,Medium
+862,Cappuccino,It001,Drinks,Medium
+863,Croissant,It015,Bakery,
+863,Americano,It022,Drinks,Medium
+864,Apple Pie,It025,Bakery,
+864,Iced Americano,It009,Drinks,Medium
+865,Iced Mocha,It021,Drinks,Medium
+865,Donut,It024,Bakery,
+866,Herbal Tea,It020,Drinks,
+866,Lemonade,It012,Drinks,Medium
+866,Iced Mocha,It021,Drinks,Medium
+867,Toast,It014,Bakery,
+867,Cheesecake,It018,Bakery,
+867,Flat White,It003,Drinks,
+868,Cappuccino,It001,Drinks,Medium
+868,Latte,It002,Drinks,Medium
+868,Tramisu,It023,Bakery,
+869,Iced Tea,It011,Drinks,Medium
+869,Iced Americano,It009,Drinks,Medium
+869,Latte,It002,Drinks,Medium
+869,Hot Chocolate,It008,Drinks,Medium
+870,Toast,It014,Bakery,
+870,Carrot Cake,It026,Bakery,
+871,Mocha,It006,Drinks,Medium
+871,Iced Mocha,It021,Drinks,Medium
+872,Toast,It014,Bakery,
+872,Tramisu,It023,Bakery,
+873,Carrot Cake,It026,Bakery,
+873,Hot Chocolate,It008,Drinks,Medium
+873,Croissant,It015,Bakery,
+874,Apple Pie,It025,Bakery,
+874,Mocha,It006,Drinks,Medium
+874,Americano,It022,Drinks,Medium
+874,Iced Americano,It009,Drinks,Medium
+875,Cookie,It017,Bakery,
+875,Iced Americano,It009,Drinks,Medium
+875,Sandwich Salami&Mozzarella,It013,Bakery,
+875,Tramisu,It023,Bakery,
+876,Brownie,It016,Bakery,
+876,Hot Chocolate,It008,Drinks,Medium
+876,Donut,It024,Bakery,
+877,Cappuccino,It001,Drinks,Medium
+877,White Mocha,It007,Drinks,Medium
+877,Hot Chocolate,It008,Drinks,Medium
+878,White Mocha,It007,Drinks,Medium
+878,Sandwich Salami&Mozzarella,It013,Bakery,
+878,Caramel Macchiato,It004,Drinks,Medium
+878,Iced Mocha,It021,Drinks,Medium
+879,Apple Pie,It025,Bakery,
+879,Lemonade,It012,Drinks,Medium
+879,Toast,It014,Bakery,
+879,Caramel Macchiato,It004,Drinks,Medium
+880,Cappuccino,It001,Drinks,Medium
+880,Carrot Cake,It026,Bakery,
+881,Mocha,It006,Drinks,Medium
+881,Iced Americano,It009,Drinks,Medium
+882,Caramel Macchiato,It004,Drinks,Medium
+882,Toast,It014,Bakery,
+882,Tramisu,It023,Bakery,
+883,Apple Pie,It025,Bakery,
+883,Lemonade,It012,Drinks,Medium
+884,Caramel Macchiato,It004,Drinks,Medium
+884,Lemonade,It012,Drinks,Medium
+884,Iced Tea,It011,Drinks,Medium
+884,Latte,It002,Drinks,Medium
+885,Donut,It024,Bakery,
+885,Tramisu,It023,Bakery,
+886,Tea,It019,Drinks,
+886,Mocha,It006,Drinks,Medium
+887,Sandwich Salami&Mozzarella,It013,Bakery,
+887,Flat White,It003,Drinks,
+888,Iced Tea,It011,Drinks,Medium
+888,Hot Chocolate,It008,Drinks,Medium
+888,Espresso,It005,Drinks,
+888,Caramel Macchiato,It004,Drinks,Medium
+889,Latte,It002,Drinks,Medium
+889,White Mocha,It007,Drinks,Medium
+889,Tea,It019,Drinks,
+889,Brownie,It016,Bakery,
+890,Apple Pie,It025,Bakery,
+890,Toast,It014,Bakery,
+890,Espresso,It005,Drinks,
+891,Donut,It024,Bakery,
+891,Lemonade,It012,Drinks,Medium
+892,Carrot Cake,It026,Bakery,
+892,Donut,It024,Bakery,
+892,Tramisu,It023,Bakery,
+892,Caramel Macchiato,It004,Drinks,Medium
+893,Croissant,It015,Bakery,
+893,Cheesecake,It018,Bakery,
+894,Flat White,It003,Drinks,
+894,Americano,It022,Drinks,Medium
+894,Cookie,It017,Bakery,
+894,Brownie,It016,Bakery,
+895,Lemonade,It012,Drinks,Medium
+895,Tea,It019,Drinks,
+895,Brownie,It016,Bakery,
+896,Croissant,It015,Bakery,
+896,Americano,It022,Drinks,Medium
+896,Iced Mocha,It021,Drinks,Medium
+896,Tea,It019,Drinks,
+897,White Mocha,It007,Drinks,Medium
+897,Apple Pie,It025,Bakery,
+898,Latte,It002,Drinks,Medium
+898,Cappuccino,It001,Drinks,Medium
+898,Tramisu,It023,Bakery,
+898,Lemonade,It012,Drinks,Medium
+899,Cappuccino,It001,Drinks,Medium
+899,Iced Tea,It011,Drinks,Medium
+899,Flat White,It003,Drinks,
+899,Carrot Cake,It026,Bakery,
+900,Sandwich Salami&Mozzarella,It013,Bakery,
+900,Flat White,It003,Drinks,
+900,Cheesecake,It018,Bakery,
+901,Croissant,It015,Bakery,
+901,Tramisu,It023,Bakery,
+902,Apple Pie,It025,Bakery,
+902,Iced Tea,It011,Drinks,Medium
+902,Tea,It019,Drinks,
+903,Caramel Macchiato,It004,Drinks,Medium
+903,Tea,It019,Drinks,
+903,Iced Latte,It010,Drinks,Medium
+904,Caramel Macchiato,It004,Drinks,Medium
+904,Tea,It019,Drinks,
+904,Latte,It002,Drinks,Medium
+904,Cheesecake,It018,Bakery,
+905,Americano,It022,Drinks,Medium
+905,Flat White,It003,Drinks,
+905,White Mocha,It007,Drinks,Medium
+905,Toast,It014,Bakery,
+906,Toast,It014,Bakery,
+906,Lemonade,It012,Drinks,Medium
+907,Iced Mocha,It021,Drinks,Medium
+907,White Mocha,It007,Drinks,Medium
+907,Lemonade,It012,Drinks,Medium
+907,Latte,It002,Drinks,Medium
+908,Lemonade,It012,Drinks,Medium
+908,Cappuccino,It001,Drinks,Medium
+908,Mocha,It006,Drinks,Medium
+909,Sandwich Salami&Mozzarella,It013,Bakery,
+909,Cookie,It017,Bakery,
+909,Espresso,It005,Drinks,
+909,Americano,It022,Drinks,Medium
+910,Carrot Cake,It026,Bakery,
+910,Toast,It014,Bakery,
+911,Caramel Macchiato,It004,Drinks,Medium
+911,Toast,It014,Bakery,
+912,Tramisu,It023,Bakery,
+912,Cheesecake,It018,Bakery,
+912,Tea,It019,Drinks,
+913,Cappuccino,It001,Drinks,Medium
+913,Toast,It014,Bakery,
+914,Latte,It002,Drinks,Medium
+914,Iced Americano,It009,Drinks,Medium
+914,Tea,It019,Drinks,
+914,Sandwich Salami&Mozzarella,It013,Bakery,
+915,Iced Tea,It011,Drinks,Medium
+915,Croissant,It015,Bakery,
+915,Tea,It019,Drinks,
+915,Cappuccino,It001,Drinks,Medium
+916,Tramisu,It023,Bakery,
+916,Latte,It002,Drinks,Medium
+917,Americano,It022,Drinks,Medium
+917,Donut,It024,Bakery,
+917,Espresso,It005,Drinks,
+918,Iced Mocha,It021,Drinks,Medium
+918,Apple Pie,It025,Bakery,
+918,Cheesecake,It018,Bakery,
+919,Tramisu,It023,Bakery,
+919,Americano,It022,Drinks,Medium
+920,Iced Tea,It011,Drinks,Medium
+920,Iced Latte,It010,Drinks,Medium
+920,Cookie,It017,Bakery,
+921,Hot Chocolate,It008,Drinks,Medium
+921,Lemonade,It012,Drinks,Medium
+921,Brownie,It016,Bakery,
+922,Tramisu,It023,Bakery,
+922,Iced Mocha,It021,Drinks,Medium
+922,Americano,It022,Drinks,Medium
+923,Flat White,It003,Drinks,
+923,Cookie,It017,Bakery,
+924,White Mocha,It007,Drinks,Medium
+924,Iced Tea,It011,Drinks,Medium
+925,Americano,It022,Drinks,Medium
+925,Tramisu,It023,Bakery,
+925,Hot Chocolate,It008,Drinks,Medium
+925,Caramel Macchiato,It004,Drinks,Medium
+926,Brownie,It016,Bakery,
+926,Donut,It024,Bakery,
+927,Hot Chocolate,It008,Drinks,Medium
+927,Iced Latte,It010,Drinks,Medium
+927,Espresso,It005,Drinks,
+927,Croissant,It015,Bakery,
+928,Tramisu,It023,Bakery,
+928,Apple Pie,It025,Bakery,
+928,Cookie,It017,Bakery,
+928,Americano,It022,Drinks,Medium
+929,Donut,It024,Bakery,
+929,Tramisu,It023,Bakery,
+929,Latte,It002,Drinks,Medium
+930,Flat White,It003,Drinks,
+930,Iced Latte,It010,Drinks,Medium
+930,Carrot Cake,It026,Bakery,
+930,Croissant,It015,Bakery,
+931,Tea,It019,Drinks,
+931,Iced Mocha,It021,Drinks,Medium
+931,Toast,It014,Bakery,
+931,Brownie,It016,Bakery,
+932,Cappuccino,It001,Drinks,Medium
+932,Apple Pie,It025,Bakery,
+932,Tea,It019,Drinks,
+933,Tramisu,It023,Bakery,
+933,Caramel Macchiato,It004,Drinks,Medium
+934,Iced Tea,It011,Drinks,Medium
+934,Americano,It022,Drinks,Medium
+935,Americano,It022,Drinks,Medium
+935,Iced Tea,It011,Drinks,Medium
+935,Cheesecake,It018,Bakery,
+935,Brownie,It016,Bakery,
+936,Espresso,It005,Drinks,
+936,Iced Tea,It011,Drinks,Medium
+936,Iced Americano,It009,Drinks,Medium
+936,Americano,It022,Drinks,Medium
+937,Apple Pie,It025,Bakery,
+937,Mocha,It006,Drinks,Medium
+938,Cappuccino,It001,Drinks,Medium
+938,Toast,It014,Bakery,
+938,Brownie,It016,Bakery,
+939,Carrot Cake,It026,Bakery,
+939,Cheesecake,It018,Bakery,
+940,Flat White,It003,Drinks,
+940,White Mocha,It007,Drinks,Medium
+941,Brownie,It016,Bakery,
+941,Hot Chocolate,It008,Drinks,Medium
+942,Cappuccino,It001,Drinks,Medium
+942,Croissant,It015,Bakery,
+943,White Mocha,It007,Drinks,Medium
+943,Croissant,It015,Bakery,
+944,Iced Mocha,It021,Drinks,Medium
+944,Apple Pie,It025,Bakery,
+944,Croissant,It015,Bakery,
+945,Cookie,It017,Bakery,
+945,Cappuccino,It001,Drinks,Medium
+945,Tea,It019,Drinks,
+945,Apple Pie,It025,Bakery,
+946,White Mocha,It007,Drinks,Medium
+946,Cheesecake,It018,Bakery,
+946,Sandwich Salami&Mozzarella,It013,Bakery,
+946,Cookie,It017,Bakery,
+947,Cookie,It017,Bakery,
+947,Caramel Macchiato,It004,Drinks,Medium
+947,Toast,It014,Bakery,
+947,Iced Tea,It011,Drinks,Medium
+948,Donut,It024,Bakery,
+948,Apple Pie,It025,Bakery,
+949,Tramisu,It023,Bakery,
+949,White Mocha,It007,Drinks,Medium
+949,Herbal Tea,It020,Drinks,
+950,Lemonade,It012,Drinks,Medium
+950,White Mocha,It007,Drinks,Medium
+951,Donut,It024,Bakery,
+951,Iced Americano,It009,Drinks,Medium
+951,Carrot Cake,It026,Bakery,
+951,Americano,It022,Drinks,Medium
+952,Cappuccino,It001,Drinks,Medium
+952,Apple Pie,It025,Bakery,
+952,Iced Mocha,It021,Drinks,Medium
+953,Caramel Macchiato,It004,Drinks,Medium
+953,Apple Pie,It025,Bakery,
+953,Herbal Tea,It020,Drinks,
+954,Iced Tea,It011,Drinks,Medium
+954,Donut,It024,Bakery,
+955,Iced Mocha,It021,Drinks,Medium
+955,Toast,It014,Bakery,
+956,Caramel Macchiato,It004,Drinks,Medium
+956,Tramisu,It023,Bakery,
+957,Carrot Cake,It026,Bakery,
+957,Lemonade,It012,Drinks,Medium
+957,Cookie,It017,Bakery,
+957,Cheesecake,It018,Bakery,
+958,Apple Pie,It025,Bakery,
+958,Flat White,It003,Drinks,
+958,Caramel Macchiato,It004,Drinks,Medium
+958,Croissant,It015,Bakery,
+959,Brownie,It016,Bakery,
+959,Americano,It022,Drinks,Medium
+960,White Mocha,It007,Drinks,Medium
+960,Caramel Macchiato,It004,Drinks,Medium
+961,Flat White,It003,Drinks,
+961,Hot Chocolate,It008,Drinks,Medium
+961,Sandwich Salami&Mozzarella,It013,Bakery,
+961,Americano,It022,Drinks,Medium
+962,Espresso,It005,Drinks,
+962,Americano,It022,Drinks,Medium
+962,Mocha,It006,Drinks,Medium
+962,Cheesecake,It018,Bakery,
+963,Americano,It022,Drinks,Medium
+963,Toast,It014,Bakery,
+963,Latte,It002,Drinks,Medium
+964,Lemonade,It012,Drinks,Medium
+964,Toast,It014,Bakery,
+964,Herbal Tea,It020,Drinks,
+964,Cappuccino,It001,Drinks,Medium
+965,Tea,It019,Drinks,
+965,Lemonade,It012,Drinks,Medium
+966,Espresso,It005,Drinks,
+966,Herbal Tea,It020,Drinks,
+966,Cheesecake,It018,Bakery,
+967,Apple Pie,It025,Bakery,
+967,Toast,It014,Bakery,
+967,Sandwich Salami&Mozzarella,It013,Bakery,
+968,Croissant,It015,Bakery,
+968,Tea,It019,Drinks,
+969,Croissant,It015,Bakery,
+969,Iced Tea,It011,Drinks,Medium
+969,Cappuccino,It001,Drinks,Medium
+970,Herbal Tea,It020,Drinks,
+970,Iced Latte,It010,Drinks,Medium
+970,Lemonade,It012,Drinks,Medium
+971,Carrot Cake,It026,Bakery,
+971,Toast,It014,Bakery,
+971,Cappuccino,It001,Drinks,Medium
+972,Hot Chocolate,It008,Drinks,Medium
+972,Americano,It022,Drinks,Medium
+972,Tramisu,It023,Bakery,
+973,Donut,It024,Bakery,
+973,Caramel Macchiato,It004,Drinks,Medium
+974,Carrot Cake,It026,Bakery,
+974,Flat White,It003,Drinks,
+975,Caramel Macchiato,It004,Drinks,Medium
+975,Carrot Cake,It026,Bakery,
+975,Iced Mocha,It021,Drinks,Medium
+976,Tea,It019,Drinks,
+976,Iced Mocha,It021,Drinks,Medium
+976,Cappuccino,It001,Drinks,Medium
+977,Apple Pie,It025,Bakery,
+977,Mocha,It006,Drinks,Medium
+977,Donut,It024,Bakery,
+977,Iced Americano,It009,Drinks,Medium
+978,Hot Chocolate,It008,Drinks,Medium
+978,Flat White,It003,Drinks,
+978,Espresso,It005,Drinks,
+978,Cookie,It017,Bakery,
+979,Iced Latte,It010,Drinks,Medium
+979,Donut,It024,Bakery,
+979,Brownie,It016,Bakery,
+980,Hot Chocolate,It008,Drinks,Medium
+980,Donut,It024,Bakery,
+981,Apple Pie,It025,Bakery,
+981,Iced Tea,It011,Drinks,Medium
+981,Carrot Cake,It026,Bakery,
+981,Sandwich Salami&Mozzarella,It013,Bakery,
+982,Iced Latte,It010,Drinks,Medium
+982,Cappuccino,It001,Drinks,Medium
+982,Apple Pie,It025,Bakery,
+983,Cheesecake,It018,Bakery,
+983,Brownie,It016,Bakery,
+983,Iced Latte,It010,Drinks,Medium
+984,Donut,It024,Bakery,
+984,Iced Tea,It011,Drinks,Medium
+985,Caramel Macchiato,It004,Drinks,Medium
+985,Iced Mocha,It021,Drinks,Medium
+985,Mocha,It006,Drinks,Medium
+986,Flat White,It003,Drinks,
+986,Cappuccino,It001,Drinks,Medium
+987,Hot Chocolate,It008,Drinks,Medium
+987,Donut,It024,Bakery,
+987,Iced Americano,It009,Drinks,Medium
+987,Espresso,It005,Drinks,
+988,Caramel Macchiato,It004,Drinks,Medium
+988,Carrot Cake,It026,Bakery,
+988,Cookie,It017,Bakery,
+988,Iced Americano,It009,Drinks,Medium
+989,Cheesecake,It018,Bakery,
+989,Tea,It019,Drinks,
+990,Flat White,It003,Drinks,
+990,Latte,It002,Drinks,Medium
+990,Herbal Tea,It020,Drinks,
+991,Tramisu,It023,Bakery,
+991,Herbal Tea,It020,Drinks,
+991,Cookie,It017,Bakery,
+991,Sandwich Salami&Mozzarella,It013,Bakery,
+992,Cookie,It017,Bakery,
+992,Iced Latte,It010,Drinks,Medium
+993,Toast,It014,Bakery,
+993,Cappuccino,It001,Drinks,Medium
+993,White Mocha,It007,Drinks,Medium
+993,Hot Chocolate,It008,Drinks,Medium
+994,Tramisu,It023,Bakery,
+994,Caramel Macchiato,It004,Drinks,Medium
+995,Brownie,It016,Bakery,
+995,Iced Latte,It010,Drinks,Medium
+996,Iced Tea,It011,Drinks,Medium
+996,Croissant,It015,Bakery,
+997,Cheesecake,It018,Bakery,
+997,Donut,It024,Bakery,
+998,Americano,It022,Drinks,Medium
+998,Carrot Cake,It026,Bakery,
+998,Cheesecake,It018,Bakery,
+998,Cappuccino,It001,Drinks,Medium
+999,Americano,It022,Drinks,Medium
+999,Latte,It002,Drinks,Medium
+1000,Sandwich Salami&Mozzarella,It013,Bakery,
+1000,Mocha,It006,Drinks,Medium
+1000,Caramel Macchiato,It004,Drinks,Medium
+1001,Toast,It014,Bakery,
+1001,Donut,It024,Bakery,
+1002,Espresso,It005,Drinks,
+1002,Carrot Cake,It026,Bakery,
+1003,Hot Chocolate,It008,Drinks,Medium
+1003,Croissant,It015,Bakery,
+1004,Cheesecake,It018,Bakery,
+1004,Iced Americano,It009,Drinks,Medium
+1004,Sandwich Salami&Mozzarella,It013,Bakery,
+1005,Carrot Cake,It026,Bakery,
+1005,Apple Pie,It025,Bakery,
+1005,Iced Americano,It009,Drinks,Medium
+1005,Brownie,It016,Bakery,
+1006,White Mocha,It007,Drinks,Medium
+1006,Apple Pie,It025,Bakery,
+1006,Iced Latte,It010,Drinks,Medium
+1007,Cookie,It017,Bakery,
+1007,Iced Tea,It011,Drinks,Medium
+1007,Apple Pie,It025,Bakery,
+1008,Iced Mocha,It021,Drinks,Medium
+1008,Tea,It019,Drinks,
+1008,Iced Tea,It011,Drinks,Medium
+1009,Sandwich Salami&Mozzarella,It013,Bakery,
+1009,Americano,It022,Drinks,Medium
+1009,Iced Latte,It010,Drinks,Medium
+1009,Croissant,It015,Bakery,
+1010,Apple Pie,It025,Bakery,
+1010,White Mocha,It007,Drinks,Medium
+1010,Sandwich Salami&Mozzarella,It013,Bakery,
+1011,Toast,It014,Bakery,
+1011,Tea,It019,Drinks,
+1011,Iced Americano,It009,Drinks,Medium
+1012,Toast,It014,Bakery,
+1012,Tea,It019,Drinks,
+1012,Espresso,It005,Drinks,
+1012,Lemonade,It012,Drinks,Medium
+1013,Croissant,It015,Bakery,
+1013,Tea,It019,Drinks,
+1014,Iced Americano,It009,Drinks,Medium
+1014,Brownie,It016,Bakery,
+1014,Donut,It024,Bakery,
+1015,Cappuccino,It001,Drinks,Medium
+1015,Donut,It024,Bakery,
+1015,Lemonade,It012,Drinks,Medium
+1015,Flat White,It003,Drinks,
+1016,Flat White,It003,Drinks,
+1016,Espresso,It005,Drinks,
+1016,Lemonade,It012,Drinks,Medium
+1016,Cappuccino,It001,Drinks,Medium
+1017,Iced Latte,It010,Drinks,Medium
+1017,Cheesecake,It018,Bakery,
+1017,Brownie,It016,Bakery,
+1018,Hot Chocolate,It008,Drinks,Medium
+1018,Tea,It019,Drinks,
+1018,Donut,It024,Bakery,
+1019,Hot Chocolate,It008,Drinks,Medium
+1019,Cheesecake,It018,Bakery,
+1019,Herbal Tea,It020,Drinks,
+1019,White Mocha,It007,Drinks,Medium
+1020,Tea,It019,Drinks,
+1020,Brownie,It016,Bakery,
+1020,Croissant,It015,Bakery,
+1020,Apple Pie,It025,Bakery,
+1021,Espresso,It005,Drinks,
+1021,Tea,It019,Drinks,
+1021,Apple Pie,It025,Bakery,
+1022,Tea,It019,Drinks,
+1022,Tramisu,It023,Bakery,
+1022,Croissant,It015,Bakery,
+1022,Donut,It024,Bakery,
+1023,Cappuccino,It001,Drinks,Medium
+1023,Tramisu,It023,Bakery,
+1024,Sandwich Salami&Mozzarella,It013,Bakery,
+1024,Croissant,It015,Bakery,
+1024,Cappuccino,It001,Drinks,Medium
+1024,Toast,It014,Bakery,
+1025,Carrot Cake,It026,Bakery,
+1025,Americano,It022,Drinks,Medium
+1025,Tea,It019,Drinks,
+1025,White Mocha,It007,Drinks,Medium
+1026,Carrot Cake,It026,Bakery,
+1026,Mocha,It006,Drinks,Medium
+1026,Tramisu,It023,Bakery,
+1026,Donut,It024,Bakery,
+1027,Iced Tea,It011,Drinks,Medium
+1027,Carrot Cake,It026,Bakery,
+1027,Tramisu,It023,Bakery,
+1027,Sandwich Salami&Mozzarella,It013,Bakery,
+1028,White Mocha,It007,Drinks,Medium
+1028,Iced Americano,It009,Drinks,Medium
+1029,Hot Chocolate,It008,Drinks,Medium
+1029,Latte,It002,Drinks,Medium
+1029,Carrot Cake,It026,Bakery,
+1030,Americano,It022,Drinks,Medium
+1030,Mocha,It006,Drinks,Medium
+1030,Lemonade,It012,Drinks,Medium
+1031,Croissant,It015,Bakery,
+1031,White Mocha,It007,Drinks,Medium
+1031,Latte,It002,Drinks,Medium
+1032,Donut,It024,Bakery,
+1032,Tea,It019,Drinks,
+1032,Flat White,It003,Drinks,
+1033,Donut,It024,Bakery,
+1033,Lemonade,It012,Drinks,Medium
+1034,Caramel Macchiato,It004,Drinks,Medium
+1034,Iced Americano,It009,Drinks,Medium
+1034,Tea,It019,Drinks,
+1035,Sandwich Salami&Mozzarella,It013,Bakery,
+1035,Cappuccino,It001,Drinks,Medium
+1035,Iced Americano,It009,Drinks,Medium
+1035,Iced Mocha,It021,Drinks,Medium
+1036,Carrot Cake,It026,Bakery,
+1036,Brownie,It016,Bakery,
+1036,Tramisu,It023,Bakery,
+1036,Caramel Macchiato,It004,Drinks,Medium
+1037,Caramel Macchiato,It004,Drinks,Medium
+1037,Iced Americano,It009,Drinks,Medium
+1038,Latte,It002,Drinks,Medium
+1038,Flat White,It003,Drinks,
+1038,Toast,It014,Bakery,
+1038,Apple Pie,It025,Bakery,
+1039,Iced Tea,It011,Drinks,Medium
+1039,Iced Americano,It009,Drinks,Medium
+1039,Hot Chocolate,It008,Drinks,Medium
+1040,Carrot Cake,It026,Bakery,
+1040,Toast,It014,Bakery,
+1040,Lemonade,It012,Drinks,Medium
+1041,Cheesecake,It018,Bakery,
+1041,Espresso,It005,Drinks,
+1041,Brownie,It016,Bakery,
+1041,Mocha,It006,Drinks,Medium
+1042,Herbal Tea,It020,Drinks,
+1042,Flat White,It003,Drinks,
+1042,Espresso,It005,Drinks,
+1043,Espresso,It005,Drinks,
+1043,Croissant,It015,Bakery,
+1043,Cheesecake,It018,Bakery,
+1043,Tea,It019,Drinks,
+1044,Iced Americano,It009,Drinks,Medium
+1044,Flat White,It003,Drinks,
+1044,Cheesecake,It018,Bakery,
+1044,Mocha,It006,Drinks,Medium
+1045,Flat White,It003,Drinks,
+1045,Cookie,It017,Bakery,
+1046,Espresso,It005,Drinks,
+1046,Flat White,It003,Drinks,
+1046,Latte,It002,Drinks,Medium
+1046,Toast,It014,Bakery,
+1047,Iced Americano,It009,Drinks,Medium
+1047,Sandwich Salami&Mozzarella,It013,Bakery,
+1048,Cookie,It017,Bakery,
+1048,Croissant,It015,Bakery,
+1048,Mocha,It006,Drinks,Medium
+1049,Croissant,It015,Bakery,
+1049,Cheesecake,It018,Bakery,
+1050,Toast,It014,Bakery,
+1050,Americano,It022,Drinks,Medium
+1051,Latte,It002,Drinks,Medium
+1051,Tramisu,It023,Bakery,
+1051,Sandwich Salami&Mozzarella,It013,Bakery,
+1051,Apple Pie,It025,Bakery,
+1052,White Mocha,It007,Drinks,Medium
+1052,Latte,It002,Drinks,Medium
+1053,Hot Chocolate,It008,Drinks,Medium
+1053,Americano,It022,Drinks,Medium
+1054,Tea,It019,Drinks,
+1054,Latte,It002,Drinks,Medium
+1054,Toast,It014,Bakery,
+1055,Iced Latte,It010,Drinks,Medium
+1055,Flat White,It003,Drinks,
+1056,Brownie,It016,Bakery,
+1056,Herbal Tea,It020,Drinks,
+1057,Mocha,It006,Drinks,Medium
+1057,Americano,It022,Drinks,Medium
+1058,Caramel Macchiato,It004,Drinks,Medium
+1058,Croissant,It015,Bakery,
+1058,Sandwich Salami&Mozzarella,It013,Bakery,
+1059,Iced Tea,It011,Drinks,Medium
+1059,Hot Chocolate,It008,Drinks,Medium
+1059,Iced Latte,It010,Drinks,Medium
+1060,Brownie,It016,Bakery,
+1060,Lemonade,It012,Drinks,Medium
+1060,Espresso,It005,Drinks,
+1060,Croissant,It015,Bakery,
+1061,Brownie,It016,Bakery,
+1061,Cookie,It017,Bakery,
+1061,Latte,It002,Drinks,Medium
+1062,Croissant,It015,Bakery,
+1062,Iced Latte,It010,Drinks,Medium
+1062,Iced Americano,It009,Drinks,Medium
+1062,Donut,It024,Bakery,
+1063,White Mocha,It007,Drinks,Medium
+1063,Tramisu,It023,Bakery,
+1063,Cappuccino,It001,Drinks,Medium
+1063,Lemonade,It012,Drinks,Medium
+1064,Iced Americano,It009,Drinks,Medium
+1064,Toast,It014,Bakery,
+1064,Caramel Macchiato,It004,Drinks,Medium
+1065,Americano,It022,Drinks,Medium
+1065,Cappuccino,It001,Drinks,Medium
+1065,Herbal Tea,It020,Drinks,
+1065,Croissant,It015,Bakery,
+1066,Americano,It022,Drinks,Medium
+1066,Donut,It024,Bakery,
+1067,White Mocha,It007,Drinks,Medium
+1067,Iced Latte,It010,Drinks,Medium
+1067,Latte,It002,Drinks,Medium
+1067,Iced Mocha,It021,Drinks,Medium
+1068,Cheesecake,It018,Bakery,
+1068,Toast,It014,Bakery,
+1068,Croissant,It015,Bakery,
+1068,Espresso,It005,Drinks,
+1069,Iced Latte,It010,Drinks,Medium
+1069,Hot Chocolate,It008,Drinks,Medium
+1069,Cheesecake,It018,Bakery,
+1069,Americano,It022,Drinks,Medium
+1070,Tramisu,It023,Bakery,
+1070,Hot Chocolate,It008,Drinks,Medium
+1071,Croissant,It015,Bakery,
+1071,Sandwich Salami&Mozzarella,It013,Bakery,
+1072,Donut,It024,Bakery,
+1072,Iced Americano,It009,Drinks,Medium
+1072,Tramisu,It023,Bakery,
+1073,Iced Mocha,It021,Drinks,Medium
+1073,Espresso,It005,Drinks,
+1073,Tramisu,It023,Bakery,
+1073,Latte,It002,Drinks,Medium
+1074,Cheesecake,It018,Bakery,
+1074,Donut,It024,Bakery,
+1074,Lemonade,It012,Drinks,Medium
+1075,Latte,It002,Drinks,Medium
+1075,Flat White,It003,Drinks,
+1076,Latte,It002,Drinks,Medium
+1076,Iced Americano,It009,Drinks,Medium
+1076,Cheesecake,It018,Bakery,
+1076,Mocha,It006,Drinks,Medium
+1077,Iced Latte,It010,Drinks,Medium
+1077,Herbal Tea,It020,Drinks,
+1077,Iced Americano,It009,Drinks,Medium
+1077,Cheesecake,It018,Bakery,
+1078,Tea,It019,Drinks,
+1078,Lemonade,It012,Drinks,Medium
+1078,Cookie,It017,Bakery,
+1079,Lemonade,It012,Drinks,Medium
+1079,Cappuccino,It001,Drinks,Medium
+1079,Brownie,It016,Bakery,
+1080,Lemonade,It012,Drinks,Medium
+1080,Cappuccino,It001,Drinks,Medium
+1081,Cheesecake,It018,Bakery,
+1081,Carrot Cake,It026,Bakery,
+1081,Latte,It002,Drinks,Medium
+1081,Sandwich Salami&Mozzarella,It013,Bakery,
+1082,Tea,It019,Drinks,
+1082,Americano,It022,Drinks,Medium
+1082,Caramel Macchiato,It004,Drinks,Medium
+1082,Iced Latte,It010,Drinks,Medium
+1083,White Mocha,It007,Drinks,Medium
+1083,Iced Americano,It009,Drinks,Medium
+1083,Iced Latte,It010,Drinks,Medium
+1084,Carrot Cake,It026,Bakery,
+1084,Sandwich Salami&Mozzarella,It013,Bakery,
+1084,Iced Mocha,It021,Drinks,Medium
+1085,Americano,It022,Drinks,Medium
+1085,Espresso,It005,Drinks,
+1086,Herbal Tea,It020,Drinks,
+1086,Donut,It024,Bakery,
+1087,Flat White,It003,Drinks,
+1087,Lemonade,It012,Drinks,Medium
+1087,Hot Chocolate,It008,Drinks,Medium
+1087,Tea,It019,Drinks,
+1088,Tramisu,It023,Bakery,
+1088,Mocha,It006,Drinks,Medium
+1089,Americano,It022,Drinks,Medium
+1089,Iced Latte,It010,Drinks,Medium
+1089,Herbal Tea,It020,Drinks,
+1090,Cookie,It017,Bakery,
+1090,Herbal Tea,It020,Drinks,
+1091,Espresso,It005,Drinks,
+1091,Tea,It019,Drinks,
+1091,Donut,It024,Bakery,
+1092,Iced Americano,It009,Drinks,Medium
+1092,Flat White,It003,Drinks,
+1092,Americano,It022,Drinks,Medium
+1092,Carrot Cake,It026,Bakery,
+1093,Americano,It022,Drinks,Medium
+1093,Mocha,It006,Drinks,Medium
+1093,Herbal Tea,It020,Drinks,
+1094,Iced Latte,It010,Drinks,Medium
+1094,Hot Chocolate,It008,Drinks,Medium
+1094,Donut,It024,Bakery,
+1095,Croissant,It015,Bakery,
+1095,Latte,It002,Drinks,Medium
+1095,Toast,It014,Bakery,
+1095,Mocha,It006,Drinks,Medium
+1096,Iced Latte,It010,Drinks,Medium
+1096,Donut,It024,Bakery,
+1097,Sandwich Salami&Mozzarella,It013,Bakery,
+1097,Croissant,It015,Bakery,
+1097,Mocha,It006,Drinks,Medium
+1097,Toast,It014,Bakery,
+1098,Lemonade,It012,Drinks,Medium
+1098,Iced Latte,It010,Drinks,Medium
+1098,Tea,It019,Drinks,
+1098,Iced Americano,It009,Drinks,Medium
+1099,Cookie,It017,Bakery,
+1099,Toast,It014,Bakery,
+1099,Iced Mocha,It021,Drinks,Medium
+1099,Latte,It002,Drinks,Medium
+1100,Carrot Cake,It026,Bakery,
+1100,Croissant,It015,Bakery,
+1100,Tea,It019,Drinks,
+1101,Croissant,It015,Bakery,
+1101,Flat White,It003,Drinks,
+1102,Iced Mocha,It021,Drinks,Medium
+1102,Iced Latte,It010,Drinks,Medium
+1103,Hot Chocolate,It008,Drinks,Medium
+1103,Tea,It019,Drinks,
+1103,Cheesecake,It018,Bakery,
+1103,Iced Mocha,It021,Drinks,Medium
+1104,Iced Americano,It009,Drinks,Medium
+1104,Sandwich Salami&Mozzarella,It013,Bakery,
+1104,Latte,It002,Drinks,Medium
+1104,Croissant,It015,Bakery,
+1105,Latte,It002,Drinks,Medium
+1105,Sandwich Salami&Mozzarella,It013,Bakery,
+1106,White Mocha,It007,Drinks,Medium
+1106,Sandwich Salami&Mozzarella,It013,Bakery,
+1107,Croissant,It015,Bakery,
+1107,Hot Chocolate,It008,Drinks,Medium
+1108,Apple Pie,It025,Bakery,
+1108,Iced Latte,It010,Drinks,Medium
+1108,Croissant,It015,Bakery,
+1109,Cookie,It017,Bakery,
+1109,Iced Mocha,It021,Drinks,Medium
+1109,Carrot Cake,It026,Bakery,
+1110,Espresso,It005,Drinks,
+1110,Toast,It014,Bakery,
+1111,Cookie,It017,Bakery,
+1111,Tea,It019,Drinks,
+1111,Iced Tea,It011,Drinks,Medium
+1112,Iced Latte,It010,Drinks,Medium
+1112,Tea,It019,Drinks,
+1112,Hot Chocolate,It008,Drinks,Medium
+1112,Toast,It014,Bakery,
+1113,Cheesecake,It018,Bakery,
+1113,White Mocha,It007,Drinks,Medium
+1114,Cappuccino,It001,Drinks,Medium
+1114,Iced Tea,It011,Drinks,Medium
+1115,Brownie,It016,Bakery,
+1115,Latte,It002,Drinks,Medium
+1115,Herbal Tea,It020,Drinks,
+1116,Lemonade,It012,Drinks,Medium
+1116,Brownie,It016,Bakery,
+1116,Espresso,It005,Drinks,
+1117,Flat White,It003,Drinks,
+1117,Herbal Tea,It020,Drinks,
+1118,Croissant,It015,Bakery,
+1118,Flat White,It003,Drinks,
+1119,Iced Americano,It009,Drinks,Medium
+1119,Herbal Tea,It020,Drinks,
+1120,Caramel Macchiato,It004,Drinks,Medium
+1120,Iced Mocha,It021,Drinks,Medium
+1120,Hot Chocolate,It008,Drinks,Medium
+1120,Cookie,It017,Bakery,
+1121,Iced Tea,It011,Drinks,Medium
+1121,Herbal Tea,It020,Drinks,
+1122,Cookie,It017,Bakery,
+1122,Cheesecake,It018,Bakery,
+1122,Americano,It022,Drinks,Medium
+1122,Herbal Tea,It020,Drinks,
+1123,Tea,It019,Drinks,
+1123,Caramel Macchiato,It004,Drinks,Medium
+1123,Iced Tea,It011,Drinks,Medium
+1124,Apple Pie,It025,Bakery,
+1124,Lemonade,It012,Drinks,Medium
+1124,Tramisu,It023,Bakery,
+1124,Flat White,It003,Drinks,
+1125,Mocha,It006,Drinks,Medium
+1125,Brownie,It016,Bakery,
+1125,Herbal Tea,It020,Drinks,
+1126,White Mocha,It007,Drinks,Medium
+1126,Donut,It024,Bakery,
+1126,Iced Americano,It009,Drinks,Medium
+1126,Brownie,It016,Bakery,
+1127,Cookie,It017,Bakery,
+1127,Herbal Tea,It020,Drinks,
+1128,Carrot Cake,It026,Bakery,
+1128,Tramisu,It023,Bakery,
+1129,Brownie,It016,Bakery,
+1129,Cookie,It017,Bakery,
+1130,Iced Americano,It009,Drinks,Medium
+1130,Donut,It024,Bakery,
+1130,Cookie,It017,Bakery,
+1130,Tea,It019,Drinks,
+1131,Americano,It022,Drinks,Medium
+1131,Espresso,It005,Drinks,
+1131,Herbal Tea,It020,Drinks,
+1132,Sandwich Salami&Mozzarella,It013,Bakery,
+1132,Iced Mocha,It021,Drinks,Medium
+1132,Toast,It014,Bakery,
+1133,Cheesecake,It018,Bakery,
+1133,White Mocha,It007,Drinks,Medium
+1133,Tramisu,It023,Bakery,
+1133,Donut,It024,Bakery,
+1134,Apple Pie,It025,Bakery,
+1134,Iced Americano,It009,Drinks,Medium
+1134,Tramisu,It023,Bakery,
+1135,Caramel Macchiato,It004,Drinks,Medium
+1135,Sandwich Salami&Mozzarella,It013,Bakery,
+1135,Iced Mocha,It021,Drinks,Medium
+1135,Apple Pie,It025,Bakery,
+1136,Toast,It014,Bakery,
+1136,Cappuccino,It001,Drinks,Medium
+1136,Caramel Macchiato,It004,Drinks,Medium
+1136,Iced Latte,It010,Drinks,Medium
+1137,Carrot Cake,It026,Bakery,
+1137,Apple Pie,It025,Bakery,
+1137,Hot Chocolate,It008,Drinks,Medium
+1137,Brownie,It016,Bakery,
+1138,Toast,It014,Bakery,
+1138,White Mocha,It007,Drinks,Medium
+1139,Latte,It002,Drinks,Medium
+1139,Croissant,It015,Bakery,
+1140,Flat White,It003,Drinks,
+1140,Donut,It024,Bakery,
+1140,White Mocha,It007,Drinks,Medium
+1140,Toast,It014,Bakery,
+1141,Croissant,It015,Bakery,
+1141,Cappuccino,It001,Drinks,Medium
+1141,Herbal Tea,It020,Drinks,
+1141,Espresso,It005,Drinks,
+1142,Croissant,It015,Bakery,
+1142,Lemonade,It012,Drinks,Medium
+1142,Iced Americano,It009,Drinks,Medium
+1143,White Mocha,It007,Drinks,Medium
+1143,Croissant,It015,Bakery,
+1143,Toast,It014,Bakery,
+1143,Flat White,It003,Drinks,
+1144,Caramel Macchiato,It004,Drinks,Medium
+1144,Tea,It019,Drinks,
+1144,Iced Tea,It011,Drinks,Medium
+1145,Cappuccino,It001,Drinks,Medium
+1145,Iced Tea,It011,Drinks,Medium
+1145,Croissant,It015,Bakery,
+1145,Hot Chocolate,It008,Drinks,Medium
+1146,Iced Americano,It009,Drinks,Medium
+1146,Americano,It022,Drinks,Medium
+1147,Tramisu,It023,Bakery,
+1147,Iced Latte,It010,Drinks,Medium
+1147,Croissant,It015,Bakery,
+1148,Cheesecake,It018,Bakery,
+1148,Flat White,It003,Drinks,
+1149,Iced Tea,It011,Drinks,Medium
+1149,Tea,It019,Drinks,
+1149,Caramel Macchiato,It004,Drinks,Medium
+1150,Latte,It002,Drinks,Medium
+1150,Cheesecake,It018,Bakery,
+1150,Carrot Cake,It026,Bakery,
+1150,Iced Mocha,It021,Drinks,Medium
+1151,Apple Pie,It025,Bakery,
+1151,Iced Americano,It009,Drinks,Medium
+1151,Tramisu,It023,Bakery,
+1152,Donut,It024,Bakery,
+1152,Carrot Cake,It026,Bakery,
+1152,Iced Mocha,It021,Drinks,Medium
+1153,Iced Latte,It010,Drinks,Medium
+1153,Espresso,It005,Drinks,
+1154,Tramisu,It023,Bakery,
+1154,Flat White,It003,Drinks,
+1155,Iced Americano,It009,Drinks,Medium
+1155,Americano,It022,Drinks,Medium
+1155,Lemonade,It012,Drinks,Medium
+1155,Donut,It024,Bakery,
+1156,Lemonade,It012,Drinks,Medium
+1156,Sandwich Salami&Mozzarella,It013,Bakery,
+1157,Cookie,It017,Bakery,
+1157,Cheesecake,It018,Bakery,
+1158,Mocha,It006,Drinks,Medium
+1158,Americano,It022,Drinks,Medium
+1158,Iced Mocha,It021,Drinks,Medium
+1159,Cappuccino,It001,Drinks,Medium
+1159,Latte,It002,Drinks,Medium
+1159,Mocha,It006,Drinks,Medium
+1160,Apple Pie,It025,Bakery,
+1160,Croissant,It015,Bakery,
+1160,Carrot Cake,It026,Bakery,
+1161,Croissant,It015,Bakery,
+1161,Cheesecake,It018,Bakery,
+1161,Tramisu,It023,Bakery,
+1162,Flat White,It003,Drinks,
+1162,Croissant,It015,Bakery,
+1163,Herbal Tea,It020,Drinks,
+1163,Sandwich Salami&Mozzarella,It013,Bakery,
+1163,Brownie,It016,Bakery,
+1163,Flat White,It003,Drinks,
+1164,Americano,It022,Drinks,Medium
+1164,Sandwich Salami&Mozzarella,It013,Bakery,
+1164,Herbal Tea,It020,Drinks,
+1165,Cheesecake,It018,Bakery,
+1165,Sandwich Salami&Mozzarella,It013,Bakery,
+1165,Toast,It014,Bakery,
+1166,Flat White,It003,Drinks,
+1166,Apple Pie,It025,Bakery,
+1166,Donut,It024,Bakery,
+1166,Mocha,It006,Drinks,Medium
+1167,Herbal Tea,It020,Drinks,
+1167,Espresso,It005,Drinks,
+1167,Iced Tea,It011,Drinks,Medium
+1168,Iced Latte,It010,Drinks,Medium
+1168,Donut,It024,Bakery,
+1169,Carrot Cake,It026,Bakery,
+1169,Mocha,It006,Drinks,Medium
+1169,Tea,It019,Drinks,
+1169,Toast,It014,Bakery,
+1170,Cappuccino,It001,Drinks,Medium
+1170,Sandwich Salami&Mozzarella,It013,Bakery,
+1170,Americano,It022,Drinks,Medium
+1170,Cheesecake,It018,Bakery,
+1171,Latte,It002,Drinks,Medium
+1171,Lemonade,It012,Drinks,Medium
+1172,Iced Americano,It009,Drinks,Medium
+1172,Latte,It002,Drinks,Medium
+1172,Carrot Cake,It026,Bakery,
+1172,Tramisu,It023,Bakery,
+1173,Cookie,It017,Bakery,
+1173,Caramel Macchiato,It004,Drinks,Medium
+1174,Herbal Tea,It020,Drinks,
+1174,Iced Tea,It011,Drinks,Medium
+1175,Iced Latte,It010,Drinks,Medium
+1175,Latte,It002,Drinks,Medium
+1175,Espresso,It005,Drinks,
+1175,Apple Pie,It025,Bakery,
+1176,Caramel Macchiato,It004,Drinks,Medium
+1176,Donut,It024,Bakery,
+1177,Lemonade,It012,Drinks,Medium
+1177,Iced Mocha,It021,Drinks,Medium
+1177,Hot Chocolate,It008,Drinks,Medium
+1178,Iced Americano,It009,Drinks,Medium
+1178,Mocha,It006,Drinks,Medium
+1179,Carrot Cake,It026,Bakery,
+1179,Apple Pie,It025,Bakery,
+1179,Lemonade,It012,Drinks,Medium
+1179,Tea,It019,Drinks,
+1180,Iced Latte,It010,Drinks,Medium
+1180,Cheesecake,It018,Bakery,
+1180,Iced Tea,It011,Drinks,Medium
+1180,Caramel Macchiato,It004,Drinks,Medium
+1181,Americano,It022,Drinks,Medium
+1181,Tramisu,It023,Bakery,
+1181,Cappuccino,It001,Drinks,Medium
+1182,Carrot Cake,It026,Bakery,
+1182,Espresso,It005,Drinks,
+1183,Tea,It019,Drinks,
+1183,Cookie,It017,Bakery,
+1183,Espresso,It005,Drinks,
+1184,Tramisu,It023,Bakery,
+1184,Iced Mocha,It021,Drinks,Medium
+1184,Cappuccino,It001,Drinks,Medium
+1185,Iced Latte,It010,Drinks,Medium
+1185,Apple Pie,It025,Bakery,
+1185,Brownie,It016,Bakery,
+1186,Espresso,It005,Drinks,
+1186,Toast,It014,Bakery,
+1187,Croissant,It015,Bakery,
+1187,Iced Americano,It009,Drinks,Medium
+1188,Iced Mocha,It021,Drinks,Medium
+1188,Toast,It014,Bakery,
+1188,Apple Pie,It025,Bakery,
+1189,Iced Mocha,It021,Drinks,Medium
+1189,Mocha,It006,Drinks,Medium
+1189,Apple Pie,It025,Bakery,
+1189,Caramel Macchiato,It004,Drinks,Medium
+1190,Iced Americano,It009,Drinks,Medium
+1190,Tramisu,It023,Bakery,
+1190,Iced Mocha,It021,Drinks,Medium
+1190,Brownie,It016,Bakery,
+1191,Herbal Tea,It020,Drinks,
+1191,Mocha,It006,Drinks,Medium
+1191,Caramel Macchiato,It004,Drinks,Medium
+1192,Cookie,It017,Bakery,
+1192,Iced Latte,It010,Drinks,Medium
+1192,Iced Mocha,It021,Drinks,Medium
+1192,Brownie,It016,Bakery,
+1193,Cookie,It017,Bakery,
+1193,Toast,It014,Bakery,
+1193,Iced Mocha,It021,Drinks,Medium
+1194,Mocha,It006,Drinks,Medium
+1194,Americano,It022,Drinks,Medium
+1195,Lemonade,It012,Drinks,Medium
+1195,Cheesecake,It018,Bakery,
+1195,Hot Chocolate,It008,Drinks,Medium
+1196,Espresso,It005,Drinks,
+1196,Donut,It024,Bakery,
+1197,Sandwich Salami&Mozzarella,It013,Bakery,
+1197,Herbal Tea,It020,Drinks,
+1197,Hot Chocolate,It008,Drinks,Medium
+1198,Tramisu,It023,Bakery,
+1198,Herbal Tea,It020,Drinks,
+1199,Cheesecake,It018,Bakery,
+1199,Donut,It024,Bakery,
+1200,Carrot Cake,It026,Bakery,
+1200,Americano,It022,Drinks,Medium
+1200,Flat White,It003,Drinks,
+1201,Cappuccino,It001,Drinks,Medium
+1201,Hot Chocolate,It008,Drinks,Medium
+1201,Iced Americano,It009,Drinks,Medium
+1201,Sandwich Salami&Mozzarella,It013,Bakery,
+1202,Iced Tea,It011,Drinks,Medium
+1202,Caramel Macchiato,It004,Drinks,Medium
+1202,Iced Mocha,It021,Drinks,Medium
+1203,Sandwich Salami&Mozzarella,It013,Bakery,
+1203,Tramisu,It023,Bakery,
+1203,Americano,It022,Drinks,Medium
+1204,Iced Americano,It009,Drinks,Medium
+1204,Iced Latte,It010,Drinks,Medium
+1204,Cheesecake,It018,Bakery,
+1204,Toast,It014,Bakery,
+1205,Mocha,It006,Drinks,Medium
+1205,Toast,It014,Bakery,
+1205,Hot Chocolate,It008,Drinks,Medium
+1205,Iced Americano,It009,Drinks,Medium
+1206,Carrot Cake,It026,Bakery,
+1206,Hot Chocolate,It008,Drinks,Medium
+1206,Tea,It019,Drinks,
+1206,Iced Tea,It011,Drinks,Medium
+1207,Iced Mocha,It021,Drinks,Medium
+1207,Cappuccino,It001,Drinks,Medium
+1207,Caramel Macchiato,It004,Drinks,Medium
+1208,Tea,It019,Drinks,
+1208,White Mocha,It007,Drinks,Medium
+1209,Mocha,It006,Drinks,Medium
+1209,Caramel Macchiato,It004,Drinks,Medium
+1209,Iced Latte,It010,Drinks,Medium
+1209,Apple Pie,It025,Bakery,
+1210,Sandwich Salami&Mozzarella,It013,Bakery,
+1210,Mocha,It006,Drinks,Medium
+1210,Brownie,It016,Bakery,
+1210,Cheesecake,It018,Bakery,
+1211,Flat White,It003,Drinks,
+1211,Sandwich Salami&Mozzarella,It013,Bakery,
+1211,Caramel Macchiato,It004,Drinks,Medium
+1212,Iced Latte,It010,Drinks,Medium
+1212,Iced Americano,It009,Drinks,Medium
+1213,Croissant,It015,Bakery,
+1213,Mocha,It006,Drinks,Medium
+1214,Croissant,It015,Bakery,
+1214,Tea,It019,Drinks,
+1215,Flat White,It003,Drinks,
+1215,Iced Tea,It011,Drinks,Medium
+1215,Hot Chocolate,It008,Drinks,Medium
+1215,Sandwich Salami&Mozzarella,It013,Bakery,
+1216,Caramel Macchiato,It004,Drinks,Medium
+1216,Cookie,It017,Bakery,
+1216,Lemonade,It012,Drinks,Medium
+1216,Iced Americano,It009,Drinks,Medium
+1217,Espresso,It005,Drinks,
+1217,Lemonade,It012,Drinks,Medium
+1217,Sandwich Salami&Mozzarella,It013,Bakery,
+1217,Flat White,It003,Drinks,
+1218,Sandwich Salami&Mozzarella,It013,Bakery,
+1218,Hot Chocolate,It008,Drinks,Medium
+1218,Tramisu,It023,Bakery,
+1218,Cappuccino,It001,Drinks,Medium
+1219,Iced Americano,It009,Drinks,Medium
+1219,Tea,It019,Drinks,
+1220,Caramel Macchiato,It004,Drinks,Medium
+1220,Apple Pie,It025,Bakery,
+1220,White Mocha,It007,Drinks,Medium
+1221,Flat White,It003,Drinks,
+1221,Carrot Cake,It026,Bakery,
+1221,Latte,It002,Drinks,Medium
+1222,Tea,It019,Drinks,
+1222,Caramel Macchiato,It004,Drinks,Medium
+1222,Espresso,It005,Drinks,
+1223,Espresso,It005,Drinks,
+1223,Iced Mocha,It021,Drinks,Medium
+1223,Croissant,It015,Bakery,
+1223,Sandwich Salami&Mozzarella,It013,Bakery,
+1224,Caramel Macchiato,It004,Drinks,Medium
+1224,Iced Latte,It010,Drinks,Medium
+1225,Iced Mocha,It021,Drinks,Medium
+1225,White Mocha,It007,Drinks,Medium
+1226,White Mocha,It007,Drinks,Medium
+1226,Flat White,It003,Drinks,
+1227,Apple Pie,It025,Bakery,
+1227,Toast,It014,Bakery,
+1227,Iced Americano,It009,Drinks,Medium
+1228,Caramel Macchiato,It004,Drinks,Medium
+1228,Iced Americano,It009,Drinks,Medium
+1229,Donut,It024,Bakery,
+1229,Iced Latte,It010,Drinks,Medium
+1229,Toast,It014,Bakery,
+1229,Brownie,It016,Bakery,
+1230,Cookie,It017,Bakery,
+1230,Cappuccino,It001,Drinks,Medium
+1231,Apple Pie,It025,Bakery,
+1231,Cappuccino,It001,Drinks,Medium
+1232,Tea,It019,Drinks,
+1232,Sandwich Salami&Mozzarella,It013,Bakery,
+1233,Herbal Tea,It020,Drinks,
+1233,Tramisu,It023,Bakery,
+1233,White Mocha,It007,Drinks,Medium
+1234,Iced Mocha,It021,Drinks,Medium
+1234,Cheesecake,It018,Bakery,
+1235,Cheesecake,It018,Bakery,
+1235,Toast,It014,Bakery,
+1235,Iced Americano,It009,Drinks,Medium
+1236,Tea,It019,Drinks,
+1236,Hot Chocolate,It008,Drinks,Medium
+1236,Tramisu,It023,Bakery,
+1237,Iced Americano,It009,Drinks,Medium
+1237,Apple Pie,It025,Bakery,
+1238,Croissant,It015,Bakery,
+1238,Tea,It019,Drinks,
+1238,Cheesecake,It018,Bakery,
+1238,Toast,It014,Bakery,
+1239,Caramel Macchiato,It004,Drinks,Medium
+1239,Iced Tea,It011,Drinks,Medium
+1239,Mocha,It006,Drinks,Medium
+1240,Iced Mocha,It021,Drinks,Medium
+1240,Tramisu,It023,Bakery,
+1241,Iced Latte,It010,Drinks,Medium
+1241,Apple Pie,It025,Bakery,
+1241,Espresso,It005,Drinks,
+1241,White Mocha,It007,Drinks,Medium
+1242,Iced Tea,It011,Drinks,Medium
+1242,Iced Latte,It010,Drinks,Medium
+1242,Croissant,It015,Bakery,
+1242,White Mocha,It007,Drinks,Medium
+1243,Mocha,It006,Drinks,Medium
+1243,Sandwich Salami&Mozzarella,It013,Bakery,
+1244,Apple Pie,It025,Bakery,
+1244,Cheesecake,It018,Bakery,
+1245,Brownie,It016,Bakery,
+1245,Herbal Tea,It020,Drinks,
+1245,Donut,It024,Bakery,
+1245,Croissant,It015,Bakery,
+1246,Caramel Macchiato,It004,Drinks,Medium
+1246,Tramisu,It023,Bakery,
+1247,Cookie,It017,Bakery,
+1247,Flat White,It003,Drinks,
+1247,Apple Pie,It025,Bakery,
+1247,Iced Tea,It011,Drinks,Medium
+1248,Iced Tea,It011,Drinks,Medium
+1248,Flat White,It003,Drinks,
+1249,Lemonade,It012,Drinks,Medium
+1249,Iced Tea,It011,Drinks,Medium
+1249,Iced Americano,It009,Drinks,Medium
+1250,Toast,It014,Bakery,
+1250,Tea,It019,Drinks,
+1251,Lemonade,It012,Drinks,Medium
+1251,White Mocha,It007,Drinks,Medium
+1251,Flat White,It003,Drinks,
+1251,Carrot Cake,It026,Bakery,
+1252,White Mocha,It007,Drinks,Medium
+1252,Iced Latte,It010,Drinks,Medium
+1252,Sandwich Salami&Mozzarella,It013,Bakery,
+1253,Donut,It024,Bakery,
+1253,Herbal Tea,It020,Drinks,
+1253,Tramisu,It023,Bakery,
+1254,Caramel Macchiato,It004,Drinks,Medium
+1254,Tramisu,It023,Bakery,
+1254,Tea,It019,Drinks,
+1255,Hot Chocolate,It008,Drinks,Medium
+1255,Espresso,It005,Drinks,
+1255,Cookie,It017,Bakery,
+1256,Iced Tea,It011,Drinks,Medium
+1256,Latte,It002,Drinks,Medium
+1256,Espresso,It005,Drinks,
+1257,Herbal Tea,It020,Drinks,
+1257,Iced Mocha,It021,Drinks,Medium
+1258,Flat White,It003,Drinks,
+1258,Mocha,It006,Drinks,Medium
+1259,Toast,It014,Bakery,
+1259,Iced Americano,It009,Drinks,Medium
+1259,Donut,It024,Bakery,
+1259,Mocha,It006,Drinks,Medium
+1260,Brownie,It016,Bakery,
+1260,Croissant,It015,Bakery,
+1260,Tea,It019,Drinks,
+1261,White Mocha,It007,Drinks,Medium
+1261,Espresso,It005,Drinks,
+1261,Apple Pie,It025,Bakery,
+1261,Tramisu,It023,Bakery,
+1262,Iced Mocha,It021,Drinks,Medium
+1262,Latte,It002,Drinks,Medium
+1263,Americano,It022,Drinks,Medium
+1263,Herbal Tea,It020,Drinks,
+1263,Cheesecake,It018,Bakery,
+1263,Carrot Cake,It026,Bakery,
+1264,Cookie,It017,Bakery,
+1264,Tea,It019,Drinks,
+1265,Brownie,It016,Bakery,
+1265,Caramel Macchiato,It004,Drinks,Medium
+1265,Tramisu,It023,Bakery,
+1265,Croissant,It015,Bakery,
+1266,Mocha,It006,Drinks,Medium
+1266,Brownie,It016,Bakery,
+1266,Donut,It024,Bakery,
+1266,Iced Tea,It011,Drinks,Medium
+1267,Apple Pie,It025,Bakery,
+1267,Caramel Macchiato,It004,Drinks,Medium
+1268,Donut,It024,Bakery,
+1268,Brownie,It016,Bakery,
+1268,Toast,It014,Bakery,
+1269,Espresso,It005,Drinks,
+1269,Hot Chocolate,It008,Drinks,Medium
+1270,Latte,It002,Drinks,Medium
+1270,Cappuccino,It001,Drinks,Medium
+1271,White Mocha,It007,Drinks,Medium
+1271,Carrot Cake,It026,Bakery,
+1272,Iced Mocha,It021,Drinks,Medium
+1272,Flat White,It003,Drinks,
+1272,Iced Americano,It009,Drinks,Medium
+1273,Toast,It014,Bakery,
+1273,Americano,It022,Drinks,Medium
+1273,Cookie,It017,Bakery,
+1274,Carrot Cake,It026,Bakery,
+1274,Tea,It019,Drinks,
+1275,Mocha,It006,Drinks,Medium
+1275,Cookie,It017,Bakery,
+1275,Carrot Cake,It026,Bakery,
+1275,White Mocha,It007,Drinks,Medium
+1276,Iced Latte,It010,Drinks,Medium
+1276,Tea,It019,Drinks,
+1276,Croissant,It015,Bakery,
+1276,Espresso,It005,Drinks,
+1277,Apple Pie,It025,Bakery,
+1277,Mocha,It006,Drinks,Medium
+1278,Iced Tea,It011,Drinks,Medium
+1278,Donut,It024,Bakery,
+1279,Flat White,It003,Drinks,
+1279,Cookie,It017,Bakery,
+1279,Sandwich Salami&Mozzarella,It013,Bakery,
+1279,Americano,It022,Drinks,Medium
+1280,Tramisu,It023,Bakery,
+1280,Iced Tea,It011,Drinks,Medium
+1280,Tea,It019,Drinks,
+1281,Brownie,It016,Bakery,
+1281,Iced Tea,It011,Drinks,Medium
+1281,Mocha,It006,Drinks,Medium
+1282,Americano,It022,Drinks,Medium
+1282,Cookie,It017,Bakery,
+1283,Tramisu,It023,Bakery,
+1283,Latte,It002,Drinks,Medium
+1283,Donut,It024,Bakery,
+1283,Tea,It019,Drinks,
+1284,Apple Pie,It025,Bakery,
+1284,Iced Mocha,It021,Drinks,Medium
+1284,Cappuccino,It001,Drinks,Medium
+1285,Caramel Macchiato,It004,Drinks,Medium
+1285,Espresso,It005,Drinks,
+1285,Flat White,It003,Drinks,
+1285,Americano,It022,Drinks,Medium
+1286,Cappuccino,It001,Drinks,Medium
+1286,Croissant,It015,Bakery,
+1287,Tramisu,It023,Bakery,
+1287,Tea,It019,Drinks,
+1287,Brownie,It016,Bakery,
+1288,Croissant,It015,Bakery,
+1288,Caramel Macchiato,It004,Drinks,Medium
+1288,Americano,It022,Drinks,Medium
+1289,Iced Americano,It009,Drinks,Medium
+1289,Iced Tea,It011,Drinks,Medium
+1289,Cappuccino,It001,Drinks,Medium
+1290,Croissant,It015,Bakery,
+1290,Iced Tea,It011,Drinks,Medium
+1290,Donut,It024,Bakery,
+1291,Iced Tea,It011,Drinks,Medium
+1291,Cheesecake,It018,Bakery,
+1292,Latte,It002,Drinks,Medium
+1292,Cheesecake,It018,Bakery,
+1292,Flat White,It003,Drinks,
+1293,Hot Chocolate,It008,Drinks,Medium
+1293,Herbal Tea,It020,Drinks,
+1293,Brownie,It016,Bakery,
+1293,Lemonade,It012,Drinks,Medium
+1294,Brownie,It016,Bakery,
+1294,Caramel Macchiato,It004,Drinks,Medium
+1294,Iced Americano,It009,Drinks,Medium
+1294,Donut,It024,Bakery,
+1295,Flat White,It003,Drinks,
+1295,Tramisu,It023,Bakery,
+1295,Sandwich Salami&Mozzarella,It013,Bakery,
+1295,Apple Pie,It025,Bakery,
+1296,Carrot Cake,It026,Bakery,
+1296,Donut,It024,Bakery,
+1297,Latte,It002,Drinks,Medium
+1297,Iced Tea,It011,Drinks,Medium
+1297,Iced Americano,It009,Drinks,Medium
+1297,Carrot Cake,It026,Bakery,
+1298,Tea,It019,Drinks,
+1298,Cheesecake,It018,Bakery,
+1299,Herbal Tea,It020,Drinks,
+1299,Mocha,It006,Drinks,Medium
+1299,Lemonade,It012,Drinks,Medium
+1300,Tea,It019,Drinks,
+1300,Iced Tea,It011,Drinks,Medium
+1300,Apple Pie,It025,Bakery,
+1301,Cheesecake,It018,Bakery,
+1301,Iced Latte,It010,Drinks,Medium
+1302,Donut,It024,Bakery,
+1302,Carrot Cake,It026,Bakery,
+1302,Caramel Macchiato,It004,Drinks,Medium
+1303,Apple Pie,It025,Bakery,
+1303,Lemonade,It012,Drinks,Medium
+1303,Mocha,It006,Drinks,Medium
+1303,Iced Latte,It010,Drinks,Medium
+1304,Sandwich Salami&Mozzarella,It013,Bakery,
+1304,Americano,It022,Drinks,Medium
+1305,Croissant,It015,Bakery,
+1305,Iced Americano,It009,Drinks,Medium
+1305,Latte,It002,Drinks,Medium
+1305,Tea,It019,Drinks,
+1306,Carrot Cake,It026,Bakery,
+1306,Flat White,It003,Drinks,
+1306,Tea,It019,Drinks,
+1306,Cheesecake,It018,Bakery,
+1307,Cheesecake,It018,Bakery,
+1307,Americano,It022,Drinks,Medium
+1308,Cookie,It017,Bakery,
+1308,Iced Latte,It010,Drinks,Medium
+1308,Donut,It024,Bakery,
+1309,Americano,It022,Drinks,Medium
+1309,Croissant,It015,Bakery,
+1309,Iced Latte,It010,Drinks,Medium
+1310,Cookie,It017,Bakery,
+1310,Carrot Cake,It026,Bakery,
+1310,Iced Mocha,It021,Drinks,Medium
+1311,White Mocha,It007,Drinks,Medium
+1311,Sandwich Salami&Mozzarella,It013,Bakery,
+1311,Iced Mocha,It021,Drinks,Medium
+1312,White Mocha,It007,Drinks,Medium
+1312,Tea,It019,Drinks,
+1312,Cheesecake,It018,Bakery,
+1313,Americano,It022,Drinks,Medium
+1313,Carrot Cake,It026,Bakery,
+1313,Lemonade,It012,Drinks,Medium
+1313,Espresso,It005,Drinks,
+1314,Cheesecake,It018,Bakery,
+1314,Mocha,It006,Drinks,Medium
+1315,Tea,It019,Drinks,
+1315,Tramisu,It023,Bakery,
+1315,Iced Tea,It011,Drinks,Medium
+1315,Lemonade,It012,Drinks,Medium
+1316,Americano,It022,Drinks,Medium
+1316,Cookie,It017,Bakery,
+1316,Sandwich Salami&Mozzarella,It013,Bakery,
+1316,Herbal Tea,It020,Drinks,
+1317,Hot Chocolate,It008,Drinks,Medium
+1317,Tramisu,It023,Bakery,
+1317,Mocha,It006,Drinks,Medium
+1317,Croissant,It015,Bakery,
+1318,Herbal Tea,It020,Drinks,
+1318,Flat White,It003,Drinks,
+1318,Cheesecake,It018,Bakery,
+1318,Toast,It014,Bakery,
+1319,Cookie,It017,Bakery,
+1319,Croissant,It015,Bakery,
+1320,Lemonade,It012,Drinks,Medium
+1320,Flat White,It003,Drinks,
+1320,Herbal Tea,It020,Drinks,
+1320,Toast,It014,Bakery,
+1321,Flat White,It003,Drinks,
+1321,White Mocha,It007,Drinks,Medium
+1321,Lemonade,It012,Drinks,Medium
+1321,Iced Latte,It010,Drinks,Medium
+1322,Flat White,It003,Drinks,
+1322,Toast,It014,Bakery,
+1322,Tea,It019,Drinks,
+1322,Hot Chocolate,It008,Drinks,Medium
+1323,Iced Latte,It010,Drinks,Medium
+1323,Flat White,It003,Drinks,
+1323,Hot Chocolate,It008,Drinks,Medium
+1323,Americano,It022,Drinks,Medium
+1324,White Mocha,It007,Drinks,Medium
+1324,Caramel Macchiato,It004,Drinks,Medium
+1324,Tea,It019,Drinks,
+1324,Hot Chocolate,It008,Drinks,Medium
+1325,Iced Tea,It011,Drinks,Medium
+1325,Espresso,It005,Drinks,
+1325,White Mocha,It007,Drinks,Medium
+1326,Toast,It014,Bakery,
+1326,Flat White,It003,Drinks,
+1327,Toast,It014,Bakery,
+1327,Herbal Tea,It020,Drinks,
+1327,Donut,It024,Bakery,
+1327,Cheesecake,It018,Bakery,
+1328,Caramel Macchiato,It004,Drinks,Medium
+1328,Iced Mocha,It021,Drinks,Medium
+1329,Sandwich Salami&Mozzarella,It013,Bakery,
+1329,Lemonade,It012,Drinks,Medium
+1330,Flat White,It003,Drinks,
+1330,Iced Latte,It010,Drinks,Medium
+1330,Brownie,It016,Bakery,
+1330,White Mocha,It007,Drinks,Medium
+1331,Hot Chocolate,It008,Drinks,Medium
+1331,Flat White,It003,Drinks,
+1332,Espresso,It005,Drinks,
+1332,Toast,It014,Bakery,
+1332,Americano,It022,Drinks,Medium
+1332,Sandwich Salami&Mozzarella,It013,Bakery,
+1333,Tramisu,It023,Bakery,
+1333,Toast,It014,Bakery,
+1333,Donut,It024,Bakery,
+1333,Latte,It002,Drinks,Medium
+1334,Apple Pie,It025,Bakery,
+1334,Brownie,It016,Bakery,
+1334,Iced Mocha,It021,Drinks,Medium
+1334,Americano,It022,Drinks,Medium
+1335,Cookie,It017,Bakery,
+1335,Iced Mocha,It021,Drinks,Medium
+1336,Tramisu,It023,Bakery,
+1336,Latte,It002,Drinks,Medium
+1336,Apple Pie,It025,Bakery,
+1336,Americano,It022,Drinks,Medium
+1337,Donut,It024,Bakery,
+1337,Mocha,It006,Drinks,Medium
+1337,Carrot Cake,It026,Bakery,
+1337,Tramisu,It023,Bakery,
+1338,Caramel Macchiato,It004,Drinks,Medium
+1338,Cookie,It017,Bakery,
+1338,Cheesecake,It018,Bakery,
+1338,Americano,It022,Drinks,Medium
+1339,Donut,It024,Bakery,
+1339,Toast,It014,Bakery,
+1340,Caramel Macchiato,It004,Drinks,Medium
+1340,Iced Americano,It009,Drinks,Medium
+1340,Mocha,It006,Drinks,Medium
+1340,Iced Latte,It010,Drinks,Medium
+1341,Toast,It014,Bakery,
+1341,Lemonade,It012,Drinks,Medium
+1342,Cappuccino,It001,Drinks,Medium
+1342,White Mocha,It007,Drinks,Medium
+1342,Flat White,It003,Drinks,
+1343,Caramel Macchiato,It004,Drinks,Medium
+1343,Carrot Cake,It026,Bakery,
+1343,Cookie,It017,Bakery,
+1344,Cappuccino,It001,Drinks,Medium
+1344,Brownie,It016,Bakery,
+1344,Iced Tea,It011,Drinks,Medium
+1345,Iced Americano,It009,Drinks,Medium
+1345,Tea,It019,Drinks,
+1345,Iced Latte,It010,Drinks,Medium
+1345,Flat White,It003,Drinks,
+1346,Iced Americano,It009,Drinks,Medium
+1346,Iced Mocha,It021,Drinks,Medium
+1346,Tramisu,It023,Bakery,
+1347,Hot Chocolate,It008,Drinks,Medium
+1347,Iced Americano,It009,Drinks,Medium
+1347,Cookie,It017,Bakery,
+1347,Herbal Tea,It020,Drinks,
+1348,Iced Latte,It010,Drinks,Medium
+1348,Americano,It022,Drinks,Medium
+1348,Caramel Macchiato,It004,Drinks,Medium
+1348,Iced Americano,It009,Drinks,Medium
+1349,White Mocha,It007,Drinks,Medium
+1349,Iced Americano,It009,Drinks,Medium
+1350,Lemonade,It012,Drinks,Medium
+1350,Americano,It022,Drinks,Medium
+1350,Sandwich Salami&Mozzarella,It013,Bakery,
+1351,Tramisu,It023,Bakery,
+1351,Iced Mocha,It021,Drinks,Medium
+1351,Lemonade,It012,Drinks,Medium
+1352,Carrot Cake,It026,Bakery,
+1352,Cheesecake,It018,Bakery,
+1352,Donut,It024,Bakery,
+1352,Brownie,It016,Bakery,
+1353,Donut,It024,Bakery,
+1353,Croissant,It015,Bakery,
+1353,Iced Latte,It010,Drinks,Medium
+1353,Iced Mocha,It021,Drinks,Medium
+1354,Caramel Macchiato,It004,Drinks,Medium
+1354,Americano,It022,Drinks,Medium
+1355,Croissant,It015,Bakery,
+1355,Hot Chocolate,It008,Drinks,Medium
+1355,Cappuccino,It001,Drinks,Medium
+1355,Iced Americano,It009,Drinks,Medium
+1356,Americano,It022,Drinks,Medium
+1356,Espresso,It005,Drinks,
+1356,Tramisu,It023,Bakery,
+1357,Carrot Cake,It026,Bakery,
+1357,Mocha,It006,Drinks,Medium
+1358,Hot Chocolate,It008,Drinks,Medium
+1358,Tea,It019,Drinks,
+1359,Croissant,It015,Bakery,
+1359,Caramel Macchiato,It004,Drinks,Medium
+1359,Iced Latte,It010,Drinks,Medium
+1359,Sandwich Salami&Mozzarella,It013,Bakery,
+1360,Espresso,It005,Drinks,
+1360,Americano,It022,Drinks,Medium
+1361,Latte,It002,Drinks,Medium
+1361,Caramel Macchiato,It004,Drinks,Medium
+1362,Brownie,It016,Bakery,
+1362,Latte,It002,Drinks,Medium
+1362,Iced Tea,It011,Drinks,Medium
+1362,Cappuccino,It001,Drinks,Medium
+1363,Cappuccino,It001,Drinks,Medium
+1363,Carrot Cake,It026,Bakery,
+1363,Tramisu,It023,Bakery,
+1364,Brownie,It016,Bakery,
+1364,Caramel Macchiato,It004,Drinks,Medium
+1364,Iced Latte,It010,Drinks,Medium
+1365,Toast,It014,Bakery,
+1365,Iced Americano,It009,Drinks,Medium
+1366,Americano,It022,Drinks,Medium
+1366,Cookie,It017,Bakery,
+1366,Sandwich Salami&Mozzarella,It013,Bakery,
+1367,Donut,It024,Bakery,
+1367,Iced Americano,It009,Drinks,Medium
+1367,Cheesecake,It018,Bakery,
+1368,Croissant,It015,Bakery,
+1368,Iced Tea,It011,Drinks,Medium
+1369,Flat White,It003,Drinks,
+1369,Hot Chocolate,It008,Drinks,Medium
+1369,Americano,It022,Drinks,Medium
+1369,Cheesecake,It018,Bakery,
+1370,Caramel Macchiato,It004,Drinks,Medium
+1370,Iced Mocha,It021,Drinks,Medium
+1370,Donut,It024,Bakery,
+1371,Herbal Tea,It020,Drinks,
+1371,Iced Mocha,It021,Drinks,Medium
+1371,Caramel Macchiato,It004,Drinks,Medium
+1372,Sandwich Salami&Mozzarella,It013,Bakery,
+1372,Brownie,It016,Bakery,
+1372,Croissant,It015,Bakery,
+1373,Iced Mocha,It021,Drinks,Medium
+1373,Toast,It014,Bakery,
+1373,Americano,It022,Drinks,Medium
+1374,Espresso,It005,Drinks,
+1374,Iced Latte,It010,Drinks,Medium
+1375,Iced Mocha,It021,Drinks,Medium
+1375,Herbal Tea,It020,Drinks,
+1375,Croissant,It015,Bakery,
+1376,Sandwich Salami&Mozzarella,It013,Bakery,
+1376,Lemonade,It012,Drinks,Medium
+1377,White Mocha,It007,Drinks,Medium
+1377,Americano,It022,Drinks,Medium
+1377,Cheesecake,It018,Bakery,
+1377,Latte,It002,Drinks,Medium
+1378,Caramel Macchiato,It004,Drinks,Medium
+1378,Latte,It002,Drinks,Medium
+1378,Lemonade,It012,Drinks,Medium
+1378,Carrot Cake,It026,Bakery,
+1379,Herbal Tea,It020,Drinks,
+1379,Americano,It022,Drinks,Medium
+1379,Iced Mocha,It021,Drinks,Medium
+1380,White Mocha,It007,Drinks,Medium
+1380,Lemonade,It012,Drinks,Medium
+1380,Americano,It022,Drinks,Medium
+1380,Croissant,It015,Bakery,
+1381,Cheesecake,It018,Bakery,
+1381,Brownie,It016,Bakery,
+1381,Flat White,It003,Drinks,
+1382,Cappuccino,It001,Drinks,Medium
+1382,Donut,It024,Bakery,
+1382,Iced Americano,It009,Drinks,Medium
+1382,White Mocha,It007,Drinks,Medium
+1383,Croissant,It015,Bakery,
+1383,Carrot Cake,It026,Bakery,
+1383,Tea,It019,Drinks,
+1383,Americano,It022,Drinks,Medium
+1384,Hot Chocolate,It008,Drinks,Medium
+1384,Tramisu,It023,Bakery,
+1384,Iced Americano,It009,Drinks,Medium
+1385,White Mocha,It007,Drinks,Medium
+1385,Tramisu,It023,Bakery,
+1385,Iced Mocha,It021,Drinks,Medium
+1386,Caramel Macchiato,It004,Drinks,Medium
+1386,Herbal Tea,It020,Drinks,
+1386,Sandwich Salami&Mozzarella,It013,Bakery,
+1387,Donut,It024,Bakery,
+1387,Iced Tea,It011,Drinks,Medium
+1387,Latte,It002,Drinks,Medium
+1388,Iced Americano,It009,Drinks,Medium
+1388,Lemonade,It012,Drinks,Medium
+1389,Mocha,It006,Drinks,Medium
+1389,Flat White,It003,Drinks,
+1389,Lemonade,It012,Drinks,Medium
+1390,Lemonade,It012,Drinks,Medium
+1390,Tea,It019,Drinks,
+1390,Tramisu,It023,Bakery,
+1391,Carrot Cake,It026,Bakery,
+1391,Iced Latte,It010,Drinks,Medium
+1391,White Mocha,It007,Drinks,Medium
+1391,Apple Pie,It025,Bakery,
+1392,Iced Americano,It009,Drinks,Medium
+1392,Latte,It002,Drinks,Medium
+1393,Iced Mocha,It021,Drinks,Medium
+1393,Carrot Cake,It026,Bakery,
+1393,Iced Americano,It009,Drinks,Medium
+1394,Hot Chocolate,It008,Drinks,Medium
+1394,Iced Tea,It011,Drinks,Medium
+1394,Caramel Macchiato,It004,Drinks,Medium
+1395,Espresso,It005,Drinks,
+1395,Americano,It022,Drinks,Medium
+1396,Cookie,It017,Bakery,
+1396,Apple Pie,It025,Bakery,
+1396,Iced Mocha,It021,Drinks,Medium
+1397,Iced Mocha,It021,Drinks,Medium
+1397,Tea,It019,Drinks,
+1397,Toast,It014,Bakery,
+1398,Hot Chocolate,It008,Drinks,Medium
+1398,Mocha,It006,Drinks,Medium
+1398,Sandwich Salami&Mozzarella,It013,Bakery,
+1398,Flat White,It003,Drinks,
+1399,Donut,It024,Bakery,
+1399,Caramel Macchiato,It004,Drinks,Medium
+1399,Latte,It002,Drinks,Medium
+1400,Iced Mocha,It021,Drinks,Medium
+1400,Iced Americano,It009,Drinks,Medium
+1401,Lemonade,It012,Drinks,Medium
+1401,Iced Americano,It009,Drinks,Medium
+1402,Herbal Tea,It020,Drinks,
+1402,Iced Americano,It009,Drinks,Medium
+1403,Caramel Macchiato,It004,Drinks,Medium
+1403,Iced Tea,It011,Drinks,Medium
+1403,White Mocha,It007,Drinks,Medium
+1404,White Mocha,It007,Drinks,Medium
+1404,Cheesecake,It018,Bakery,
+1405,Americano,It022,Drinks,Medium
+1405,Latte,It002,Drinks,Medium
+1405,Iced Americano,It009,Drinks,Medium
+1405,Tramisu,It023,Bakery,
+1406,Americano,It022,Drinks,Medium
+1406,Carrot Cake,It026,Bakery,
+1407,Sandwich Salami&Mozzarella,It013,Bakery,
+1407,Iced Latte,It010,Drinks,Medium
+1408,Cookie,It017,Bakery,
+1408,Cheesecake,It018,Bakery,
+1408,Apple Pie,It025,Bakery,
+1408,White Mocha,It007,Drinks,Medium
+1409,Herbal Tea,It020,Drinks,
+1409,Americano,It022,Drinks,Medium
+1409,Caramel Macchiato,It004,Drinks,Medium
+1409,Mocha,It006,Drinks,Medium
+1410,Espresso,It005,Drinks,
+1410,White Mocha,It007,Drinks,Medium
+1411,Tramisu,It023,Bakery,
+1411,Espresso,It005,Drinks,
+1412,Iced Tea,It011,Drinks,Medium
+1412,Mocha,It006,Drinks,Medium
+1412,Croissant,It015,Bakery,
+1412,Toast,It014,Bakery,
+1413,Cookie,It017,Bakery,
+1413,Carrot Cake,It026,Bakery,
+1413,Donut,It024,Bakery,
+1414,Latte,It002,Drinks,Medium
+1414,Iced Mocha,It021,Drinks,Medium
+1414,Caramel Macchiato,It004,Drinks,Medium
+1414,Sandwich Salami&Mozzarella,It013,Bakery,
+1415,Hot Chocolate,It008,Drinks,Medium
+1415,Croissant,It015,Bakery,
+1415,Lemonade,It012,Drinks,Medium
+1415,Cookie,It017,Bakery,
+1416,Caramel Macchiato,It004,Drinks,Medium
+1416,Latte,It002,Drinks,Medium
+1417,Cappuccino,It001,Drinks,Medium
+1417,Apple Pie,It025,Bakery,
+1418,Espresso,It005,Drinks,
+1418,Donut,It024,Bakery,
+1418,Tramisu,It023,Bakery,
+1418,Iced Americano,It009,Drinks,Medium
+1419,Cheesecake,It018,Bakery,
+1419,Espresso,It005,Drinks,
+1419,Americano,It022,Drinks,Medium
+1420,Latte,It002,Drinks,Medium
+1420,Cheesecake,It018,Bakery,
+1420,White Mocha,It007,Drinks,Medium
+1420,Tramisu,It023,Bakery,
+1421,Tramisu,It023,Bakery,
+1421,Toast,It014,Bakery,
+1421,Herbal Tea,It020,Drinks,
+1421,Flat White,It003,Drinks,
+1422,Iced Latte,It010,Drinks,Medium
+1422,Brownie,It016,Bakery,
+1422,Apple Pie,It025,Bakery,
+1423,Apple Pie,It025,Bakery,
+1423,Americano,It022,Drinks,Medium
+1423,Toast,It014,Bakery,
+1424,Toast,It014,Bakery,
+1424,Carrot Cake,It026,Bakery,
+1424,Cappuccino,It001,Drinks,Medium
+1424,Iced Americano,It009,Drinks,Medium
+1425,Lemonade,It012,Drinks,Medium
+1425,Carrot Cake,It026,Bakery,
+1425,Herbal Tea,It020,Drinks,
+1426,Carrot Cake,It026,Bakery,
+1426,Cookie,It017,Bakery,
+1427,Cheesecake,It018,Bakery,
+1427,Lemonade,It012,Drinks,Medium
+1427,White Mocha,It007,Drinks,Medium
+1428,Tea,It019,Drinks,
+1428,Mocha,It006,Drinks,Medium
+1428,Toast,It014,Bakery,
+1429,Cheesecake,It018,Bakery,
+1429,Lemonade,It012,Drinks,Medium
+1429,Espresso,It005,Drinks,
+1430,Tramisu,It023,Bakery,
+1430,Donut,It024,Bakery,
+1431,Hot Chocolate,It008,Drinks,Medium
+1431,Flat White,It003,Drinks,
+1431,Iced Mocha,It021,Drinks,Medium
+1431,Herbal Tea,It020,Drinks,
+1432,Iced Mocha,It021,Drinks,Medium
+1432,Brownie,It016,Bakery,
+1432,Donut,It024,Bakery,
+1433,Latte,It002,Drinks,Medium
+1433,Flat White,It003,Drinks,
+1433,Toast,It014,Bakery,
+1433,Tramisu,It023,Bakery,
+1434,Tramisu,It023,Bakery,
+1434,Latte,It002,Drinks,Medium
+1434,Iced Tea,It011,Drinks,Medium
+1434,Sandwich Salami&Mozzarella,It013,Bakery,
+1435,Latte,It002,Drinks,Medium
+1435,Carrot Cake,It026,Bakery,
+1435,Iced Americano,It009,Drinks,Medium
+1436,Iced Mocha,It021,Drinks,Medium
+1436,Caramel Macchiato,It004,Drinks,Medium
+1436,Iced Latte,It010,Drinks,Medium
+1437,Tea,It019,Drinks,
+1437,Iced Latte,It010,Drinks,Medium
+1438,Lemonade,It012,Drinks,Medium
+1438,Mocha,It006,Drinks,Medium
+1438,Iced Latte,It010,Drinks,Medium
+1439,Mocha,It006,Drinks,Medium
+1439,Apple Pie,It025,Bakery,
+1440,Lemonade,It012,Drinks,Medium
+1440,Espresso,It005,Drinks,
+1440,Brownie,It016,Bakery,
+1440,Cheesecake,It018,Bakery,
+1441,Tea,It019,Drinks,
+1441,Latte,It002,Drinks,Medium
+1441,Iced Latte,It010,Drinks,Medium
+1442,Tramisu,It023,Bakery,
+1442,Herbal Tea,It020,Drinks,
+1442,Espresso,It005,Drinks,
+1443,Latte,It002,Drinks,Medium
+1443,Hot Chocolate,It008,Drinks,Medium
+1443,Caramel Macchiato,It004,Drinks,Medium
+1444,Cheesecake,It018,Bakery,
+1444,White Mocha,It007,Drinks,Medium
+1444,Americano,It022,Drinks,Medium
+1445,Toast,It014,Bakery,
+1445,Iced Tea,It011,Drinks,Medium
+1445,Lemonade,It012,Drinks,Medium
+1446,Latte,It002,Drinks,Medium
+1446,Caramel Macchiato,It004,Drinks,Medium
+1446,Croissant,It015,Bakery,
+1446,Donut,It024,Bakery,
+1447,Donut,It024,Bakery,
+1447,Herbal Tea,It020,Drinks,
+1448,Croissant,It015,Bakery,
+1448,Flat White,It003,Drinks,
+1449,Iced Tea,It011,Drinks,Medium
+1449,White Mocha,It007,Drinks,Medium
+1450,Apple Pie,It025,Bakery,
+1450,Mocha,It006,Drinks,Medium
+1450,White Mocha,It007,Drinks,Medium
+1451,White Mocha,It007,Drinks,Medium
+1451,Lemonade,It012,Drinks,Medium
+1451,Iced Tea,It011,Drinks,Medium
+1451,Donut,It024,Bakery,
+1452,Apple Pie,It025,Bakery,
+1452,Herbal Tea,It020,Drinks,
+1452,Iced Latte,It010,Drinks,Medium
+1453,White Mocha,It007,Drinks,Medium
+1453,Flat White,It003,Drinks,
+1453,Cheesecake,It018,Bakery,
+1454,White Mocha,It007,Drinks,Medium
+1454,Espresso,It005,Drinks,
+1455,Tea,It019,Drinks,
+1455,Donut,It024,Bakery,
+1456,Donut,It024,Bakery,
+1456,Flat White,It003,Drinks,
+1456,Cappuccino,It001,Drinks,Medium
+1456,Hot Chocolate,It008,Drinks,Medium
+1457,Croissant,It015,Bakery,
+1457,Apple Pie,It025,Bakery,
+1457,Tramisu,It023,Bakery,
+1458,Flat White,It003,Drinks,
+1458,Toast,It014,Bakery,
+1458,Apple Pie,It025,Bakery,
+1458,Croissant,It015,Bakery,
+1459,Lemonade,It012,Drinks,Medium
+1459,Iced Latte,It010,Drinks,Medium
+1459,Tea,It019,Drinks,
+1459,Tramisu,It023,Bakery,
+1460,Sandwich Salami&Mozzarella,It013,Bakery,
+1460,Iced Tea,It011,Drinks,Medium
+1461,Sandwich Salami&Mozzarella,It013,Bakery,
+1461,Cheesecake,It018,Bakery,
+1461,Iced Tea,It011,Drinks,Medium
+1462,Flat White,It003,Drinks,
+1462,Latte,It002,Drinks,Medium
+1462,Iced Mocha,It021,Drinks,Medium
+1462,Cookie,It017,Bakery,
+1463,Donut,It024,Bakery,
+1463,Iced Mocha,It021,Drinks,Medium
+1463,Brownie,It016,Bakery,
+1464,Tea,It019,Drinks,
+1464,Latte,It002,Drinks,Medium
+1465,Cookie,It017,Bakery,
+1465,Sandwich Salami&Mozzarella,It013,Bakery,
+1466,Caramel Macchiato,It004,Drinks,Medium
+1466,Carrot Cake,It026,Bakery,
+1466,Tea,It019,Drinks,
+1466,Tramisu,It023,Bakery,
+1467,Cookie,It017,Bakery,
+1467,Caramel Macchiato,It004,Drinks,Medium
+1467,Tramisu,It023,Bakery,
+1468,Caramel Macchiato,It004,Drinks,Medium
+1468,Espresso,It005,Drinks,
+1468,Tramisu,It023,Bakery,
+1468,Carrot Cake,It026,Bakery,
+1469,Cheesecake,It018,Bakery,
+1469,Mocha,It006,Drinks,Medium
+1469,Espresso,It005,Drinks,
+1469,Apple Pie,It025,Bakery,
+1470,Brownie,It016,Bakery,
+1470,Iced Tea,It011,Drinks,Medium
+1471,Espresso,It005,Drinks,
+1471,Herbal Tea,It020,Drinks,
+1471,Iced Mocha,It021,Drinks,Medium
+1471,Latte,It002,Drinks,Medium
+1472,Tea,It019,Drinks,
+1472,Carrot Cake,It026,Bakery,
+1472,Iced Tea,It011,Drinks,Medium
+1472,Mocha,It006,Drinks,Medium
+1473,Carrot Cake,It026,Bakery,
+1473,Toast,It014,Bakery,
+1473,Iced Latte,It010,Drinks,Medium
+1473,Flat White,It003,Drinks,
+1474,Toast,It014,Bakery,
+1474,Carrot Cake,It026,Bakery,
+1474,Flat White,It003,Drinks,
+1474,Espresso,It005,Drinks,
+1475,Iced Tea,It011,Drinks,Medium
+1475,Hot Chocolate,It008,Drinks,Medium
+1476,Iced Tea,It011,Drinks,Medium
+1476,Toast,It014,Bakery,
+1476,Mocha,It006,Drinks,Medium
+1476,Iced Americano,It009,Drinks,Medium
+1477,Cookie,It017,Bakery,
+1477,Espresso,It005,Drinks,
+1477,Carrot Cake,It026,Bakery,
+1478,Iced Latte,It010,Drinks,Medium
+1478,Caramel Macchiato,It004,Drinks,Medium
+1478,Donut,It024,Bakery,
+1479,Mocha,It006,Drinks,Medium
+1479,Iced Tea,It011,Drinks,Medium
+1479,Caramel Macchiato,It004,Drinks,Medium
+1479,White Mocha,It007,Drinks,Medium
+1480,Iced Tea,It011,Drinks,Medium
+1480,Iced Latte,It010,Drinks,Medium
+1480,Espresso,It005,Drinks,
+1481,Mocha,It006,Drinks,Medium
+1481,Toast,It014,Bakery,
+1481,Iced Tea,It011,Drinks,Medium
+1481,Sandwich Salami&Mozzarella,It013,Bakery,
+1482,Iced Americano,It009,Drinks,Medium
+1482,Iced Mocha,It021,Drinks,Medium
+1482,Apple Pie,It025,Bakery,
+1483,Caramel Macchiato,It004,Drinks,Medium
+1483,Iced Mocha,It021,Drinks,Medium
+1484,Espresso,It005,Drinks,
+1484,Donut,It024,Bakery,
+1484,Iced Mocha,It021,Drinks,Medium
+1485,Iced Tea,It011,Drinks,Medium
+1485,Cheesecake,It018,Bakery,
+1485,Lemonade,It012,Drinks,Medium
+1485,Hot Chocolate,It008,Drinks,Medium
+1486,Apple Pie,It025,Bakery,
+1486,Latte,It002,Drinks,Medium
+1487,Donut,It024,Bakery,
+1487,Americano,It022,Drinks,Medium
+1487,White Mocha,It007,Drinks,Medium
+1487,Caramel Macchiato,It004,Drinks,Medium
+1488,Tramisu,It023,Bakery,
+1488,Americano,It022,Drinks,Medium
+1488,Flat White,It003,Drinks,
+1489,Iced Mocha,It021,Drinks,Medium
+1489,Lemonade,It012,Drinks,Medium
+1489,Donut,It024,Bakery,
+1490,Toast,It014,Bakery,
+1490,Iced Mocha,It021,Drinks,Medium
+1490,Iced Latte,It010,Drinks,Medium
+1491,Lemonade,It012,Drinks,Medium
+1491,Tea,It019,Drinks,
+1492,Flat White,It003,Drinks,
+1492,Donut,It024,Bakery,
+1492,Sandwich Salami&Mozzarella,It013,Bakery,
+1493,Brownie,It016,Bakery,
+1493,Cookie,It017,Bakery,
+1493,White Mocha,It007,Drinks,Medium
+1494,Tramisu,It023,Bakery,
+1494,Mocha,It006,Drinks,Medium
+1494,Cookie,It017,Bakery,
+1494,Espresso,It005,Drinks,
+1495,Sandwich Salami&Mozzarella,It013,Bakery,
+1495,Iced Tea,It011,Drinks,Medium
+1496,Donut,It024,Bakery,
+1496,White Mocha,It007,Drinks,Medium
+1496,Americano,It022,Drinks,Medium
+1497,Iced Mocha,It021,Drinks,Medium
+1497,Apple Pie,It025,Bakery,
+1498,Mocha,It006,Drinks,Medium
+1498,Cappuccino,It001,Drinks,Medium
+1498,Cookie,It017,Bakery,
+1499,Cheesecake,It018,Bakery,
+1499,Latte,It002,Drinks,Medium
+1499,Caramel Macchiato,It004,Drinks,Medium
+1499,Sandwich Salami&Mozzarella,It013,Bakery,
+1500,Flat White,It003,Drinks,
+1500,Apple Pie,It025,Bakery,
+1500,Iced Latte,It010,Drinks,Medium
