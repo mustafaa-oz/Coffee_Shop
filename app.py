@@ -10,9 +10,18 @@ st.set_page_config(page_title="Miuul Coffee Shop", page_icon="☕", layout="wide
 @st.cache_resource
 def load_models():
     try:
-        revenue_model = joblib.load(os.path.join("models", "kurlu_catboost_coffee_revenue_model.pkl"))
-        scaler = joblib.load(os.path.join("models", "kurlu_robust_scaler_model.pkl"))
-    except Exception as e:
+            # Ensure feature alignment with trained model
+            expected = model.feature_names_
+            for feat in expected:
+                if feat not in inp.columns:
+                    inp[feat] = 0
+            inp = inp[expected]
+            data_scaled = scaler.transform(inp)
+            preds = model.predict(pd.DataFrame(data_scaled, columns=inp.columns))
+            profit = (preds[0] - emp*1000) * (hrs/10)
+            st.success(f"Tahmini Gelir: ₺{profit:.2f}")
+        except Exception as e:
+            st.error(f"Gelir tahmini hesaplanırken hata oluştu: {e}")
         st.error(f"Model yüklenemedi: {e}")
         st.stop()
     return revenue_model, scaler
