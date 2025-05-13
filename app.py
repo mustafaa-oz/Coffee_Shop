@@ -12,8 +12,8 @@ def load_models():
     try:
         revenue_model = joblib.load(os.path.join("models","kurlu_catboost_coffee_revenue_model.pkl"))
         scaler = joblib.load(os.path.join("models","kurlu_robust_scaler_model.pkl"))
-    except FileNotFoundError as e:
-        st.error(f"Model dosyası bulunamadı: {e.filename}")
+    except Exception as e:
+        st.error(f"Model yüklenemedi: {e}")
         st.stop()
     return revenue_model, scaler
 
