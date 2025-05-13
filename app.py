@@ -110,16 +110,18 @@ elif choice == "Günlük Kâr Hesapla":
             "Marketing_Spend_Per_Day": mkt,
             "Location_Foot_Traffic": foot
         }])
-        # Feature Engineering: model expects Customers_Per_Employee
+        # Feature Engineering: compute necessary derived features
         inp["Customers_Per_Employee"] = inp["Number_of_Customers_Per_Day"] / inp["Number_of_Employees"]
+        inp["Customer_Traffic_Ratio"] = inp["Number_of_Customers_Per_Day"] / inp["Location_Foot_Traffic"]
+        inp["Total_Orders_Value"] = inp["Number_of_Customers_Per_Day"] * inp["Average_Order_Value"]
+        inp["Marketing_Per_Customer"] = inp["Marketing_Spend_Per_Day"] / inp["Number_of_Customers_Per_Day"] if inp["Number_of_Customers_Per_Day"].iloc[0] != 0 else 0
+        inp["Marketing_Order_Interaction"] = inp["Marketing_Spend_Per_Day"] * inp["Average_Order_Value"]
         try:
             # Align features with trained model
             expected = model.feature_names_
-            # Add missing with zeros
             for feat in expected:
                 if feat not in inp.columns:
                     inp[feat] = 0
-            # Subset and order
             inp = inp[expected]
             data_scaled = scaler.transform(inp)
             preds = model.predict(pd.DataFrame(data_scaled, columns=expected))
@@ -127,20 +129,3 @@ elif choice == "Günlük Kâr Hesapla":
             st.success(f"Tahmini Gelir: ₺{profit:.2f}")
         except Exception as e:
             st.error(f"Gelir tahmini hesaplanırken hata oluştu: {e}")
-            st.error(f"Gelir tahmini hesaplanırken hata oluştu: {e}")
-
-elif choice == "Lokasyon (Admin)":
-    render_header(title="Optimal Lokasyonlar")
-    try:
-        html = open("miuul coffee lokasyon.html", "r", encoding="utf-8").read()
-        st.components.v1.html(html, height=600)
-        st.markdown("**1. Mavişehir:** 300 müşteri, 210₺ ort.")
-        st.markdown("**2. Bostanlı:** 400 müşteri, 250₺ ort.")
-        st.markdown("**3. Karşıyaka:** 450 müşteri, 150₺ ort.")
-    except Exception as e:
-        st.error(f"Harita yüklenemedi: {e}")
-
-elif choice == "Model Değerlendirmesi":
-    render_header(title="☕️ Model Değerlendirmesi")
-    st.markdown("**CatBoost R²: 0.9550**")
-    st.markdown("**CatBoost RMSE: 7085.73**")
