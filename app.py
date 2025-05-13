@@ -37,7 +37,7 @@ if choice == "Ana Sayfa":
     render_header(
         title="Miuul Coffee Shop",
         subtitle="Dünyanın ilk yapay zeka destekli kahve molası",
-        logo_path="assets/miul_son - Kopya.png"
+        logo_path="assets/miul_son.png"
     )
     st.markdown("<h2 style='text-align:center;'>Kahve İçmenin En Akıllı Hali...</h2>", unsafe_allow_html=True)
     col1, col2, col3 = st.columns([1,4,1])
@@ -51,7 +51,7 @@ if choice == "Ana Sayfa":
 elif choice == "Sipariş Ekranı":
     render_header(
         title="☕ Coffee Shop Recommender",
-        logo_path="assets/miul_son - Kopya.png"
+        logo_path="assets/miul_son.png"
     )
     df = load_transaction_data()
     from mlxtend.frequent_patterns import apriori, association_rules
@@ -103,7 +103,7 @@ elif choice == "Sipariş Ekranı":
 elif choice == "Günlük Kâr Hesapla":
     render_header(
         title="💰 Günlük Kâr Hesaplama",
-        logo_path="assets/miul_son - Kopya.png"
+        logo_path="assets/miul_son.png"
     )
     model, scaler = load_models()
     locs = {'Mavişehir':(1500,300,210),'Bostanlı':(2500,400,250),'Karşıyaka':(3500,450,150)}
@@ -128,7 +128,7 @@ elif choice == "Günlük Kâr Hesapla":
 elif choice == "Lokasyon (Admin)":
     render_header(
         title="Optimal Lokasyonlar",
-        logo_path="assets/miul_son - Kopya.png"
+        logo_path="assets/miul_son.png"
     )
     st.markdown("<h4 style='text-align:center;'>Potansiyel Noktalar</h4>",unsafe_allow_html=True)
     with open("miuul coffee lokasyon.html","r",encoding="utf-8") as f:
@@ -141,7 +141,7 @@ elif choice == "Lokasyon (Admin)":
 elif choice == "Model Değerlendirmesi":
     render_header(
         title="☕️ Model Değerlendirmesi",
-        logo_path="assets/miul_son - Kopya.png"
+        logo_path="assets/miul_son.png"
     )
     st.markdown("Modelde müşteri sayısı ve sipariş değeri en güçlü etkenler.")
     cols=st.columns(2)
