@@ -93,7 +93,7 @@ elif choice == "Sipariş Ekranı":
 elif choice == "Günlük Kâr Hesapla":
     render_header(title="💰 Günlük Kâr Hesaplama")
     model, scaler = load_models()
-    locs = {'Mavişehir':(1500,300,210), 'Bostanlı':(2500,400,250), 'Karşıyaka':(3500,450,150)}
+    locs = {'Mavişehir': (1500, 300, 210), 'Bostanlı': (2500, 400, 250), 'Karşıyaka': (3500, 450, 150)}
     loc = st.selectbox("Lokasyon:", list(locs.keys()))
     foot, cust, avg = locs[loc]
     num = st.number_input("Müşteri Sayısı:", value=cust)
@@ -102,6 +102,7 @@ elif choice == "Günlük Kâr Hesapla":
     emp = st.number_input("Çalışan Sayısı:", value=2)
     mkt = st.number_input("Pazarlama Harcaması (₺):", value=0)
     if st.button("Hesapla"):
+        # Base features
         inp = pd.DataFrame([{  
             "Number_of_Customers_Per_Day": num,
             "Average_Order_Value": avg_o,
@@ -110,22 +111,19 @@ elif choice == "Günlük Kâr Hesapla":
             "Marketing_Spend_Per_Day": mkt,
             "Location_Foot_Traffic": foot
         }])
-        # Feature Engineering: compute necessary derived features
-        inp["Customers_Per_Employee"] = inp["Number_of_Customers_Per_Day"] / inp["Number_of_Employees"]
-        inp["Customer_Traffic_Ratio"] = inp["Number_of_Customers_Per_Day"] / inp["Location_Foot_Traffic"]
-        inp["Total_Orders_Value"] = inp["Number_of_Customers_Per_Day"] * inp["Average_Order_Value"]
-        inp["Marketing_Per_Customer"] = inp["Marketing_Spend_Per_Day"] / inp["Number_of_Customers_Per_Day"] if inp["Number_of_Customers_Per_Day"].iloc[0] != 0 else 0
-        inp["Marketing_Order_Interaction"] = inp["Marketing_Spend_Per_Day"] * inp["Average_Order_Value"]
+        # Derived features
+        inp["Customers_Per_Employee"] = num / emp if emp else 0
+        inp["Customer_Traffic_Ratio"] = num / foot if foot else 0
+        inp["Total_Orders_Value"] = num * avg_o
+        inp["Marketing_Per_Customer"] = mkt / num if num else 0
+        inp["Marketing_Order_Interaction"] = mkt * avg_o
         try:
-            # Align features with trained model
-            expected = model.feature_names_
-            for feat in expected:
-                if feat not in inp.columns:
-                    inp[feat] = 0
-            inp = inp[expected]
+            expected = list(model.feature_names_)
+            # Reindex to expected columns, filling missing with 0
+            inp = inp.reindex(columns=expected, fill_value=0)
             data_scaled = scaler.transform(inp)
-            preds = model.predict(pd.DataFrame(data_scaled, columns=expected))
-            profit = (preds[0] - emp*1000) * (hrs/10)
+            preds = model.predict(data_scaled)
+            profit = (preds[0] - emp * 1000) * (hrs / 10)
             st.success(f"Tahmini Gelir: ₺{profit:.2f}")
         except Exception as e:
             st.error(f"Gelir tahmini hesaplanırken hata oluştu: {e}")
