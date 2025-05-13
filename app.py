@@ -111,12 +111,11 @@ elif choice == "Günlük Kâr Hesapla":
             "Marketing_Spend_Per_Day": mkt,
             "Location_Foot_Traffic": foot
         }])
-                                # Align features to model
-        try:
-            expected = list(model.feature_names_)
-            inp = inp.reindex(columns=expected, fill_value=0)
-            data_scaled = scaler.transform(inp)
-            preds = model.predict(data_scaled)
-            profit = (preds[0] - emp * 1000) * (hrs / 10)
-            st.success(f"Tahmini Gelir: ₺{profit:.2f}")
-        
+        # Align features to model
+        expected = list(model.feature_names_)
+        inp = inp.reindex(columns=expected, fill_value=0)
+        # Scale and predict
+        data_scaled = scaler.transform(inp)
+        preds = model.predict(data_scaled)
+        profit = (preds[0] - emp * 1000) * (hrs / 10)
+        st.success(f"Tahmini Gelir: ₺{profit:.2f}")
