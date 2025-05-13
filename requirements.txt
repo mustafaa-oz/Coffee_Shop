@@ -5,5 +5,3 @@ scikit-learn
 aiobotocore==2.6.0
 mlxtend
 folium
-streamlit_folium
-folium_static
