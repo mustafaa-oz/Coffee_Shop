@@ -111,15 +111,14 @@ elif choice == "Günlük Kâr Hesapla":
             "Marketing_Spend_Per_Day": mkt,
             "Location_Foot_Traffic": foot
         }])
-                # Align features: no additional derived features should be added here
+                        # Align features: no additional derived features should be added here
         try:
             expected = list(model.feature_names_)
             # Only use expected columns
-            inp = inp.reindex
-(columns=expected, fill_value=0)
+            inp = inp.reindex(columns=expected, fill_value=0)
             data_scaled = scaler.transform(inp)
             preds = model.predict(data_scaled)
             profit = (preds[0] - emp * 1000) * (hrs / 10)
             st.success(f"Tahmini Gelir: ₺{profit:.2f}")
-        except Exception as e:
+        except Exception as e: as e:
             st.error(f"Gelir tahmini hesaplanırken hata oluştu: {e}")
