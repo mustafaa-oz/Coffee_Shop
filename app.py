@@ -113,11 +113,20 @@ elif choice == "Günlük Kâr Hesapla":
         # Feature Engineering: model expects Customers_Per_Employee
         inp["Customers_Per_Employee"] = inp["Number_of_Customers_Per_Day"] / inp["Number_of_Employees"]
         try:
+            # Align features with trained model
+            expected = model.feature_names_
+            # Add missing with zeros
+            for feat in expected:
+                if feat not in inp.columns:
+                    inp[feat] = 0
+            # Subset and order
+            inp = inp[expected]
             data_scaled = scaler.transform(inp)
-            preds = model.predict(pd.DataFrame(data_scaled, columns=inp.columns))
+            preds = model.predict(pd.DataFrame(data_scaled, columns=expected))
             profit = (preds[0] - emp*1000) * (hrs/10)
             st.success(f"Tahmini Gelir: ₺{profit:.2f}")
         except Exception as e:
+            st.error(f"Gelir tahmini hesaplanırken hata oluştu: {e}")
             st.error(f"Gelir tahmini hesaplanırken hata oluştu: {e}")
 
 elif choice == "Lokasyon (Admin)":
